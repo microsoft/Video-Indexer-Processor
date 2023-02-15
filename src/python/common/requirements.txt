@@ -1,0 +1,13 @@
+pandas
+xmltodict
+azure-storage-blob
+azure-cosmos
+azure-core
+azure-ai-textanalytics
+azure-search
+azure-search-documents
+python-dateutil
+moviepy
+ipywidgets
+azure-identity
+python-dotenv

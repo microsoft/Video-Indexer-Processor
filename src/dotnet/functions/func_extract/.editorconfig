@@ -1,0 +1,51 @@
+root = true
+
+[*.cs]
+dotnet_analyzer_diagnostic.severity = warning
+
+# CA1014: Mark assemblies with CLSCompliantAttribute
+# https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1014
+dotnet_diagnostic.CA1014.severity = none
+
+# CA1711: Identifiers should not have incorrect suffix
+# https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1711
+dotnet_code_quality.ca1711.allowed_suffixes = Permission
+
+# CA1848: Use the LoggerMessage delegates
+# https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1848
+dotnet_diagnostic.ca1848.severity = none
+
+# 'var' preferences (IDE0007 and IDE0008)
+# https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0007-ide0008
+csharp_style_var_for_built_in_types = true
+csharp_style_var_when_type_is_apparent = true
+csharp_style_var_elsewhere = true
+
+# New-line options
+# https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/csharp-formatting-options
+dotnet_diagnostic.IDE0055.severity = warning
+csharp_new_line_before_open_brace = all
+csharp_new_line_before_else = true
+csharp_new_line_before_catch = true
+csharp_new_line_before_finally = true
+csharp_new_line_before_members_in_object_initializers = true
+csharp_new_line_before_members_in_anonymous_types = true
+csharp_new_line_between_query_expression_clauses = true
+
+# Expression value is never used
+dotnet_diagnostic.IDE0058.severity = none
+
+# CA1063: Provide an overridable implementation of Dispose(bool) 
+dotnet_diagnostic.CA1063.severity = none
+# CA1816: Change VideoIndexerClientTests.Dispose() to call GC.SuppressFinalize(object)
+dotnet_diagnostic.CA1816.severity = none
+
+# CA1307: Specify StringComparison for clarity
+dotnet_diagnostic.CA1307.severity = none
+
+# CA2007: Do not directly await a Task, appropriate only for libraries
+dotnet_diagnostic.CA2007.severity = none
+
+# CA1062: Validate arguments of public methods
+# Disable this rule for azure functions where parameters are injected
+dotnet_code_quality.CA1062.excluded_symbol_names = M:Waldo.Insights.Extraction.InsightsExtraction.RunOrchestrator(Microsoft.Azure.WebJobs.Extensions.DurableTask.IDurableOrchestrationContext,Microsoft.Extensions.Logging.ILogger)|M:Waldo.Insights.Extraction.InsightsExtraction.Run(System.Object,Microsoft.Azure.WebJobs.Extensions.DurableTask.IDurableOrchestrationClient,Microsoft.Extensions.Logging.ILogger)|M:Waldo.Functions.Extract.Startup.Configure(Microsoft.Azure.Functions.Extensions.DependencyInjection.IFunctionsHostBuilder)

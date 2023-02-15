@@ -1,0 +1,249 @@
+{
+  "version": "Notebook/1.0",
+  "items": [
+    {
+      "type": 1,
+      "content": {
+        "json": "## New workbook\n---\n\nWelcome to your new workbook.  This area will display text formatted as markdown.\n\n\nWe've included a basic analytics query to get you started. Use the `Edit` button below each section to configure it or add more sections."
+      },
+      "name": "text - 2"
+    },
+    {
+      "type": 1,
+      "content": {
+        "json": "## Total Queries - Sum all events with the name \"onSearch\"",
+        "style": "info"
+      },
+      "name": "text - 2",
+      "styleSettings": {
+        "showBorder": true
+      }
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "query": "customEvents \n| summarize total_queries = sumif(itemCount, name has \"onSearch\")",
+        "size": 3,
+        "queryType": 0,
+        "resourceType": "microsoft.insights/components",
+        "visualization": "tiles",
+        "tileSettings": {
+          "titleContent": {},
+          "leftContent": {
+            "columnMatch": "total_queries",
+            "formatter": 12,
+            "formatOptions": {
+              "min": 0,
+              "max": 10,
+              "palette": "blue"
+            },
+            "numberFormat": {
+              "unit": 17,
+              "options": {
+                "style": "decimal"
+              }
+            },
+            "tooltipFormat": {
+              "tooltip": "Total Queries Submitted"
+            }
+          },
+          "showBorder": false,
+          "size": "auto"
+        }
+      },
+      "name": "query - 2"
+    },
+    {
+      "type": 1,
+      "content": {
+        "json": "## Total Sessions - Count unique sessions for event \"onSearch\"",
+        "style": "info"
+      },
+      "name": "text - 2 - Copy - Copy",
+      "styleSettings": {
+        "showBorder": true
+      }
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "query": "customEvents \n| summarize total_sessions = dcountif(session_Id, name has \"onSearch\")",
+        "size": 3,
+        "color": "blue",
+        "queryType": 0,
+        "resourceType": "microsoft.insights/components",
+        "visualization": "tiles",
+        "tileSettings": {
+          "titleContent": {},
+          "leftContent": {
+            "columnMatch": "total_sessions",
+            "formatter": 12,
+            "formatOptions": {
+              "min": 0,
+              "max": 10,
+              "palette": "blue"
+            },
+            "numberFormat": {
+              "unit": 17,
+              "options": {
+                "style": "decimal"
+              }
+            },
+            "tooltipFormat": {
+              "tooltip": "Total Number of User Sessions"
+            }
+          },
+          "showBorder": false,
+          "size": "auto"
+        }
+      },
+      "name": "query - 2 - Copy"
+    },
+    {
+      "type": 1,
+      "content": {
+        "json": "## Successfull Session Rate - (all sessions ending with success / all sessions with search event) * 100",
+        "style": "info"
+      },
+      "name": "text - 2 - Copy",
+      "styleSettings": {
+        "showBorder": true
+      }
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "query": "customEvents \n| summarize total_success = dcountif(session_Id, name has \"onCopy\") , total_sessions = dcountif(session_Id, name has \"onSearch\")\n| project todouble(total_success)/todouble(total_sessions)",
+        "size": 3,
+        "color": "blue",
+        "queryType": 0,
+        "resourceType": "microsoft.insights/components",
+        "visualization": "tiles",
+        "tileSettings": {
+          "titleContent": {},
+          "leftContent": {
+            "columnMatch": "Column1",
+            "formatter": 12,
+            "formatOptions": {
+              "min": 0,
+              "max": 80,
+              "palette": "redGreen"
+            },
+            "numberFormat": {
+              "unit": 17,
+              "options": {
+                "style": "percent"
+              }
+            },
+            "tooltipFormat": {
+              "tooltip": "Successful Sessions / Total Sessions"
+            }
+          },
+          "showBorder": false,
+          "size": "auto"
+        }
+      },
+      "name": "query - 2 - Copy - Copy"
+    },
+    {
+      "type": 1,
+      "content": {
+        "json": "## Total Users - Number of unique users logging into the system",
+        "style": "info"
+      },
+      "name": "text - 2 - Copy - Copy",
+      "styleSettings": {
+        "showBorder": true
+      }
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "query": "customEvents \n| summarize dcount(user_Id)",
+        "size": 3,
+        "color": "blue",
+        "queryType": 0,
+        "resourceType": "microsoft.insights/components",
+        "visualization": "tiles",
+        "tileSettings": {
+          "titleContent": {},
+          "leftContent": {
+            "columnMatch": "dcount_user_Id",
+            "formatter": 12,
+            "formatOptions": {
+              "min": 0,
+              "max": 10,
+              "palette": "blue"
+            },
+            "numberFormat": {
+              "unit": 17,
+              "options": {
+                "style": "decimal"
+              }
+            },
+            "tooltipFormat": {
+              "tooltip": "Total Number of Users"
+            }
+          },
+          "showBorder": false,
+          "size": "auto"
+        }
+      },
+      "name": "query - 2 - Copy - Copy"
+    },
+    {
+      "type": 1,
+      "content": {
+        "json": "## Mean Reciprocal Rank - All time Mean Reciprocal Rank  - average of rank of first successful result\n",
+        "style": "info"
+      },
+      "name": "text - 2 - Copy - Copy - Copy",
+      "styleSettings": {
+        "showBorder": true
+      }
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "query": "let ranks = customEvents\n| where  name == 'onNavigate' \n| extend queryId=tostring(customDimensions.queryId), videoId=tostring(customDimensions.videoId), rankPosition=toint(customDimensions.rankPosition)\n| distinct session_Id , queryId, videoId, rankPosition;\n\ncustomEvents\n| where   name == 'onCopy' \n| extend queryId=tostring(customDimensions.queryId), videoId=tostring(customDimensions.videoId), rankPosition=toint(customDimensions.rankPosition)\n| project queryId, videoId,timestamp\n| join kind=inner ranks on queryId and videoId\n| summarize ReciprocalRank  =  arg_max(1.0 / (rankPosition), 1.0 / (rankPosition), *) \nby session_Id, queryId, Date = format_datetime(timestamp, 'yy-MM-dd')\n|summarize iif(isnan(avg(ReciprocalRank)),0.0, avg(ReciprocalRank))",
+        "size": 3,
+        "color": "blue",
+        "queryType": 0,
+        "resourceType": "microsoft.insights/components",
+        "visualization": "tiles",
+        "tileSettings": {
+          "titleContent": {},
+          "leftContent": {
+            "columnMatch": "Column1",
+            "formatter": 12,
+            "formatOptions": {
+              "min": 0,
+              "max": 1,
+              "palette": "redGreen"
+            },
+            "numberFormat": {
+              "unit": 17,
+              "options": {
+                "style": "decimal"
+              },
+              "emptyValCustomText": "0"
+            },
+            "tooltipFormat": {
+              "tooltip": "Mean Reciprocal Rank"
+            }
+          },
+          "showBorder": false,
+          "size": "auto"
+        }
+      },
+      "name": "query - 2 - Copy - Copy - Copy"
+    }
+  ],
+  "isLocked": false,
+  "fallbackResourceIds": []
+}

@@ -1,0 +1,107 @@
+{
+  "name": "webui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@azure/msal-browser": "^2.24.0",
+    "@azure/msal-react": "^1.4.0",
+    "@azure/video-indexer-widgets": "^1.0.0",
+    "@fluentui/react": "8.65.0",
+    "@fortawesome/fontawesome-svg-core": "6.1.1",
+    "@fortawesome/free-regular-svg-icons": "6.1.1",
+    "@fortawesome/free-solid-svg-icons": "6.1.1",
+    "@fortawesome/react-fontawesome": "0.1.18",
+    "@microsoft/applicationinsights-react-js": "^3.3.4",
+    "@microsoft/applicationinsights-web": "^2.8.4",
+    "@microsoft/mgt-msal2-provider": "2.4.0",
+    "@microsoft/mgt-react": "2.4.0",
+    "@types/node": "^16.11.27",
+    "@types/react": "17.0.42",
+    "@types/react-dom": "^17.0.14",
+    "@types/react-router-dom": "5.3.3",
+    "@uifabric/icons": "^7.7.2",
+    "@uifabric/styling": "^7.20.2",
+    "copy-to-clipboard": "^3.3.1",
+    "cross-env": "^7.0.3",
+    "dayjs": "^1.11.4",
+    "hls.js": "^1.1.5",
+    "http-proxy-middleware": "^2.0.4",
+    "node-sass": "8.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-toast": "^2.2.0",
+    "react-query": "3.35.0",
+    "react-router-dom": "6.3.0",
+    "typescript": "^4.6.3",
+    "uuid": "^8.3.2",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/react-hooks": "^8.0.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "react-scripts": "5.0.1",
+    "env-cmd": "^10.1.0",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "eslint-plugin-sonarjs": "^0.13.0",
+    "jest": "^28.1.1",
+    "jest-junit": "^14.0.0",
+    "prettier": "^2.6.2"
+  },
+  "scripts": {
+    "start": "PORT=3000 react-scripts start",
+    "build": "react-scripts build",
+    "build:prod": "env-cmd -f ./.env.production.local npm run-script build",
+    "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(@fluentui/react)/)'",
+    "test:coverage": "CI=true npm test -- --env=jsdom --testTimeout=100000 --coverage",
+    "test:cobertura": "CI=true npm test -- --env=jsdom --testTimeout=100000 --reporters=default --reporters=jest-junit --coverage --coverageReporters=cobertura --coverageReporters=html",
+    "lint": "eslint --ext .ts --ext .tsx .",
+    "lint-warn": "eslint --ext .ts --ext .tsx . -c .eslintrc.warn.json",
+    "format-write": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|tsx|jsx|json)\"",
+    "format": "prettier -c \"**/*.+(js|ts|tsx|jsx|json)\"",
+    "eject": "react-scripts eject"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.{js,jsx,tsx,ts}",
+      "!**/node_modules/**",
+      "!**/misc/**"
+    ],
+    "testMatch": [
+      "**/*.test.tsx"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "plugins": [
+      "react-hooks"
+    ],
+    "rules": {
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

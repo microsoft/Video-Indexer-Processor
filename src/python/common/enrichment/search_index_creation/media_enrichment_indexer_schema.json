@@ -1,0 +1,23 @@
+{
+  "name": "waldo-v1-video-5min",
+  "description": "5 minutes incremental indexer on CosmosDB",
+  "dataSourceName": "waldo-cosmosdb-v1",
+  "skillsetName": null,
+  "targetIndexName": "waldo-v1-videos",
+  "disabled": false,
+  "schedule": {
+    "interval": "PT5M",
+    "startTime": "2020-01-01T00:00:00.000Z"
+  },
+  "parameters": {
+    "batchSize": null,
+    "maxFailedItems": null,
+    "maxFailedItemsPerBatch": null,
+    "base64EncodeKeys": null,
+    "configuration": {}
+  },
+  "fieldMappings": [],
+  "outputFieldMappings": [],
+  "cache": null,
+  "encryptionKey": null
+}

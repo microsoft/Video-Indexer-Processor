@@ -1,0 +1,80 @@
+trigger: none
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  - group: waldo-integration
+  - name: scriptsDirectory
+    value: $(Build.SourcesDirectory)/infra/.azurepipelines/scripts
+  - name: terraformDirectory
+    value: $(Build.SourcesDirectory)/infra/terraform
+  - name: testDirectory
+    value: $(Build.SourcesDirectory)/src/dotnet/integration_tests
+  - name: serviceConnection
+    value: waldo-service-connection
+
+steps:
+  - task: AzureCLI@2
+    displayName: "Stop all Function Apps"
+    inputs:
+      azureSubscription: $(serviceConnection)
+      workingDirectory: $(terraformDirectory)
+      addSpnToEnvironment: true
+      scriptType: bash
+      scriptLocation: inlineScript
+      inlineScript: |
+        az functionapp stop --name $(core_function_trigger_name) --resource-group $(core_resource_group_name)
+        az functionapp stop --name $(core_function_extract_name) --resource-group $(core_resource_group_name)
+        az functionapp stop --name $(core_function_dataproc_name) --resource-group $(core_resource_group_name)
+
+  - template: ../../../python/functions/func_trigger/.azurepipelines/func-trigger-deploy-steps.yaml
+    parameters:
+      core_function_trigger_name: $(core_function_trigger_name)
+
+  - task: AzureCLI@2
+    displayName: "Run func_trigger integration tests"
+    inputs:
+      azureSubscription: $(serviceConnection)
+      workingDirectory: $(terraformDirectory)
+      addSpnToEnvironment: true
+      scriptType: bash
+      scriptLocation: inlineScript
+      inlineScript: |
+        az functionapp start --name $(core_function_trigger_name) --resource-group $(core_resource_group_name)
+        cd $(testDirectory)/Functions.Tests
+        dotnet test --filter FuncTriggerIntegrationTests
+
+  - template: ../../functions/func_extract/.azurepipelines/func-extract-deploy-steps.yml
+    parameters:
+      core_function_extract_name: $(core_function_extract_name)
+
+  - task: AzureCLI@2
+    displayName: "Run func_extract integration tests"
+    inputs:
+      azureSubscription: $(serviceConnection)
+      workingDirectory: $(terraformDirectory)
+      addSpnToEnvironment: true
+      scriptType: bash
+      scriptLocation: inlineScript
+      inlineScript: |
+        az functionapp start --name $(core_function_extract_name) --resource-group $(core_resource_group_name)
+        cd $(testDirectory)/Functions.Tests
+        dotnet test --filter FuncExtractIntegrationTests
+
+  - template: ../../../python/functions/func_dataproc/.azurepipelines/func-dataproc-deploy-steps.yml
+    parameters:
+      core_function_dataproc_name: $(core_function_dataproc_name)
+
+  - task: AzureCLI@2
+    displayName: "Run func_dataproc integration tests"
+    inputs:
+      azureSubscription: $(serviceConnection)
+      workingDirectory: $(terraformDirectory)
+      addSpnToEnvironment: true
+      scriptType: bash
+      scriptLocation: inlineScript
+      inlineScript: |
+        az functionapp start --name $(core_function_dataproc_name) --resource-group $(core_resource_group_name)
+        cd $(testDirectory)/Functions.Tests
+        dotnet test --filter FuncDataprocIntegrationTests

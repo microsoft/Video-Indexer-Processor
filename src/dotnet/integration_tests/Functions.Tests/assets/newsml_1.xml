@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?><newsMessage xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.test.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <header>
+    <sent>2022-03-25T22:25:21.000Z</sent>
+    <sender>test.com</sender>
+    <transmitId>LWN_2022-03-25_4928</transmitId>
+    <priority>4</priority>
+    <destination>RSPO</destination>
+    <destination>RMON</destination>
+    <destination>VISM</destination>
+    <destination>VISP</destination>
+    <channel>VID</channel>
+  </header>
+  <itemSet>
+    <!-- ========================================================= -->
+    <!-- PRIMARY ITEM : NEP -->
+    <packageItem conformance="power" guid="tag:test.com,2022:newsml_WD743025032022RP1" standard="NewsML-G2" standardversion="2.28" version="1" xml:lang="en">
+      <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_29.xml"/>
+      <rightsInfo>
+        <copyrightHolder literal="Thomson Test"/>
+        <copyrightNotice xml:lang="en">(c) 2022 Thomson Test, unless otherwise identified. Full statement available at https://www.test.com/en/policies/copyright.html</copyrightNotice>
+        <usageTerms xml:lang="en">Broadcasters: Up to 3 (three) minutes of match footage (no more than 90 (ninety) seconds per match) per day for each event for use in regularly scheduled news or sports news bulletins provided that all transmissions occur within 48 hours after the conclusion of the relevant match to which the match footage relates. No archive. No resales. No use United States
+.
+Singapore and MENA territories (Kuwait, Bahrain, Iraq, Jordan, Lebanon, Oman, Palestine (inc Gaza Strip), Qatar, Saudi Arabia, Syria, UAE, Yemen, Iran, Algeria, Egypt, Libya, Morocco, Tunisia, Chad, Djibouti, Mauritania, Somalia, South Sudan, Sudan) must credit on-screen 'courtesy of BEIN'
+.
+UK territory (United Kingdom of Great Britain and Northern Ireland, Isle of Man, Channel Islands, Eire (Ireland), and Gibraltar: must credit on-screen: 'Courtesy of Amazon Prime Video'.
+
+Digital: 3 (three) minutes of match footage (no more than 90 (ninety) seconds per match) per day for each event as video on demand clips via permitted digital platforms (worldwide excluding Italy, Canada and India) for a period of 48 hours from the conclusion of the relevant match to which the match footage relates. No archive. No resales. Standalone clips can only be used in a 'news environment' i.e. with accompanying text giving an editorial narrative. No use United States
+.
+subscribers wishing to clear ATP videos for use on on their social media platforms, including Twitter, Facebook and YouTube, should contact the ATP for whitelisting approval by emailing digital.content @  atpmedia.tv
+.
+Singapore and MENA territories (Kuwait, Bahrain, Iraq, Jordan, Lebanon, Oman, Palestine (inc Gaza Strip), Qatar, Saudi Arabia, Syria, UAE, Yemen, Iran, Algeria, Egypt, Libya, Morocco, Tunisia, Chad, Djibouti, Mauritania, Somalia, South Sudan, Sudan) must credit on-screen 'courtesy of BEIN'
+.
+UK territory (United Kingdom of Great Britain and Northern Ireland, Isle of Man, Channel Islands, Eire (Ireland), and Gibraltar: must credit on-screen: 'Courtesy of Amazon Prime Video'.</usageTerms>
+        <usageTerms role="usageRole:content" xml:lang="en">Broadcast</usageTerms>
+      </rightsInfo>
+      <!-- ========================================================= -->
+      <!-- itemMeta -->
+      <itemMeta>
+        <itemClass qcode="icls:composite"/>
+        <provider literal="test.com"/>
+        <versionCreated>2022-03-25T22:25:24.000Z</versionCreated>
+        <firstCreated>2022-03-25T22:25:21.000Z</firstCreated>
+        <pubStatus qcode="stat:usable"/>
+        <role qcode="itemRole:N"/>
+        <fileName>2022-03-25T222521Z_1_WD743025032022RP1_RTRWNEC_0_7430-TENNIS-MIAMI.XML</fileName>
+        <generator versioninfo="4.0.0">WNE Video Feed Handler HD</generator>
+        <profile versioninfo="01.00.00">NEP-External_MNP</profile>
+        <service qcode="svc:RTR_VID"/>
+        <memberOf creator="trRule:rule15" literal="Sports" modified="2022-03-25T22:25:35.000Z">
+          <name>Sports</name>
+        </memberOf>
+        <memberOf creator="trRule:rule29" literal="World-US" modified="2022-03-25T22:25:35.000Z">
+          <name>US</name>
+        </memberOf>
+        <signal qcode="prodId:VID"/>
+        <signal qcode="sic:ATOMIC"/>
+        <signal qcode="sar:widescreen">
+          <name>Native widescreen 16:9</name>
+        </signal>
+        <signal qcode="svd:HD"/>
+        <signal qcode="sic:HDCON"/>
+        <signal qcode="pmt:video"/>
+        <itemMetaExtProperty rel="mediaCptRel:hasChannelList" value="sXd655 cbm126 kym149 onc977 jjb527 Bzd359" valuedatatype="xs:NMTOKENS"/>
+        <rtr:versionedId guid="tag:test.com,2022:newsml_WD743025032022RP1:1"/>
+      </itemMeta>
+      <!-- ========================================================= -->
+      <!-- contentMeta -->
+      <contentMeta>
+        <!--=== Administrative === -->
+        <urgency>4</urgency>
+        <located literal="MIAMI, FLORIDA, UNITED STATES " xml:lang="en">
+          <name xml:lang="en">MIAMI, FLORIDA, UNITED STATES </name>
+        </located>
+        <infoSource literal="Test" qcode="NS:RTRS" role="cRole:origProv"/>
+        <infoSource literal="Test" role="cRole:source"/>
+        <creator literal="Test"/>
+        <contributor literal="Vespa" role="cRole:lastEd"/>
+        <exclAudience qcode="audMedia:RCV5"/>
+        <exclAudience qcode="audMedia:RCV7"/>
+        <altId rtr:isOriginal="1" type="idType:USN">WD743025032022RP1</altId>
+        <altId type="idType:editNumber">7430</altId>
+        <!-- === Descriptive === -->
+        <altId type="idType:itemId">tag:test.com,2022:newsml_WD743025032022RP1:1</altId>
+        <language tag="en"/>
+        <keyword>ATP</keyword>
+        <keyword>ATP Tour</keyword>
+        <keyword>Masters 1000</keyword>
+        <keyword>Miami Open</keyword>
+        <keyword>Nick Kyrgios</keyword>
+        <keyword>Andrey Rublev</keyword>
+        <keyword>Jannik Sinner</keyword>
+        <subject qcode="ISLC:No-Data-Available"/>
+        <subject qcode="N2:SPO" type="cptType:14">
+          <name>Sport</name>
+        </subject>
+        <subject qcode="N2:TENN" type="cptType:14">
+          <name>Tennis</name>
+        </subject>
+        <subject qcode="N2:US">
+          <name>United States</name>
+        </subject>
+        <subject qcode="WNSFR:SPORTS"/>
+        <subject qcode="rvnServiceCode:SP">
+          <name>Sports</name>
+          <related literal="202203257430SP-TENNIS-MIAMI_O_.xml" rel="mediaCptRel:hasLegacyFilename"/>
+        </subject>
+        <subject qcode="tvsc:TENNIS"/>
+        <subject literal="MIAMI, FLORIDA, UNITED STATES " type="cptType:5" xml:lang="en">
+          <name xml:lang="en">MIAMI, FLORIDA, UNITED STATES </name>
+          <facet qcode="geoProp:8"/>
+          <broader qcode="N2:US" type="cptType:5">
+            <name>US</name>
+            <facet qcode="geoProp:5"/>
+          </broader>
+        </subject>
+        <genre literal="Current or spot news">
+          <name>Current or spot news</name>
+        </genre>
+        <by xml:lang="en">Test, MAR 25</by>
+        <slugline separator="-" xml:lang="en">TENNIS-MIAMI/</slugline>
+        <headline xml:lang="en">Kyrgios sends Miami Open fifth seed Rublev packing</headline>
+        <dateline>MARCH 25, 2022</dateline>
+        <description role="descRole:videoCaption" xml:lang="en">7430SP-TENNIS-MIAMI__O_</description>
+      </contentMeta>
+      <!-- ========================================================= -->
+      <!-- CONTENT -->
+      <!-- root  -->
+      <groupSet root="root">
+        <group id="root" role="grpRole:NEP">
+          <!-- Main -->
+          <groupRef idref="main"/>
+        </group>
+        <!-- === MAIN === -->
+        <group id="main" role="grpRole:Main">
+          <!-- === ITEM REFERENCE === -->
+          <itemRef contenttype="application/vnd.iptc.g2.newsitem+xml" residref="tag:test.com,2022:newsml_WDT743025032022RP1">
+            <provider literal="test.com"/>
+            <pubStatus qcode="stat:usable"/>
+            <role qcode="itemRole:N"/>
+          </itemRef>
+          <!-- === ITEM REFERENCE === -->
+          <itemRef contenttype="application/vnd.iptc.g2.newsitem+xml" residref="tag:test.com,2022:newsml_LWD743025032022RP1">
+            <provider literal="test.com"/>
+            <pubStatus qcode="stat:usable"/>
+            <role qcode="itemRole:N"/>
+          </itemRef>
+        </group>
+      </groupSet>
+    </packageItem>
+    <!-- ========================================================= -->
+    <!-- PRIMARY ITEM : SNI-Text -->
+    <newsItem conformance="power" guid="tag:test.com,2022:newsml_WDT743025032022RP1" standard="NewsML-G2" standardversion="2.28" version="1" xml:lang="en">
+      <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_29.xml"/>
+      <rightsInfo>
+        <copyrightHolder literal="Thomson Test"/>
+        <copyrightNotice xml:lang="en">(c) 2022 Thomson Test, unless otherwise identified. Full statement available at https://www.thomsontest.com/en/policies/copyright.html</copyrightNotice>
+      </rightsInfo>
+      <itemMeta>
+        <itemClass qcode="icls:text"/>
+        <provider literal="test.com"/>
+        <versionCreated>2022-03-25T22:25:21.000Z</versionCreated>
+        <firstCreated>2022-03-25T22:25:21.000Z</firstCreated>
+        <pubStatus qcode="stat:usable"/>
+        <role qcode="itemRole:N"/>
+        <fileName>2022-03-25T222521Z_1_WD743025032022RP1_RTRWNEC_0_7430-TENNIS-MIAMI.XML</fileName>
+        <profile versioninfo="01.00.00">SNI-Text</profile>
+        <rtr:versionedId guid="tag:test.com,2022:newsml_WDT743025032022RP1:1"/>
+      </itemMeta>
+      <contentMeta>
+        <urgency>4</urgency>
+        <located literal="MIAMI, FLORIDA, UNITED STATES " xml:lang="en">
+          <name xml:lang="en">MIAMI, FLORIDA, UNITED STATES </name>
+        </located>
+        <infoSource literal="Test" role="cRole:origProv"/>
+        <infoSource literal="Test" role="cRole:source"/>
+        <creator literal="Test"/>
+        <altId rtr:isOriginal="1" type="idType:USN">WDT743025032022RP1</altId>
+        <altId type="idType:fileOrig">743025032022RP1-v9.json</altId>
+        <altId type="idType:itemId">tag:test.com,2022:newsml_WDT743025032022RP1:1</altId>
+        <language tag="en"/>
+        <by xml:lang="en">Test, MAR 25</by>
+        <slugline separator="-" xml:lang="en">TENNIS-MIAMI/</slugline>
+        <headline xml:lang="en">Kyrgios sends Miami Open fifth seed Rublev packing</headline>
+        <dateline>MARCH 25, 2022</dateline>
+        <description role="descRole:intro" xml:lang="en"/>
+        <description role="descRole:moreInfo" xml:lang="en"/>
+      </contentMeta>
+      <contentSet>
+        <inlineXML contenttype="application/xhtml+xml" wordcount="213" xml:lang="en">
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <head>
+              <title/>
+            </head>
+            <body>
+              <p>VIDEO SHOWS: ATP MASTERS 1000 MIAMI OPEN SECOND ROUND HIGHLIGHTS WITH WINS FOR NICK KYRGIOS AND JANNIK SINNER</p>
+              <p>SHOWS: MIAMI, FLORIDA, UNITED STATES (MARCH 25, 2022) (ATP MEDIA/IMG - See restrictions before use)</p>
+              <p>NICK KYRGIOS (RED SHIRT) V ANDREY RUBLEV</p>
+              <p>FIRST SET </p>
+              <p>1. RUBLEV SAVING A SET POINT IN A POINT WHERE KYRGIOS RETURNS A SHOT BEHIND HIS BACK</p>
+              <p>2. KYRGIOS TAKING THE SET </p>
+              <p>SECOND SET </p>
+              <p>3. KYRGIOS HITTING A SLICE WINNER</p>
+              <p>4. KYRGIOS WINNING A POINT DURING WHICH HE PLAYS A TWEENER SHOT BETWEEN HIS LEGS</p>
+              <p>5. VARIOUS OF KYRGIOS WINNING 6-3 6-0 </p>
+              <p>JANNIK SINNER V EMIL RUUSUVUORI (SERVING)</p>
+              <p>6. VARIOUS OF SINNER WINNING 6-4 3-6 7-6(8)</p>
+              <p>STORY: Nick Kyrgios dismantled in-form fifth seed Andrey Rublev 6-3 6-0 to reach the Miami Open third round on Friday (March 25). </p>
+              <p>    Kyrgios broke the Russian's serve five times and won 56% of his return points as the Australian wild card set up a match with Italian veteran Fabio Fognini for a place in the last 16.</p>
+              <p>    Kyrgios was fined $25,000 for nearly hitting a ball boy after smashing his racket and yelling an audible obscenity during his Indian Wells quarter-final loss to Rafael Nadal last week.</p>
+              <p>    Meanwhile, Italian nineth seed Jannik Sinner saved three match points in a tight deciding tie-break before edging Finland’s Emil Ruusuvuori 6-4 3-6 7-6(8).</p>
+              <p>    (Production: Stefan Haskins)</p>
+            </body>
+          </html>
+        </inlineXML>
+      </contentSet>
+    </newsItem>
+    <!-- ========================================================= -->
+    <!-- PRIMARY ITEM : SNI -Video -->
+    <newsItem conformance="power" guid="tag:test.com,2022:newsml_LWD743025032022RP1" standard="NewsML-G2" standardversion="2.28" version="1" xml:lang="en">
+      <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_29.xml"/>
+      <rightsInfo>
+        <copyrightHolder literal="Thomson Test"/>
+        <copyrightNotice xml:lang="en">(c) 2022 Thomson Test, unless otherwise identified. Full statement available at https://www.thomsontest.com/en/policies/copyright.html</copyrightNotice>
+      </rightsInfo>
+      <itemMeta>
+        <itemClass qcode="icls:video"/>
+        <provider literal="test.com"/>
+        <versionCreated>2022-03-25T22:25:24.000Z</versionCreated>
+        <firstCreated>2022-03-25T22:25:21.000Z</firstCreated>
+        <pubStatus qcode="stat:usable"/>
+        <role qcode="itemRole:N"/>
+        <fileName>2022-03-25T222524Z_1_LWD743025032022RP1_RTRMADV_0_NODESC.XML</fileName>
+        <profile versioninfo="01.00.00">SNI-Video</profile>
+        <signal qcode="sar:widescreen">
+          <name>Native widescreen 16:9</name>
+        </signal>
+        <signal qcode="svd:HD"/>
+        <signal qcode="sic:HDCON"/>
+        <rtr:versionedId guid="tag:test.com,2022:newsml_LWD743025032022RP1:1"/>
+      </itemMeta>
+      <contentMeta>
+        <urgency>4</urgency>
+        <infoSource literal="Test" role="cRole:origProv"/>
+        <infoSource literal="ATP MEDIA/IMG" role="cRole:source"/>
+        <creator literal="Test"/>
+        <!-- === Descriptive === -->
+        <altId rtr:isOriginal="1" type="idType:SID">LWD743025032022RP1</altId>
+        <altId type="idType:itemId">tag:test.com,2022:newsml_LWD743025032022RP1:1</altId>
+        <language tag="en"/>
+        <by xml:lang="en">ATP MEDIA/IMG, MAR 25</by>
+        <description role="descRole:audio" xml:lang="en">NATURAL</description>
+      </contentMeta>
+      <partMeta>
+        <timeDelim end="00:00:05.000" start="00:00:00.000" timeunit="timeunit:normalPlayTime"/>
+        <rtr:role qcode="partRole:slate"/>
+      </partMeta>
+      <partMeta>
+        <timeDelim end="00:01:38.000" start="00:00:05.000" timeunit="timeunit:normalPlayTime"/>
+        <rtr:role qcode="partRole:content"/>
+      </partMeta>
+      <partMeta>
+        <timeDelim end="00:00:11.000" start="00:00:10.000" timeunit="timeunit:normalPlayTime"/>
+        <rtr:role qcode="partRole:keyframe"/>
+      </partMeta>
+      <!-- ========================================================= -->
+      <!-- CONTENT -->
+      <contentSet>
+        <remoteContent audiobitrate="256000" audiocodec="acdc:c016" audiosamplerate="48000" audiosamplesize="16" audiovbr="false" contenttype="video/mpeg" duration="93" format="fmt:mpeg" height="480" rendition="rend:stream:6756:16x9:sd525i30:mpg" residref="tag:test.com,2022:binary_LWD743025032022RP1-STREAM:6756:16X9:SD525I30:MPG" rtr:definition="videoDef:SD" version="1" videoaspectratio="16:9" videoavgbitrate="6500000" videocodec="vcdc:c019" videodefinition="videodef:SD" videoframerate="29.97" videosampling="4:2:0" videoscan="interlaced" videovbr="false">
+          <rtr:signal qcode="sic:SD525CON"/>
+          <rtr:altId contentType="video/mpeg" isPresent="1" type="idType:fileBIN">2022-03-25T222521Z_1_LWD743025032022RP1_RTRWNEV_A_7430-TENNIS-MIAMI.MPG</rtr:altId>
+          <rtr:altId contentType="video/mpeg" isPresent="1" type="idType:fileBIN-Len65">202203257430SP-TENNIS-MIAMI_O_.mpg</rtr:altId>
+        </remoteContent>
+        <remoteContent audiobitrate="256000" audiocodec="acdc:c016" audiosamplerate="48000" audiosamplesize="16" audiovbr="false" contenttype="video/mpeg" duration="93" format="fmt:mpeg" height="576" rendition="rend:stream:6756:16x9:sd625i25:mpg" residref="tag:test.com,2022:binary_LWD743025032022RP1-STREAM:6756:16X9:SD625I25:MPG" rtr:definition="videoDef:SD" version="1" videoaspectratio="16:9" videoavgbitrate="6500000" videocodec="vcdc:c019" videodefinition="videodef:SD" videoframerate="25.0" videosampling="4:2:0" videoscan="interlaced" videovbr="false">
+          <rtr:signal qcode="sic:SD625CON"/>
+          <rtr:altId contentType="video/mpeg" isPresent="1" type="idType:fileBIN">2022-03-25T222521Z_1_LWD743025032022RP1_RTRWNEV_B_7430-TENNIS-MIAMI.MPG</rtr:altId>
+          <rtr:altId contentType="video/mpeg" isPresent="1" type="idType:fileBIN-Len65">202203257430SP-TENNIS-MIAMI_O_.mpg</rtr:altId>
+        </remoteContent>
+        <remoteContent audiobitrate="256000" audiocodec="acdc:c028" audiosamplerate="48000" audiosamplesize="16" audiovbr="false" contenttype="video/mp4" duration="93" format="fmt:mp4" height="1080" rendition="rend:stream:13756:16x9:hd1080i50:mp4" residref="tag:test.com,2022:binary_LWD743025032022RP1-STREAM:13756:16X9:HD1080I50:MP4" rtr:definition="videoDef:HD" version="1" videoaspectratio="16:9" videoavgbitrate="13500000" videocodec="vcdc:c190" videodefinition="videodef:HD" videoframerate="25.0" videosampling="4:2:0" videoscan="interlaced" videovbr="true">
+          <rtr:signal qcode="sic:HD50CON"/>
+          <rtr:altId contentType="video/mp4" isPresent="1" type="idType:fileBIN">2022-03-25T222521Z_1_LWD743025032022RP1_RTRWNEV_C_7430-TENNIS-MIAMI.MP4</rtr:altId>
+          <rtr:altId contentType="video/mp4" isPresent="1" type="idType:fileBIN-Len65">202203257430SP-TENNIS-MIAMI_O_.mp4</rtr:altId>
+        </remoteContent>
+        <remoteContent audiobitrate="256000" audiocodec="acdc:c028" audiosamplerate="48000" audiosamplesize="16" audiovbr="false" contenttype="video/mp4" duration="93" format="fmt:mp4" height="1080" rendition="rend:stream:13756:16x9:hd1080i60:mp4" residref="tag:test.com,2022:binary_LWD743025032022RP1-STREAM:13756:16X9:HD1080I60:MP4" rtr:definition="videoDef:HD" version="1" videoaspectratio="16:9" videoavgbitrate="13500000" videocodec="vcdc:c190" videodefinition="videodef:HD" videoframerate="29.97" videosampling="4:2:0" videoscan="interlaced" videovbr="true">
+          <rtr:signal qcode="sic:HD60CON"/>
+          <rtr:altId contentType="video/mp4" isPresent="1" type="idType:fileBIN">2022-03-25T222521Z_1_LWD743025032022RP1_RTRWNEV_D_7430-TENNIS-MIAMI.MP4</rtr:altId>
+          <rtr:altId contentType="video/mp4" isPresent="1" type="idType:fileBIN-Len65">202203257430SP-TENNIS-MIAMI_O_.mp4</rtr:altId>
+        </remoteContent>
+        <remoteContent audiobitrate="128000" audiocodec="acdc:c028" audiosamplerate="44100" audiosamplesize="16" audiovbr="false" contenttype="video/mp4" duration="93" format="fmt:mp4" height="486" rendition="rend:stream:2128:16x9:mp4" residref="tag:test.com,2022:binary_LWD743025032022RP1-STREAM:2128:16X9:MP4" rtr:definition="videoDef:HD" version="1" videoaspectratio="16:9" videoavgbitrate="2000000" videocodec="vcdc:c153" videodefinition="videodef:HD" videoframerate="25.0" videosampling="4:2:0" videoscan="progressive" videovbr="false">
+          <rtr:signal qcode="sic:PVCON"/>
+          <rtr:altId contentType="video/mp4" isPresent="1" type="idType:fileBIN">2022-03-25T222521Z_1_LWD743025032022RP1_RTRWNEV_F_7430-TENNIS-MIAMI.MP4</rtr:altId>
+          <rtr:altId contentType="video/mp4" isPresent="1" type="idType:fileBIN-Len65">202203257430SP-TENNIS-MIAMI_O_.mp4</rtr:altId>
+        </remoteContent>
+        <remoteContent contenttype="image/jpeg" format="fmt:jpegBaseline" height="432" rendition="rend:viewImage:768x432" residref="tag:test.com,2022:binary_LWD743025032022RP1-VIEWIMAGE:768X432" version="1" width="768">
+          <rtr:signal qcode="sic:KFCON"/>
+          <rtr:altId contentType="image/jpeg" isPresent="1" type="idType:fileBIN">2022-03-25T222521Z_1_LWD743025032022RP1_RTRWNEV_E_7430-TENNIS-MIAMI.JPG</rtr:altId>
+          <rtr:altId contentType="image/jpeg" isPresent="1" type="idType:fileBIN-Len65">202203257430SP-TENNIS-MIAMI_O_.jpg</rtr:altId>
+        </remoteContent>
+        <remoteContent audiobitrate="256000" audiocodec="acdc:c028" audiosamplerate="48000" audiosamplesize="16" audiovbr="true" contenttype="video/mp4" duration="93" format="fmt:mp4" height="720" rendition="rend:stream:1756:16x9:mp4" residref="tag:test.com,2022:binary_LWD743025032022RP1-STREAM:1756:16X9:MP4" rtr:definition="videoDef:HD" version="1" videoaspectratio="16:9" videoavgbitrate="1500000" videocodec="vcdc:c153" videodefinition="videodef:HD" videoframerate="50.0" videosampling="4:2:0" videoscan="progressive" videovbr="true">
+          <rtr:signal qcode="sic:SCRNCON"/>
+          <rtr:altId contentType="video/mp4" isPresent="1" type="idType:fileBIN">2022-03-25T222521Z_1_LWD743025032022RP1_RTRWNEV_T_7430-TENNIS-MIAMI.MP4</rtr:altId>
+          <rtr:altId contentType="video/mp4" isPresent="1" type="idType:fileBIN-Len65">202203257430SP-TENNIS-MIAMI_O_.mp4</rtr:altId>
+        </remoteContent>
+        <remoteContent contenttype="image/jpeg" format="fmt:jpegBaseline" height="240" rendition="rend:thumbnailgrid" residref="tag:test.com,2022:binary_LWD743025032022RP1-THUMBNAILGRID" version="1" width="0">
+          <rtr:signal qcode="sic:TNGCON"/>
+          <rtr:altId contentType="image/jpeg" isPresent="1" type="idType:fileBIN">2022-03-25T222521Z_1_LWD743025032022RP1_RTRWNEV_U_7430-TENNIS-MIAMI.JPG</rtr:altId>
+          <rtr:altId contentType="image/jpeg" isPresent="1" type="idType:fileBIN-Len65">202203257430SP-TENNIS-MIAMI_O_.jpg</rtr:altId>
+          <remoteContentExtProperty rel="mediaCptRel:hasThumbnailWidth" value="427" valuedatatype="xs:positiveInteger"/>
+          <remoteContentExtProperty rel="mediaCptRel:hasThumbnailHeight" value="240" valuedatatype="xs:positiveInteger"/>
+          <remoteContentExtProperty rel="mediaCptRel:hasThumbnailInterval" value="0" valuedatatype="xs:positiveInteger"/>
+        </remoteContent>
+      </contentSet>
+    </newsItem>
+  </itemSet>
+</newsMessage>

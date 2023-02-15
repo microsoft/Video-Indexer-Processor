@@ -1,0 +1,44 @@
+trigger:
+  branches:
+    include:
+    - main
+  paths:
+    include:
+    - src/python/functions/func_trigger
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  functionsDirectory: functions/func_trigger
+  pythonDirectory: $(Build.SourcesDirectory)/src/python
+  commonDirectory: $(Build.SourcesDirectory)/src/python/common
+
+steps:
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: "3.9"
+      architecture: "x64"
+
+  - bash: |
+      pip install -r requirements-dev.txt
+      pip install -r $(functionsDirectory)/requirements.txt
+      pip install -e $(commonDirectory)
+    displayName: Install prerequisites
+    workingDirectory: $(pythonDirectory)
+
+  - bash: |
+      python -m flake8 $(functionsDirectory)
+    displayName: Run flake8
+    workingDirectory: $(pythonDirectory)
+
+  - bash: |
+      python -m pytest --junitxml=../../test-results.xml tests --cov=. --cov-report=xml
+    displayName: Run tests
+    workingDirectory: $(pythonDirectory)/$(functionsDirectory)
+
+  - task: PublishTestResults@2
+    condition: succeededOrFailed()
+    inputs:
+      testResultsFiles: '**/test-*.xml'
+      testRunTitle: 'Publish test results for func-trigger'

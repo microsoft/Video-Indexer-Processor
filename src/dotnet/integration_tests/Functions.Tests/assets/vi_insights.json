@@ -1,0 +1,5955 @@
+{
+  "partition": null,
+  "description": "test-video.mp4",
+  "privacyMode": "Private",
+  "state": "Processed",
+  "accountId": "6bbb4761-c3dd-4ffa-a2e9-ed6457548dec",
+  "id": "634d74e630",
+  "name": "5e77ffe4b59065189b5e523ae2a04b174987a07f14feb3d90147c0175474290d.mp4",
+  "userName": " ",
+  "created": "2022-06-27T07:46:17.8451517+00:00",
+  "isOwned": true,
+  "isEditable": true,
+  "isBase": true,
+  "durationInSeconds": 97,
+  "summarizedInsights": {
+    "name": "5e77ffe4b59065189b5e523ae2a04b174987a07f14feb3d90147c0175474290d.mp4",
+    "id": "634d74e630",
+    "privacyMode": "Private",
+    "duration": { "time": "0:01:37.88", "seconds": 97.9 },
+    "thumbnailVideoId": "634d74e630",
+    "thumbnailId": "e9a5f9c4-1211-47b4-8022-b2f8851e300c",
+    "faces": [
+      {
+        "videoId": "634d74e630",
+        "referenceId": "9a4ddec3-d4e7-46b4-a9fd-e4f2e08dabdc",
+        "referenceType": "Bing",
+        "confidence": 0.9942,
+        "description": "Nicholas Hilmy Kyrgios is an Australian professional tennis player. In singles, he has a career high ATP singles ranking of world No. 13, achieved on 24 October 2016. Kyrgios has won six ATP titles and has reached nine ATP finals, including a Masters 1000 final at the 2017 Cincinnati Masters. In doubles, he has a …",
+        "title": "Tennis Player",
+        "thumbnailId": "9a67d400-6a04-4e20-8675-05ad078031ef",
+        "seenDuration": 23.8,
+        "seenDurationRatio": 0.2432,
+        "id": 1158,
+        "name": "Nick Kyrgios",
+        "appearances": [
+          {
+            "startTime": "0:00:05.04",
+            "endTime": "0:00:06.84",
+            "startSeconds": 5,
+            "endSeconds": 6.8
+          },
+          {
+            "startTime": "0:00:19.6",
+            "endTime": "0:00:32.44",
+            "startSeconds": 19.6,
+            "endSeconds": 32.4
+          },
+          {
+            "startTime": "0:01:11.2",
+            "endTime": "0:01:20.4",
+            "startSeconds": 71.2,
+            "endSeconds": 80.4
+          }
+        ]
+      },
+      {
+        "videoId": "634d74e630",
+        "referenceId": "637db353-6d8d-c7ac-e83b-3d6fabbcd3e4",
+        "referenceType": "Bing",
+        "confidence": 0.9605,
+        "description": "Andrey Andreyevich Rublev is a Russian professional tennis player. He has been ranked as high as world No. 5 in singles by the Association of Tennis Professionals, which he first achieved in September 2021. Rublev has won 11 ATP Tour singles titles. He has a career-high doubles ranking of No. …",
+        "title": "Tennis Player",
+        "thumbnailId": "c55c24e0-7f7f-4f07-8564-4b97997f2315",
+        "seenDuration": 5.2,
+        "seenDurationRatio": 0.0531,
+        "id": 1233,
+        "name": "Andrey Rublev",
+        "appearances": [
+          {
+            "startTime": "0:00:56.96",
+            "endTime": "0:00:58.36",
+            "startSeconds": 57,
+            "endSeconds": 58.4
+          },
+          {
+            "startTime": "0:01:14.64",
+            "endTime": "0:01:18.4",
+            "startSeconds": 74.6,
+            "endSeconds": 78.4
+          }
+        ]
+      }
+    ],
+    "keywords": [
+      {
+        "isTranscript": true,
+        "id": 4,
+        "name": "game",
+        "appearances": [
+          {
+            "startTime": "0:00:19.13",
+            "endTime": "0:00:20.1",
+            "startSeconds": 19.1,
+            "endSeconds": 20.1
+          },
+          {
+            "startTime": "0:01:09.23",
+            "endTime": "0:01:09.8",
+            "startSeconds": 69.2,
+            "endSeconds": 69.8
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 1,
+        "name": "serve speed",
+        "appearances": [
+          {
+            "startTime": "0:00:17",
+            "endTime": "0:00:19.04",
+            "startSeconds": 17,
+            "endSeconds": 19
+          },
+          {
+            "startTime": "0:00:57",
+            "endTime": "0:00:58.04",
+            "startSeconds": 57,
+            "endSeconds": 58
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 2,
+        "name": "serve spe",
+        "appearances": [
+          {
+            "startTime": "0:00:17",
+            "endTime": "0:00:19.04",
+            "startSeconds": 17,
+            "endSeconds": 19
+          },
+          {
+            "startTime": "0:00:57",
+            "endTime": "0:00:58.04",
+            "startSeconds": 57,
+            "endSeconds": 58
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 3,
+        "name": "miami",
+        "appearances": [
+          {
+            "startTime": "0:00:00",
+            "endTime": "0:00:04.04",
+            "startSeconds": 0,
+            "endSeconds": 4
+          },
+          {
+            "startTime": "0:00:15",
+            "endTime": "0:00:16.04",
+            "startSeconds": 15,
+            "endSeconds": 16
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 5,
+        "name": "script",
+        "appearances": [
+          {
+            "startTime": "0:00:00",
+            "endTime": "0:00:04.04",
+            "startSeconds": 0,
+            "endSeconds": 4
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 6,
+        "name": "alth",
+        "appearances": [
+          {
+            "startTime": "0:00:16",
+            "endTime": "0:00:16.04",
+            "startSeconds": 16,
+            "endSeconds": 16
+          },
+          {
+            "startTime": "0:00:31",
+            "endTime": "0:00:31.04",
+            "startSeconds": 31,
+            "endSeconds": 31
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 7,
+        "name": "etway",
+        "appearances": [
+          {
+            "startTime": "0:00:07",
+            "endTime": "0:00:14.04",
+            "startSeconds": 7,
+            "endSeconds": 14
+          },
+          {
+            "startTime": "0:01:18",
+            "endTime": "0:01:18.04",
+            "startSeconds": 78,
+            "endSeconds": 78
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 8,
+        "name": "lacos",
+        "appearances": [
+          {
+            "startTime": "0:00:07",
+            "endTime": "0:00:15.04",
+            "startSeconds": 7,
+            "endSeconds": 15
+          },
+          {
+            "startTime": "0:01:18",
+            "endTime": "0:01:18.04",
+            "startSeconds": 78,
+            "endSeconds": 78
+          }
+        ]
+      }
+    ],
+    "sentiments": [],
+    "emotions": [],
+    "audioEffects": [
+      {
+        "audioEffectKey": "CrowdReactions",
+        "seenDurationRatio": 0.5813,
+        "seenDuration": 56.9,
+        "appearances": [
+          {
+            "confidence": 0.7321,
+            "startTime": "0:00:09.5",
+            "endTime": "0:00:17.3",
+            "startSeconds": 9.5,
+            "endSeconds": 17.3
+          },
+          {
+            "confidence": 0.564,
+            "startTime": "0:00:21.35",
+            "endTime": "0:00:24.35",
+            "startSeconds": 21.4,
+            "endSeconds": 24.4
+          },
+          {
+            "confidence": 0.7509,
+            "startTime": "0:00:28.25",
+            "endTime": "0:00:33.35",
+            "startSeconds": 28.2,
+            "endSeconds": 33.4
+          },
+          {
+            "confidence": 0.7115,
+            "startTime": "0:00:41.55",
+            "endTime": "0:00:46.05",
+            "startSeconds": 41.6,
+            "endSeconds": 46
+          },
+          {
+            "confidence": 0.585,
+            "startTime": "0:00:55.65",
+            "endTime": "0:00:59.05",
+            "startSeconds": 55.6,
+            "endSeconds": 59
+          },
+          {
+            "confidence": 0.8786,
+            "startTime": "0:01:04.75",
+            "endTime": "0:01:37.88",
+            "startSeconds": 64.8,
+            "endSeconds": 97.9
+          }
+        ]
+      },
+      {
+        "audioEffectKey": "Silence",
+        "seenDurationRatio": 0.0511,
+        "seenDuration": 5,
+        "appearances": [
+          {
+            "confidence": 1,
+            "startTime": "0:00:00",
+            "endTime": "0:00:05",
+            "startSeconds": 0,
+            "endSeconds": 5
+          }
+        ]
+      },
+      {
+        "audioEffectKey": "GunshotOrExplosion",
+        "seenDurationRatio": 0.0511,
+        "seenDuration": 5,
+        "appearances": [
+          {
+            "confidence": 0.4771,
+            "startTime": "0:00:26.05",
+            "endTime": "0:00:27.55",
+            "startSeconds": 26,
+            "endSeconds": 27.6
+          },
+          {
+            "confidence": 0.4455,
+            "startTime": "0:00:49.95",
+            "endTime": "0:00:51.35",
+            "startSeconds": 50,
+            "endSeconds": 51.4
+          },
+          {
+            "confidence": 0.5921,
+            "startTime": "0:00:59.35",
+            "endTime": "0:01:01.35",
+            "startSeconds": 59.4,
+            "endSeconds": 61.4
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "id": 2,
+        "name": "sport",
+        "appearances": [
+          {
+            "confidence": 0.9871,
+            "startTime": "0:00:05",
+            "endTime": "0:00:20.04",
+            "startSeconds": 5,
+            "endSeconds": 20
+          },
+          {
+            "confidence": 0.9939,
+            "startTime": "0:00:24",
+            "endTime": "0:01:11.04",
+            "startSeconds": 24,
+            "endSeconds": 71
+          },
+          {
+            "confidence": 0.994,
+            "startTime": "0:01:17",
+            "endTime": "0:01:37.04",
+            "startSeconds": 77,
+            "endSeconds": 97
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "athletic game",
+        "appearances": [
+          {
+            "confidence": 0.9796,
+            "startTime": "0:00:05",
+            "endTime": "0:00:20.04",
+            "startSeconds": 5,
+            "endSeconds": 20
+          },
+          {
+            "confidence": 0.9977,
+            "startTime": "0:00:24",
+            "endTime": "0:01:11.04",
+            "startSeconds": 24,
+            "endSeconds": 71
+          },
+          {
+            "confidence": 0.9637,
+            "startTime": "0:01:18",
+            "endTime": "0:01:37.04",
+            "startSeconds": 78,
+            "endSeconds": 97
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "player",
+        "appearances": [
+          {
+            "confidence": 0.9571,
+            "startTime": "0:00:05",
+            "endTime": "0:00:19.04",
+            "startSeconds": 5,
+            "endSeconds": 19
+          },
+          {
+            "confidence": 0.9788,
+            "startTime": "0:00:24",
+            "endTime": "0:01:11.04",
+            "startSeconds": 24,
+            "endSeconds": 71
+          },
+          {
+            "confidence": 0.9617,
+            "startTime": "0:01:18",
+            "endTime": "0:01:37.04",
+            "startSeconds": 78,
+            "endSeconds": 97
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "tennis",
+        "appearances": [
+          {
+            "confidence": 0.9943,
+            "startTime": "0:00:05",
+            "endTime": "0:00:19.04",
+            "startSeconds": 5,
+            "endSeconds": 19
+          },
+          {
+            "confidence": 0.9952,
+            "startTime": "0:00:24",
+            "endTime": "0:01:09.04",
+            "startSeconds": 24,
+            "endSeconds": 69
+          },
+          {
+            "confidence": 0.9676,
+            "startTime": "0:01:13",
+            "endTime": "0:01:13.04",
+            "startSeconds": 73,
+            "endSeconds": 73
+          },
+          {
+            "confidence": 0.9694,
+            "startTime": "0:01:19",
+            "endTime": "0:01:37.04",
+            "startSeconds": 79,
+            "endSeconds": 97
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "court",
+        "appearances": [
+          {
+            "confidence": 0.9815,
+            "startTime": "0:00:07",
+            "endTime": "0:00:19.04",
+            "startSeconds": 7,
+            "endSeconds": 19
+          },
+          {
+            "confidence": 0.9888,
+            "startTime": "0:00:24",
+            "endTime": "0:01:09.04",
+            "startSeconds": 24,
+            "endSeconds": 69
+          },
+          {
+            "confidence": 0.9779,
+            "startTime": "0:01:17",
+            "endTime": "0:01:37.04",
+            "startSeconds": 77,
+            "endSeconds": 97
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "racquet sport",
+        "appearances": [
+          {
+            "confidence": 0.9723,
+            "startTime": "0:00:07",
+            "endTime": "0:00:19.04",
+            "startSeconds": 7,
+            "endSeconds": 19
+          },
+          {
+            "confidence": 0.9748,
+            "startTime": "0:00:24",
+            "endTime": "0:01:09.04",
+            "startSeconds": 24,
+            "endSeconds": 69
+          },
+          {
+            "confidence": 0.9654,
+            "startTime": "0:01:19",
+            "endTime": "0:01:37.04",
+            "startSeconds": 79,
+            "endSeconds": 97
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "person",
+        "appearances": [
+          {
+            "confidence": 0.9944,
+            "startTime": "0:00:05",
+            "endTime": "0:00:06.04",
+            "startSeconds": 5,
+            "endSeconds": 6
+          },
+          {
+            "confidence": 0.9648,
+            "startTime": "0:00:13",
+            "endTime": "0:00:59.04",
+            "startSeconds": 13,
+            "endSeconds": 59
+          },
+          {
+            "confidence": 0.9924,
+            "startTime": "0:01:10",
+            "endTime": "0:01:20.04",
+            "startSeconds": 70,
+            "endSeconds": 80
+          },
+          {
+            "confidence": 0.9775,
+            "startTime": "0:01:27",
+            "endTime": "0:01:37.04",
+            "startSeconds": 87,
+            "endSeconds": 97
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "racket",
+        "appearances": [
+          {
+            "confidence": 0.9692,
+            "startTime": "0:00:07",
+            "endTime": "0:00:19.04",
+            "startSeconds": 7,
+            "endSeconds": 19
+          },
+          {
+            "confidence": 0.972,
+            "startTime": "0:00:24",
+            "endTime": "0:01:09.04",
+            "startSeconds": 24,
+            "endSeconds": 69
+          },
+          {
+            "confidence": 0.966,
+            "startTime": "0:01:21",
+            "endTime": "0:01:29.04",
+            "startSeconds": 81,
+            "endSeconds": 89
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "tennis court",
+        "appearances": [
+          {
+            "confidence": 0.9645,
+            "startTime": "0:00:15",
+            "endTime": "0:00:17.04",
+            "startSeconds": 15,
+            "endSeconds": 17
+          },
+          {
+            "confidence": 0.9538,
+            "startTime": "0:00:24",
+            "endTime": "0:00:27.04",
+            "startSeconds": 24,
+            "endSeconds": 27
+          },
+          {
+            "confidence": 0.9515,
+            "startTime": "0:00:40",
+            "endTime": "0:00:47.04",
+            "startSeconds": 40,
+            "endSeconds": 47
+          },
+          {
+            "confidence": 0.9517,
+            "startTime": "0:00:53",
+            "endTime": "0:01:01.04",
+            "startSeconds": 53,
+            "endSeconds": 61
+          },
+          {
+            "confidence": 0.9632,
+            "startTime": "0:01:30",
+            "endTime": "0:01:37.04",
+            "startSeconds": 90,
+            "endSeconds": 97
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "racketlon",
+        "appearances": [
+          {
+            "confidence": 0.9524,
+            "startTime": "0:00:15",
+            "endTime": "0:00:16.04",
+            "startSeconds": 15,
+            "endSeconds": 16
+          },
+          {
+            "confidence": 0.9503,
+            "startTime": "0:00:24",
+            "endTime": "0:00:27.04",
+            "startSeconds": 24,
+            "endSeconds": 27
+          },
+          {
+            "confidence": 0.9535,
+            "startTime": "0:00:33",
+            "endTime": "0:00:33.04",
+            "startSeconds": 33,
+            "endSeconds": 33
+          },
+          {
+            "confidence": 0.9519,
+            "startTime": "0:00:37",
+            "endTime": "0:00:50.04",
+            "startSeconds": 37,
+            "endSeconds": 50
+          },
+          {
+            "confidence": 0.9505,
+            "startTime": "0:00:59",
+            "endTime": "0:00:59.04",
+            "startSeconds": 59,
+            "endSeconds": 59
+          },
+          {
+            "confidence": 0.9597,
+            "startTime": "0:01:31",
+            "endTime": "0:01:37.04",
+            "startSeconds": 91,
+            "endSeconds": 97
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "clothing",
+        "appearances": [
+          {
+            "confidence": 0.9795,
+            "startTime": "0:00:06",
+            "endTime": "0:00:06.04",
+            "startSeconds": 6,
+            "endSeconds": 6
+          },
+          {
+            "confidence": 0.9685,
+            "startTime": "0:00:20",
+            "endTime": "0:00:23.04",
+            "startSeconds": 20,
+            "endSeconds": 23
+          },
+          {
+            "confidence": 0.9786,
+            "startTime": "0:00:31",
+            "endTime": "0:00:32.04",
+            "startSeconds": 31,
+            "endSeconds": 32
+          },
+          {
+            "confidence": 0.9731,
+            "startTime": "0:01:10",
+            "endTime": "0:01:20.04",
+            "startSeconds": 70,
+            "endSeconds": 80
+          },
+          {
+            "confidence": 0.958,
+            "startTime": "0:01:31",
+            "endTime": "0:01:31.04",
+            "startSeconds": 91,
+            "endSeconds": 91
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "sports equipment",
+        "appearances": [
+          {
+            "confidence": 0.9599,
+            "startTime": "0:00:38",
+            "endTime": "0:00:38.04",
+            "startSeconds": 38,
+            "endSeconds": 38
+          },
+          {
+            "confidence": 0.9543,
+            "startTime": "0:00:44",
+            "endTime": "0:00:50.04",
+            "startSeconds": 44,
+            "endSeconds": 50
+          },
+          {
+            "confidence": 0.9552,
+            "startTime": "0:00:58",
+            "endTime": "0:00:58.04",
+            "startSeconds": 58,
+            "endSeconds": 58
+          },
+          {
+            "confidence": 0.971,
+            "startTime": "0:01:30",
+            "endTime": "0:01:37.04",
+            "startSeconds": 90,
+            "endSeconds": 97
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "soft tennis",
+        "appearances": [
+          {
+            "confidence": 0.9594,
+            "startTime": "0:00:15",
+            "endTime": "0:00:16.04",
+            "startSeconds": 15,
+            "endSeconds": 16
+          },
+          {
+            "confidence": 0.9512,
+            "startTime": "0:00:25",
+            "endTime": "0:00:27.04",
+            "startSeconds": 25,
+            "endSeconds": 27
+          },
+          {
+            "confidence": 0.951,
+            "startTime": "0:00:47",
+            "endTime": "0:00:47.04",
+            "startSeconds": 47,
+            "endSeconds": 47
+          },
+          {
+            "confidence": 0.9504,
+            "startTime": "0:00:59",
+            "endTime": "0:01:00.04",
+            "startSeconds": 59,
+            "endSeconds": 60
+          },
+          {
+            "confidence": 0.9619,
+            "startTime": "0:01:30",
+            "endTime": "0:01:37.04",
+            "startSeconds": 90,
+            "endSeconds": 97
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "tennis racket",
+        "appearances": [
+          {
+            "confidence": 0.9613,
+            "startTime": "0:00:15",
+            "endTime": "0:00:16.04",
+            "startSeconds": 15,
+            "endSeconds": 16
+          },
+          {
+            "confidence": 0.9629,
+            "startTime": "0:01:30",
+            "endTime": "0:01:37.04",
+            "startSeconds": 90,
+            "endSeconds": 97
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "tennis equipment",
+        "appearances": [
+          {
+            "confidence": 0.9534,
+            "startTime": "0:00:15",
+            "endTime": "0:00:16.04",
+            "startSeconds": 15,
+            "endSeconds": 16
+          },
+          {
+            "confidence": 0.956,
+            "startTime": "0:01:30",
+            "endTime": "0:01:37.04",
+            "startSeconds": 90,
+            "endSeconds": 97
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "outdoor",
+        "appearances": [
+          {
+            "confidence": 0.9622,
+            "startTime": "0:00:15",
+            "endTime": "0:00:16.04",
+            "startSeconds": 15,
+            "endSeconds": 16
+          },
+          {
+            "confidence": 0.9602,
+            "startTime": "0:01:30",
+            "endTime": "0:01:35.04",
+            "startSeconds": 90,
+            "endSeconds": 95
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "text",
+        "appearances": [
+          {
+            "confidence": 1,
+            "startTime": "0:00:00",
+            "endTime": "0:00:04.04",
+            "startSeconds": 0,
+            "endSeconds": 4
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "sport venue",
+        "appearances": [
+          {
+            "confidence": 0.9648,
+            "startTime": "0:00:15",
+            "endTime": "0:00:16.04",
+            "startSeconds": 15,
+            "endSeconds": 16
+          },
+          {
+            "confidence": 0.9607,
+            "startTime": "0:01:18",
+            "endTime": "0:01:20.04",
+            "startSeconds": 78,
+            "endSeconds": 80
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "human face",
+        "appearances": [
+          {
+            "confidence": 0.9657,
+            "startTime": "0:00:20",
+            "endTime": "0:00:22.04",
+            "startSeconds": 20,
+            "endSeconds": 22
+          },
+          {
+            "confidence": 0.9689,
+            "startTime": "0:00:32",
+            "endTime": "0:00:32.04",
+            "startSeconds": 32,
+            "endSeconds": 32
+          },
+          {
+            "confidence": 0.9888,
+            "startTime": "0:01:15",
+            "endTime": "0:01:16.04",
+            "startSeconds": 75,
+            "endSeconds": 76
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "tennis player",
+        "appearances": [
+          {
+            "confidence": 0.9597,
+            "startTime": "0:00:15",
+            "endTime": "0:00:16.04",
+            "startSeconds": 15,
+            "endSeconds": 16
+          },
+          {
+            "confidence": 0.9593,
+            "startTime": "0:01:30",
+            "endTime": "0:01:31.04",
+            "startSeconds": 90,
+            "endSeconds": 91
+          },
+          {
+            "confidence": 0.9535,
+            "startTime": "0:01:37",
+            "endTime": "0:01:37.04",
+            "startSeconds": 97,
+            "endSeconds": 97
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "footwear",
+        "appearances": [
+          {
+            "confidence": 0.9754,
+            "startTime": "0:01:30",
+            "endTime": "0:01:32.04",
+            "startSeconds": 90,
+            "endSeconds": 92
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "sports uniform",
+        "appearances": [
+          {
+            "confidence": 0.961,
+            "startTime": "0:00:21",
+            "endTime": "0:00:22.04",
+            "startSeconds": 21,
+            "endSeconds": 22
+          },
+          {
+            "confidence": 0.9533,
+            "startTime": "0:01:10",
+            "endTime": "0:01:10.04",
+            "startSeconds": 70,
+            "endSeconds": 70
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "clock",
+        "appearances": [
+          {
+            "confidence": 0.9818,
+            "startTime": "0:01:12",
+            "endTime": "0:01:13.04",
+            "startSeconds": 72,
+            "endSeconds": 73
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "man",
+        "appearances": [
+          {
+            "confidence": 0.9571,
+            "startTime": "0:01:19",
+            "endTime": "0:01:20.04",
+            "startSeconds": 79,
+            "endSeconds": 80
+          },
+          {
+            "confidence": 0.9738,
+            "startTime": "0:01:33",
+            "endTime": "0:01:33.04",
+            "startSeconds": 93,
+            "endSeconds": 93
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "sports",
+        "appearances": [
+          {
+            "confidence": 0.9514,
+            "startTime": "0:00:16",
+            "endTime": "0:00:16.04",
+            "startSeconds": 16,
+            "endSeconds": 16
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "ball game",
+        "appearances": [
+          {
+            "confidence": 0.9517,
+            "startTime": "0:00:38",
+            "endTime": "0:00:38.04",
+            "startSeconds": 38,
+            "endSeconds": 38
+          },
+          {
+            "confidence": 0.9503,
+            "startTime": "0:00:44",
+            "endTime": "0:00:44.04",
+            "startSeconds": 44,
+            "endSeconds": 44
+          },
+          {
+            "confidence": 0.9528,
+            "startTime": "0:00:49",
+            "endTime": "0:00:49.04",
+            "startSeconds": 49,
+            "endSeconds": 49
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "sky",
+        "appearances": [
+          {
+            "confidence": 0.9544,
+            "startTime": "0:01:17",
+            "endTime": "0:01:17.04",
+            "startSeconds": 77,
+            "endSeconds": 77
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "stadium",
+        "appearances": [
+          {
+            "confidence": 0.9573,
+            "startTime": "0:01:20",
+            "endTime": "0:01:20.04",
+            "startSeconds": 80,
+            "endSeconds": 80
+          }
+        ]
+      }
+    ],
+    "framePatterns": [],
+    "brands": [
+      {
+        "referenceId": "Lacoste",
+        "referenceUrl": "http://en.wikipedia.org/wiki/Lacoste",
+        "confidence": 1,
+        "description": "Lacoste ([laˈkɔst]) is a French clothing company, founded in 1933 by tennis player René Lacoste and André Gillier. It sells clothing, footwear, perfume, leather goods, watches, eyewear, and most famously polo shirts. In recent years, Lacoste has introduced a home line of sheeting and towels. The company can be recognized by its green crocodile logo. René Lacoste, the company's founder, was nicknamed \"the Crocodile\" by fans because of his tenacity on the tennis court. In November 2012 Lacoste was bought outright by Swiss family-held group Maus Frères .",
+        "seenDuration": 8,
+        "id": 2,
+        "name": "Lacoste",
+        "appearances": [
+          {
+            "startTime": "0:00:07",
+            "endTime": "0:00:15.04",
+            "startSeconds": 7,
+            "endSeconds": 15
+          }
+        ]
+      },
+      {
+        "referenceId": "Rolex",
+        "referenceUrl": "http://en.wikipedia.org/wiki/Rolex",
+        "confidence": 1,
+        "description": "Rolex SA and its subsidiary Montres Tudor SA design, manufacture, distribute and service wristwatches sold under the Rolex and Tudor brands. Founded by Alfred Davis and Hans Wilsdorf in London, England in 1905 as Wilsdorf and Davis, Rolex moved its base of operations to Geneva, Switzerland in 1919.",
+        "seenDuration": 2,
+        "id": 1,
+        "name": "Rolex",
+        "appearances": [
+          {
+            "startTime": "0:01:12",
+            "endTime": "0:01:14.04",
+            "startSeconds": 72,
+            "endSeconds": 74
+          }
+        ]
+      }
+    ],
+    "namedLocations": [
+      {
+        "referenceId": "Florida",
+        "referenceUrl": "https://en.wikipedia.org/wiki/Florida",
+        "confidence": 0.91,
+        "description": "Florida (/ˈflɒrɪdə/ ; Spanish for \"land of flowers\") is the southernmost contiguous state in the United States. The state is bordered to the west by the Gulf of Mexico, to the northwest by Alabama, to the north by Georgia, to the east by the Atlantic Ocean, and to the south by the Straits of Florida. Florida is the 22nd-most extensive (65,755 sq mi or 170,300 km²), the 3rd-most populous (21,312,211 inhabitants), and the 8th-most densely populated (384.3/sq mi or 148.4/km²) of the U.S. states. Jacksonville is the most populous municipality in the state and the largest city by area in the contiguous United States. The Miami metropolitan area is Florida's most populous urban area. Tallahassee is the state's capital.",
+        "seenDuration": 4,
+        "id": 1,
+        "name": "Florida",
+        "appearances": [
+          {
+            "startTime": "0:00:00",
+            "endTime": "0:00:04.04",
+            "startSeconds": 0,
+            "endSeconds": 4
+          }
+        ]
+      },
+      {
+        "referenceId": null,
+        "referenceUrl": null,
+        "confidence": 0.82,
+        "description": null,
+        "seenDuration": 2.1,
+        "id": 2,
+        "name": "salon",
+        "appearances": [
+          {
+            "startTime": "0:01:12.03",
+            "endTime": "0:01:14.08",
+            "startSeconds": 72,
+            "endSeconds": 74.1
+          }
+        ]
+      }
+    ],
+    "namedPeople": [],
+    "statistics": {
+      "correspondenceCount": 1,
+      "speakerTalkToListenRatio": { "1": 0.564, "2": 0.435 },
+      "speakerLongestMonolog": { "1": 2, "2": 2 },
+      "speakerNumberOfFragments": { "1": 4, "2": 1 },
+      "speakerWordCount": { "1": 7, "2": 4 }
+    },
+    "topics": []
+  },
+  "videos": [
+    {
+      "accountId": "6bbb4761-c3dd-4ffa-a2e9-ed6457548dec",
+      "id": "634d74e630",
+      "state": "Processed",
+      "moderationState": "OK",
+      "reviewState": "None",
+      "privacyMode": "Private",
+      "processingProgress": "100%",
+      "failureCode": "None",
+      "failureMessage": "",
+      "externalId": "5e77ffe4b59065189b5e523ae2a04b174987a07f14feb3d90147c0175474290d.mp4",
+      "externalUrl": null,
+      "metadata": null,
+      "insights": {
+        "version": "1.0.0.0",
+        "duration": "0:01:37.88",
+        "sourceLanguage": "en-US",
+        "sourceLanguages": ["en-US"],
+        "language": "en-US",
+        "languages": ["en-US"],
+        "transcript": [
+          {
+            "id": 1,
+            "text": "Game in person.",
+            "confidence": 0.6083,
+            "speakerId": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:19.13",
+                "adjustedEnd": "0:00:20.1",
+                "start": "0:00:19.13",
+                "end": "0:00:20.1"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Thank you.",
+            "confidence": 0.6988,
+            "speakerId": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:20.88",
+                "adjustedEnd": "0:00:21.35",
+                "start": "0:00:20.88",
+                "end": "0:00:21.35"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "Game.",
+            "confidence": 0.6857,
+            "speakerId": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:09.23",
+                "adjustedEnd": "0:01:09.8",
+                "start": "0:01:09.23",
+                "end": "0:01:09.8"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Came.",
+            "confidence": 0.3539,
+            "speakerId": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:11.29",
+                "adjustedEnd": "0:01:11.94",
+                "start": "0:01:11.29",
+                "end": "0:01:11.94"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "To that salon 636.",
+            "confidence": 0.3539,
+            "speakerId": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:12.03",
+                "adjustedEnd": "0:01:14.08",
+                "start": "0:01:12.03",
+                "end": "0:01:14.08"
+              }
+            ]
+          }
+        ],
+        "ocr": [
+          {
+            "id": 1,
+            "text": "7430",
+            "confidence": 0.996,
+            "left": 221,
+            "top": 181,
+            "width": 165,
+            "height": 57,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:04.04",
+                "start": "0:00:00",
+                "end": "0:00:04.04"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "40",
+            "confidence": 0.998,
+            "left": 414,
+            "top": 963,
+            "width": 30,
+            "height": 23,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:05",
+                "adjustedEnd": "0:00:21.04",
+                "start": "0:00:05",
+                "end": "0:00:21.04"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "128",
+            "confidence": 0.996,
+            "left": 496,
+            "top": 199,
+            "width": 60,
+            "height": 23,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:08.04",
+                "start": "0:00:07",
+                "end": "0:00:08.04"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "133",
+            "confidence": 0.997,
+            "left": 497,
+            "top": 200,
+            "width": 59,
+            "height": 20,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:09",
+                "adjustedEnd": "0:00:14.04",
+                "start": "0:00:09",
+                "end": "0:00:14.04"
+              },
+              {
+                "adjustedStart": "0:00:17",
+                "adjustedEnd": "0:00:18.04",
+                "start": "0:00:17",
+                "end": "0:00:18.04"
+              },
+              {
+                "adjustedStart": "0:00:59",
+                "adjustedEnd": "0:01:00.04",
+                "start": "0:00:59",
+                "end": "0:01:00.04"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "1:27",
+            "confidence": 0.929,
+            "left": 1442,
+            "top": 221,
+            "width": 24,
+            "height": 11,
+            "angle": 5,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:13",
+                "adjustedEnd": "0:00:13.04",
+                "start": "0:00:13",
+                "end": "0:00:13.04"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "15",
+            "confidence": 0.998,
+            "left": 415,
+            "top": 916,
+            "width": 29,
+            "height": 28,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:16",
+                "adjustedEnd": "0:00:21.04",
+                "start": "0:00:16",
+                "end": "0:00:21.04"
+              },
+              {
+                "adjustedStart": "0:00:32",
+                "adjustedEnd": "0:00:58.04",
+                "start": "0:00:32",
+                "end": "0:00:58.04"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "0:27",
+            "confidence": 0.946,
+            "left": 1438,
+            "top": 225,
+            "width": 26,
+            "height": 14,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:18",
+                "adjustedEnd": "0:00:19.04",
+                "start": "0:00:18",
+                "end": "0:00:19.04"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "136",
+            "confidence": 0.993,
+            "left": 500,
+            "top": 202,
+            "width": 51,
+            "height": 23,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:19",
+                "adjustedEnd": "0:00:19.04",
+                "start": "0:00:19",
+                "end": "0:00:19.04"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "119",
+            "confidence": 0.997,
+            "left": 464,
+            "top": 158,
+            "width": 64,
+            "height": 25,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:25.04",
+                "start": "0:00:24",
+                "end": "0:00:25.04"
+              },
+              {
+                "adjustedStart": "0:01:01",
+                "adjustedEnd": "0:01:09.04",
+                "start": "0:01:01",
+                "end": "0:01:09.04"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "90",
+            "confidence": 0.998,
+            "left": 475,
+            "top": 159,
+            "width": 37,
+            "height": 23,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:26",
+                "adjustedEnd": "0:00:30.04",
+                "start": "0:00:26",
+                "end": "0:00:30.04"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "0:38",
+            "confidence": 0.952,
+            "left": 1469,
+            "top": 183,
+            "width": 31,
+            "height": 14,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:00:38.04",
+                "start": "0:00:33",
+                "end": "0:00:38.04"
+              },
+              {
+                "adjustedStart": "0:00:40",
+                "adjustedEnd": "0:00:56.04",
+                "start": "0:00:40",
+                "end": "0:00:56.04"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "91",
+            "confidence": 0.998,
+            "left": 474,
+            "top": 159,
+            "width": 39,
+            "height": 23,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:34",
+                "adjustedEnd": "0:00:34.04",
+                "start": "0:00:34",
+                "end": "0:00:34.04"
+              },
+              {
+                "adjustedStart": "0:00:36",
+                "adjustedEnd": "0:00:58.04",
+                "start": "0:00:36",
+                "end": "0:00:58.04"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "0:52",
+            "confidence": 0.963,
+            "left": 1386,
+            "top": 533,
+            "width": 498,
+            "height": 239,
+            "angle": 3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:09",
+                "adjustedEnd": "0:01:09.04",
+                "start": "0:01:09",
+                "end": "0:01:09.04"
+              },
+              {
+                "adjustedStart": "0:01:14",
+                "adjustedEnd": "0:01:14.04",
+                "start": "0:01:14",
+                "end": "0:01:14.04"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "TENNIS-MIAMI/",
+            "confidence": 0.96,
+            "left": 229,
+            "top": 261,
+            "width": 520,
+            "height": 61,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:04.04",
+                "start": "0:00:00",
+                "end": "0:00:04.04"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "LOCATION: Miami, Florida, UNITED STATES",
+            "confidence": 0.9952,
+            "left": 241,
+            "top": 451,
+            "width": 983,
+            "height": 54,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:04.04",
+                "start": "0:00:00",
+                "end": "0:00:04.04"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "Duration: 1:33",
+            "confidence": 0.997,
+            "left": 241,
+            "top": 514,
+            "width": 310,
+            "height": 45,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:04.04",
+                "start": "0:00:00",
+                "end": "0:00:04.04"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "Date Shot: March 25, 2022",
+            "confidence": 0.9966,
+            "left": 243,
+            "top": 573,
+            "width": 596,
+            "height": 50,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:04.04",
+                "start": "0:00:00",
+                "end": "0:00:04.04"
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "Natural",
+            "confidence": 0.998,
+            "left": 241,
+            "top": 636,
+            "width": 178,
+            "height": 43,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:04.04",
+                "start": "0:00:00",
+                "end": "0:00:04.04"
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "Restrictions: Broadcast: See script",
+            "confidence": 0.9913,
+            "left": 243,
+            "top": 693,
+            "width": 763,
+            "height": 50,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:04.04",
+                "start": "0:00:00",
+                "end": "0:00:04.04"
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "Digital: See script",
+            "confidence": 0.9977,
+            "left": 242,
+            "top": 752,
+            "width": 399,
+            "height": 54,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:04.04",
+                "start": "0:00:00",
+                "end": "0:00:04.04"
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "text": "TEST",
+            "confidence": 0.998,
+            "left": 374,
+            "top": 914,
+            "width": 239,
+            "height": 47,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:04.04",
+                "start": "0:00:00",
+                "end": "0:00:04.04"
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": "3 SET POINTS",
+            "confidence": 0.9973,
+            "left": 296,
+            "top": 873,
+            "width": 145,
+            "height": 28,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:05",
+                "adjustedEnd": "0:00:06.04",
+                "start": "0:00:05",
+                "end": "0:00:06.04"
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": "RUBLEV",
+            "confidence": 0.998,
+            "left": 224,
+            "top": 917,
+            "width": 87,
+            "height": 28,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:05",
+                "adjustedEnd": "0:00:21.04",
+                "start": "0:00:05",
+                "end": "0:00:21.04"
+              },
+              {
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:30.04",
+                "start": "0:00:24",
+                "end": "0:00:30.04"
+              },
+              {
+                "adjustedStart": "0:00:32",
+                "adjustedEnd": "0:01:12.04",
+                "start": "0:00:32",
+                "end": "0:01:12.04"
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": "KYRGIOS",
+            "confidence": 0.998,
+            "left": 226,
+            "top": 962,
+            "width": 95,
+            "height": 24,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:05",
+                "adjustedEnd": "0:00:21.04",
+                "start": "0:00:05",
+                "end": "0:00:21.04"
+              },
+              {
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:01:12.04",
+                "start": "0:00:24",
+                "end": "0:01:12.04"
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": "DOBEL",
+            "confidence": 0.978,
+            "left": 197,
+            "top": 92,
+            "width": 63,
+            "height": 14,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:14.04",
+                "start": "0:00:07",
+                "end": "0:00:14.04"
+              },
+              {
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:30.04",
+                "start": "0:00:24",
+                "end": "0:00:30.04"
+              },
+              {
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:00:58.04",
+                "start": "0:00:33",
+                "end": "0:00:58.04"
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": "ASSIST",
+            "confidence": 0.994,
+            "left": 1607,
+            "top": 95,
+            "width": 98,
+            "height": 14,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:14.04",
+                "start": "0:00:07",
+                "end": "0:00:14.04"
+              },
+              {
+                "adjustedStart": "0:00:17",
+                "adjustedEnd": "0:00:19.04",
+                "start": "0:00:17",
+                "end": "0:00:19.04"
+              },
+              {
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:30.04",
+                "start": "0:00:24",
+                "end": "0:00:30.04"
+              },
+              {
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:00:56.04",
+                "start": "0:00:33",
+                "end": "0:00:56.04"
+              },
+              {
+                "adjustedStart": "0:00:59",
+                "adjustedEnd": "0:01:09.04",
+                "start": "0:00:59",
+                "end": "0:01:09.04"
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": "LACOSTE",
+            "confidence": 0.998,
+            "left": 245,
+            "top": 147,
+            "width": 126,
+            "height": 24,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:15.04",
+                "start": "0:00:07",
+                "end": "0:00:15.04"
+              },
+              {
+                "adjustedStart": "0:00:17",
+                "adjustedEnd": "0:00:19.04",
+                "start": "0:00:17",
+                "end": "0:00:19.04"
+              },
+              {
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:30.04",
+                "start": "0:00:24",
+                "end": "0:00:30.04"
+              },
+              {
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:00:56.04",
+                "start": "0:00:33",
+                "end": "0:00:56.04"
+              },
+              {
+                "adjustedStart": "0:00:59",
+                "adjustedEnd": "0:01:09.04",
+                "start": "0:00:59",
+                "end": "0:01:09.04"
+              },
+              {
+                "adjustedStart": "0:01:17",
+                "adjustedEnd": "0:01:19.04",
+                "start": "0:01:17",
+                "end": "0:01:19.04"
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": "betway",
+            "confidence": 0.998,
+            "left": 744,
+            "top": 165,
+            "width": 108,
+            "height": 27,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:14.04",
+                "start": "0:00:07",
+                "end": "0:00:14.04"
+              },
+              {
+                "adjustedStart": "0:00:17",
+                "adjustedEnd": "0:00:19.04",
+                "start": "0:00:17",
+                "end": "0:00:19.04"
+              },
+              {
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:30.04",
+                "start": "0:00:24",
+                "end": "0:00:30.04"
+              },
+              {
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:00:56.04",
+                "start": "0:00:33",
+                "end": "0:00:56.04"
+              },
+              {
+                "adjustedStart": "0:00:59",
+                "adjustedEnd": "0:01:09.04",
+                "start": "0:00:59",
+                "end": "0:01:09.04"
+              },
+              {
+                "adjustedStart": "0:01:21",
+                "adjustedEnd": "0:01:29.04",
+                "start": "0:01:21",
+                "end": "0:01:29.04"
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": "Emirates",
+            "confidence": 0.98,
+            "left": 1389,
+            "top": 448,
+            "width": 81,
+            "height": 18,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:14.04",
+                "start": "0:00:07",
+                "end": "0:00:14.04"
+              },
+              {
+                "adjustedStart": "0:00:17",
+                "adjustedEnd": "0:00:19.04",
+                "start": "0:00:17",
+                "end": "0:00:19.04"
+              },
+              {
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:30.04",
+                "start": "0:00:24",
+                "end": "0:00:30.04"
+              },
+              {
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:00:56.04",
+                "start": "0:00:33",
+                "end": "0:00:56.04"
+              },
+              {
+                "adjustedStart": "0:00:59",
+                "adjustedEnd": "0:01:09.04",
+                "start": "0:00:59",
+                "end": "0:01:09.04"
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "text": "FLY BETTER",
+            "confidence": 0.994,
+            "left": 1426,
+            "top": 444,
+            "width": 69,
+            "height": 17,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:14.04",
+                "start": "0:00:07",
+                "end": "0:00:14.04"
+              },
+              {
+                "adjustedStart": "0:00:17",
+                "adjustedEnd": "0:00:19.04",
+                "start": "0:00:17",
+                "end": "0:00:19.04"
+              },
+              {
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:30.04",
+                "start": "0:00:24",
+                "end": "0:00:30.04"
+              },
+              {
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:00:56.04",
+                "start": "0:00:33",
+                "end": "0:00:56.04"
+              },
+              {
+                "adjustedStart": "0:00:59",
+                "adjustedEnd": "0:01:09.04",
+                "start": "0:00:59",
+                "end": "0:01:09.04"
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "text": "miamiopen.com",
+            "confidence": 0.978,
+            "left": 1773,
+            "top": 454,
+            "width": 100,
+            "height": 29,
+            "angle": 34,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:15.04",
+                "start": "0:00:15",
+                "end": "0:00:15.04"
+              },
+              {
+                "adjustedStart": "0:00:17",
+                "adjustedEnd": "0:00:19.04",
+                "start": "0:00:17",
+                "end": "0:00:19.04"
+              },
+              {
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:30.04",
+                "start": "0:00:24",
+                "end": "0:00:30.04"
+              },
+              {
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:00:56.04",
+                "start": "0:00:33",
+                "end": "0:00:56.04"
+              },
+              {
+                "adjustedStart": "0:00:59",
+                "adjustedEnd": "0:01:09.04",
+                "start": "0:00:59",
+                "end": "0:01:09.04"
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "text": "pen.com",
+            "confidence": 0.998,
+            "left": 2,
+            "top": 705,
+            "width": 213,
+            "height": 55,
+            "angle": -2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:16",
+                "adjustedEnd": "0:00:16.04",
+                "start": "0:00:16",
+                "end": "0:00:16.04"
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "text": "Baptist",
+            "confidence": 0.998,
+            "left": 1520,
+            "top": 677,
+            "width": 150,
+            "height": 50,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:16",
+                "adjustedEnd": "0:00:16.04",
+                "start": "0:00:16",
+                "end": "0:00:16.04"
+              },
+              {
+                "adjustedStart": "0:01:19",
+                "adjustedEnd": "0:01:19.04",
+                "start": "0:01:19",
+                "end": "0:01:19.04"
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "text": "miami open",
+            "confidence": 0.995,
+            "left": 478,
+            "top": 733,
+            "width": 139,
+            "height": 23,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:16",
+                "adjustedEnd": "0:00:16.04",
+                "start": "0:00:16",
+                "end": "0:00:16.04"
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "text": "Health",
+            "confidence": 0.998,
+            "left": 1519,
+            "top": 726,
+            "width": 157,
+            "height": 49,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:16",
+                "adjustedEnd": "0:00:16.04",
+                "start": "0:00:16",
+                "end": "0:00:16.04"
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "text": "SAP SERVE SPEED",
+            "confidence": 0.9817,
+            "left": 481,
+            "top": 186,
+            "width": 85,
+            "height": 10,
+            "angle": 3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:17",
+                "adjustedEnd": "0:00:19.04",
+                "start": "0:00:17",
+                "end": "0:00:19.04"
+              },
+              {
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:30.04",
+                "start": "0:00:24",
+                "end": "0:00:30.04"
+              },
+              {
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:00:41.04",
+                "start": "0:00:33",
+                "end": "0:00:41.04"
+              },
+              {
+                "adjustedStart": "0:00:43",
+                "adjustedEnd": "0:00:56.04",
+                "start": "0:00:43",
+                "end": "0:00:56.04"
+              },
+              {
+                "adjustedStart": "0:00:59",
+                "adjustedEnd": "0:01:09.04",
+                "start": "0:00:59",
+                "end": "0:01:09.04"
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "text": "CARO",
+            "confidence": 0.93,
+            "left": 1637,
+            "top": 113,
+            "width": 72,
+            "height": 13,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:30.04",
+                "start": "0:00:24",
+                "end": "0:00:30.04"
+              },
+              {
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:00:43.04",
+                "start": "0:00:33",
+                "end": "0:00:43.04"
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "text": "alth",
+            "confidence": 0.999,
+            "left": 3,
+            "top": 290,
+            "width": 105,
+            "height": 125,
+            "angle": -5,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:31",
+                "adjustedEnd": "0:00:31.04",
+                "start": "0:00:31",
+                "end": "0:00:31.04"
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "text": "Itaú",
+            "confidence": 0.917,
+            "left": 1252,
+            "top": 137,
+            "width": 49,
+            "height": 21,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:01:09.04",
+                "start": "0:00:33",
+                "end": "0:01:09.04"
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "text": "IMG",
+            "confidence": 0.96,
+            "left": 1730,
+            "top": 76,
+            "width": 38,
+            "height": 17,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:37",
+                "adjustedEnd": "0:00:56.04",
+                "start": "0:00:37",
+                "end": "0:00:56.04"
+              },
+              {
+                "adjustedStart": "0:00:59",
+                "adjustedEnd": "0:00:59.04",
+                "start": "0:00:59",
+                "end": "0:00:59.04"
+              },
+              {
+                "adjustedStart": "0:01:03",
+                "adjustedEnd": "0:01:08.04",
+                "start": "0:01:03",
+                "end": "0:01:08.04"
+              }
+            ]
+          },
+          {
+            "id": 41,
+            "text": "EX",
+            "confidence": 0.999,
+            "left": 12,
+            "top": 522,
+            "width": 14,
+            "height": 11,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:42",
+                "adjustedEnd": "0:00:43.04",
+                "start": "0:00:42",
+                "end": "0:00:43.04"
+              },
+              {
+                "adjustedStart": "0:00:47",
+                "adjustedEnd": "0:00:49.04",
+                "start": "0:00:47",
+                "end": "0:00:49.04"
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "text": "MAESTRO",
+            "confidence": 0.987,
+            "left": 608,
+            "top": 116,
+            "width": 78,
+            "height": 14,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:57",
+                "adjustedEnd": "0:00:58.04",
+                "start": "0:00:57",
+                "end": "0:00:58.04"
+              }
+            ]
+          },
+          {
+            "id": 43,
+            "text": "TEQUILA",
+            "confidence": 0.939,
+            "left": 613,
+            "top": 172,
+            "width": 72,
+            "height": 15,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:57",
+                "adjustedEnd": "0:00:58.04",
+                "start": "0:00:57",
+                "end": "0:00:58.04"
+              }
+            ]
+          },
+          {
+            "id": 44,
+            "text": "TE",
+            "confidence": 0.998,
+            "left": 1009,
+            "top": 348,
+            "width": 104,
+            "height": 74,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:57",
+                "adjustedEnd": "0:00:58.04",
+                "start": "0:00:57",
+                "end": "0:00:58.04"
+              }
+            ]
+          },
+          {
+            "id": 45,
+            "text": "SAP",
+            "confidence": 0.996,
+            "left": 1458,
+            "top": 479,
+            "width": 77,
+            "height": 44,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:57",
+                "adjustedEnd": "0:00:58.04",
+                "start": "0:00:57",
+                "end": "0:00:58.04"
+              }
+            ]
+          },
+          {
+            "id": 46,
+            "text": "SERVE SPEED",
+            "confidence": 0.998,
+            "left": 1565,
+            "top": 489,
+            "width": 171,
+            "height": 35,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:57",
+                "adjustedEnd": "0:00:57.04",
+                "start": "0:00:57",
+                "end": "0:00:57.04"
+              }
+            ]
+          },
+          {
+            "id": 47,
+            "text": "ay",
+            "confidence": 0.997,
+            "left": 4,
+            "top": 674,
+            "width": 88,
+            "height": 78,
+            "angle": 3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:57",
+                "adjustedEnd": "0:00:58.04",
+                "start": "0:00:57",
+                "end": "0:00:58.04"
+              }
+            ]
+          },
+          {
+            "id": 48,
+            "text": "MPH",
+            "confidence": 0.997,
+            "left": 1350,
+            "top": 652,
+            "width": 497,
+            "height": 182,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:57",
+                "adjustedEnd": "0:00:58.04",
+                "start": "0:00:57",
+                "end": "0:00:58.04"
+              },
+              {
+                "adjustedStart": "0:01:16",
+                "adjustedEnd": "0:01:16.04",
+                "start": "0:01:16",
+                "end": "0:01:16.04"
+              }
+            ]
+          },
+          {
+            "id": 49,
+            "text": "CADILLAC",
+            "confidence": 0.997,
+            "left": 299,
+            "top": 718,
+            "width": 153,
+            "height": 22,
+            "angle": -1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:57",
+                "adjustedEnd": "0:00:58.04",
+                "start": "0:00:57",
+                "end": "0:00:58.04"
+              }
+            ]
+          },
+          {
+            "id": 50,
+            "text": "LA",
+            "confidence": 0.998,
+            "left": 700,
+            "top": 406,
+            "width": 133,
+            "height": 75,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:58",
+                "adjustedEnd": "0:00:58.04",
+                "start": "0:00:58",
+                "end": "0:00:58.04"
+              }
+            ]
+          },
+          {
+            "id": 51,
+            "text": "SERVE SPE",
+            "confidence": 0.997,
+            "left": 1569,
+            "top": 546,
+            "width": 142,
+            "height": 32,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:58",
+                "adjustedEnd": "0:00:58.04",
+                "start": "0:00:58",
+                "end": "0:00:58.04"
+              }
+            ]
+          },
+          {
+            "id": 52,
+            "text": "AD",
+            "confidence": 0.998,
+            "left": 466,
+            "top": 962,
+            "width": 31,
+            "height": 25,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:59",
+                "adjustedEnd": "0:01:11.04",
+                "start": "0:00:59",
+                "end": "0:01:11.04"
+              }
+            ]
+          },
+          {
+            "id": 53,
+            "text": "ROLEX",
+            "confidence": 0.998,
+            "left": 1630,
+            "top": 391,
+            "width": 139,
+            "height": 30,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:12",
+                "adjustedEnd": "0:01:14.04",
+                "start": "0:01:12",
+                "end": "0:01:14.04"
+              }
+            ]
+          },
+          {
+            "id": 54,
+            "text": "STADIUM",
+            "confidence": 0.997,
+            "left": 280,
+            "top": 213,
+            "width": 91,
+            "height": 16,
+            "angle": 30,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:17",
+                "adjustedEnd": "0:01:18.04",
+                "start": "0:01:17",
+                "end": "0:01:18.04"
+              }
+            ]
+          },
+          {
+            "id": 55,
+            "text": "etway",
+            "confidence": 0.998,
+            "left": 0,
+            "top": 756,
+            "width": 124,
+            "height": 31,
+            "angle": 6,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:18",
+                "adjustedEnd": "0:01:18.04",
+                "start": "0:01:18",
+                "end": "0:01:18.04"
+              }
+            ]
+          },
+          {
+            "id": 56,
+            "text": "LACOS",
+            "confidence": 0.956,
+            "left": 745,
+            "top": 869,
+            "width": 41,
+            "height": 15,
+            "angle": 3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:18",
+                "adjustedEnd": "0:01:18.04",
+                "start": "0:01:18",
+                "end": "0:01:18.04"
+              }
+            ]
+          },
+          {
+            "id": 57,
+            "text": "RUUSUVUORI",
+            "confidence": 0.991,
+            "left": 211,
+            "top": 917,
+            "width": 157,
+            "height": 27,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:21",
+                "adjustedEnd": "0:01:28.04",
+                "start": "0:01:21",
+                "end": "0:01:28.04"
+              }
+            ]
+          },
+          {
+            "id": 58,
+            "text": "6 6",
+            "confidence": 0.988,
+            "left": 432,
+            "top": 918,
+            "width": 94,
+            "height": 27,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:21",
+                "adjustedEnd": "0:01:23.04",
+                "start": "0:01:21",
+                "end": "0:01:23.04"
+              },
+              {
+                "adjustedStart": "0:01:25",
+                "adjustedEnd": "0:01:26.04",
+                "start": "0:01:25",
+                "end": "0:01:26.04"
+              }
+            ]
+          },
+          {
+            "id": 59,
+            "text": "SINNER",
+            "confidence": 0.998,
+            "left": 227,
+            "top": 962,
+            "width": 78,
+            "height": 24,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:21",
+                "adjustedEnd": "0:01:28.04",
+                "start": "0:01:21",
+                "end": "0:01:28.04"
+              }
+            ]
+          },
+          {
+            "id": 60,
+            "text": "3 6",
+            "confidence": 0.989,
+            "left": 446,
+            "top": 958,
+            "width": 81,
+            "height": 27,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:21",
+                "adjustedEnd": "0:01:27.04",
+                "start": "0:01:21",
+                "end": "0:01:27.04"
+              }
+            ]
+          },
+          {
+            "id": 61,
+            "text": "Itau",
+            "confidence": 0.931,
+            "left": 365,
+            "top": 456,
+            "width": 60,
+            "height": 20,
+            "angle": -1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:33",
+                "adjustedEnd": "0:01:37.04",
+                "start": "0:01:33",
+                "end": "0:01:37.04"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          {
+            "id": 1,
+            "text": "serve speed",
+            "confidence": 0.9975,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:17",
+                "adjustedEnd": "0:00:19.04",
+                "start": "0:00:17",
+                "end": "0:00:19.04"
+              },
+              {
+                "adjustedStart": "0:00:57",
+                "adjustedEnd": "0:00:57.04",
+                "start": "0:00:57",
+                "end": "0:00:57.04"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "serve spe",
+            "confidence": 0.9975,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:17",
+                "adjustedEnd": "0:00:19.04",
+                "start": "0:00:17",
+                "end": "0:00:19.04"
+              },
+              {
+                "adjustedStart": "0:00:57",
+                "adjustedEnd": "0:00:57.04",
+                "start": "0:00:57",
+                "end": "0:00:57.04"
+              },
+              {
+                "adjustedStart": "0:00:58",
+                "adjustedEnd": "0:00:58.04",
+                "start": "0:00:58",
+                "end": "0:00:58.04"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "miami",
+            "confidence": 0.8041,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:04.04",
+                "start": "0:00:00",
+                "end": "0:00:04.04"
+              },
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:04.04",
+                "start": "0:00:00",
+                "end": "0:00:04.04"
+              },
+              {
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:15.04",
+                "start": "0:00:15",
+                "end": "0:00:15.04"
+              },
+              {
+                "adjustedStart": "0:00:16",
+                "adjustedEnd": "0:00:16.04",
+                "start": "0:00:16",
+                "end": "0:00:16.04"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "game",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:19.13",
+                "adjustedEnd": "0:00:20.1",
+                "start": "0:00:19.13",
+                "end": "0:00:20.1"
+              },
+              {
+                "adjustedStart": "0:01:09.23",
+                "adjustedEnd": "0:01:09.8",
+                "start": "0:01:09.23",
+                "end": "0:01:09.8"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "script",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:04.04",
+                "start": "0:00:00",
+                "end": "0:00:04.04"
+              },
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:04.04",
+                "start": "0:00:00",
+                "end": "0:00:04.04"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "alth",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:16",
+                "adjustedEnd": "0:00:16.04",
+                "start": "0:00:16",
+                "end": "0:00:16.04"
+              },
+              {
+                "adjustedStart": "0:00:31",
+                "adjustedEnd": "0:00:31.04",
+                "start": "0:00:31",
+                "end": "0:00:31.04"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "etway",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:14.04",
+                "start": "0:00:07",
+                "end": "0:00:14.04"
+              },
+              {
+                "adjustedStart": "0:01:18",
+                "adjustedEnd": "0:01:18.04",
+                "start": "0:01:18",
+                "end": "0:01:18.04"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "lacos",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:15.04",
+                "start": "0:00:07",
+                "end": "0:00:15.04"
+              },
+              {
+                "adjustedStart": "0:01:18",
+                "adjustedEnd": "0:01:18.04",
+                "start": "0:01:18",
+                "end": "0:01:18.04"
+              }
+            ]
+          }
+        ],
+        "faces": [
+          {
+            "id": 1158,
+            "name": "Nick Kyrgios",
+            "confidence": 0.9942,
+            "description": "Nicholas Hilmy Kyrgios is an Australian professional tennis player. In singles, he has a career high ATP singles ranking of world No. 13, achieved on 24 October 2016. Kyrgios has won six ATP titles and has reached nine ATP finals, including a Masters 1000 final at the 2017 Cincinnati Masters. In doubles, he has a …",
+            "thumbnailId": "9a67d400-6a04-4e20-8675-05ad078031ef",
+            "referenceId": "9a4ddec3-d4e7-46b4-a9fd-e4f2e08dabdc",
+            "referenceType": "Bing",
+            "title": "Tennis Player",
+            "imageUrl": "https://www.bing.com/th?id=AMMS_2a6bde6923f90f663e30421e77b6b795&c=12&rs=1&qlt=80&cdv=1&pid=16.2",
+            "thumbnails": [
+              {
+                "id": "9b59c508-3205-4821-9eb8-604e14704b84",
+                "fileName": "FaceInstanceThumbnail_9b59c508-3205-4821-9eb8-604e14704b84.jpg",
+                "instances": [
+                  {
+                    "adjustedStart": "0:00:05.04",
+                    "adjustedEnd": "0:00:05.08",
+                    "start": "0:00:05.04",
+                    "end": "0:00:05.08"
+                  }
+                ]
+              },
+              {
+                "id": "7254fd1f-8947-446e-ba87-736dceb33119",
+                "fileName": "FaceInstanceThumbnail_7254fd1f-8947-446e-ba87-736dceb33119.jpg",
+                "instances": [
+                  {
+                    "adjustedStart": "0:00:19.76",
+                    "adjustedEnd": "0:00:19.8",
+                    "start": "0:00:19.76",
+                    "end": "0:00:19.8"
+                  }
+                ]
+              },
+              {
+                "id": "2eed2f7d-aa67-4c45-aa05-7785a7fd035f",
+                "fileName": "FaceInstanceThumbnail_2eed2f7d-aa67-4c45-aa05-7785a7fd035f.jpg",
+                "instances": [
+                  {
+                    "adjustedStart": "0:00:30.64",
+                    "adjustedEnd": "0:00:30.68",
+                    "start": "0:00:30.64",
+                    "end": "0:00:30.68"
+                  }
+                ]
+              },
+              {
+                "id": "9a67d400-6a04-4e20-8675-05ad078031ef",
+                "fileName": "FaceInstanceThumbnail_9a67d400-6a04-4e20-8675-05ad078031ef.jpg",
+                "instances": [
+                  {
+                    "adjustedStart": "0:01:14.56",
+                    "adjustedEnd": "0:01:14.6",
+                    "start": "0:01:14.56",
+                    "end": "0:01:14.6"
+                  }
+                ]
+              },
+              {
+                "id": "f3071e30-164b-4dac-9ed3-c6fca605580f",
+                "fileName": "FaceInstanceThumbnail_f3071e30-164b-4dac-9ed3-c6fca605580f.jpg",
+                "instances": [
+                  {
+                    "adjustedStart": "0:01:20.08",
+                    "adjustedEnd": "0:01:20.12",
+                    "start": "0:01:20.08",
+                    "end": "0:01:20.12"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "thumbnailsIds": ["9b59c508-3205-4821-9eb8-604e14704b84"],
+                "adjustedStart": "0:00:05.04",
+                "adjustedEnd": "0:00:06.84",
+                "start": "0:00:05.04",
+                "end": "0:00:06.84"
+              },
+              {
+                "thumbnailsIds": ["7254fd1f-8947-446e-ba87-736dceb33119"],
+                "adjustedStart": "0:00:19.6",
+                "adjustedEnd": "0:00:23.24",
+                "start": "0:00:19.6",
+                "end": "0:00:23.24"
+              },
+              {
+                "thumbnailsIds": ["2eed2f7d-aa67-4c45-aa05-7785a7fd035f"],
+                "adjustedStart": "0:00:30.64",
+                "adjustedEnd": "0:00:32.44",
+                "start": "0:00:30.64",
+                "end": "0:00:32.44"
+              },
+              {
+                "thumbnailsIds": ["9a67d400-6a04-4e20-8675-05ad078031ef"],
+                "adjustedStart": "0:01:11.2",
+                "adjustedEnd": "0:01:14.64",
+                "start": "0:01:11.2",
+                "end": "0:01:14.64"
+              },
+              {
+                "thumbnailsIds": ["f3071e30-164b-4dac-9ed3-c6fca605580f"],
+                "adjustedStart": "0:01:16.56",
+                "adjustedEnd": "0:01:20.4",
+                "start": "0:01:16.56",
+                "end": "0:01:20.4"
+              }
+            ]
+          },
+          {
+            "id": 1233,
+            "name": "Andrey Rublev",
+            "confidence": 0.9605,
+            "description": "Andrey Andreyevich Rublev is a Russian professional tennis player. He has been ranked as high as world No. 5 in singles by the Association of Tennis Professionals, which he first achieved in September 2021. Rublev has won 11 ATP Tour singles titles. He has a career-high doubles ranking of No. …",
+            "thumbnailId": "c55c24e0-7f7f-4f07-8564-4b97997f2315",
+            "referenceId": "637db353-6d8d-c7ac-e83b-3d6fabbcd3e4",
+            "referenceType": "Bing",
+            "title": "Tennis Player",
+            "imageUrl": "https://www.bing.com/th?id=AMMS_2961b5a059aff44b75fb0e03fde522fd&c=12&rs=1&qlt=80&cdv=1&pid=16.2",
+            "thumbnails": [
+              {
+                "id": "0072f54a-3b71-49a1-94d5-9a12d495da63",
+                "fileName": "FaceInstanceThumbnail_0072f54a-3b71-49a1-94d5-9a12d495da63.jpg",
+                "instances": [
+                  {
+                    "adjustedStart": "0:00:56.96",
+                    "adjustedEnd": "0:00:57",
+                    "start": "0:00:56.96",
+                    "end": "0:00:57"
+                  }
+                ]
+              },
+              {
+                "id": "b8f58cc2-f6f6-410e-8d72-00dc950f2888",
+                "fileName": "FaceInstanceThumbnail_b8f58cc2-f6f6-410e-8d72-00dc950f2888.jpg",
+                "instances": [
+                  {
+                    "adjustedStart": "0:01:15.04",
+                    "adjustedEnd": "0:01:15.08",
+                    "start": "0:01:15.04",
+                    "end": "0:01:15.08"
+                  }
+                ]
+              },
+              {
+                "id": "c55c24e0-7f7f-4f07-8564-4b97997f2315",
+                "fileName": "FaceInstanceThumbnail_c55c24e0-7f7f-4f07-8564-4b97997f2315.jpg",
+                "instances": [
+                  {
+                    "adjustedStart": "0:01:17.6",
+                    "adjustedEnd": "0:01:17.64",
+                    "start": "0:01:17.6",
+                    "end": "0:01:17.64"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "thumbnailsIds": ["0072f54a-3b71-49a1-94d5-9a12d495da63"],
+                "adjustedStart": "0:00:56.96",
+                "adjustedEnd": "0:00:57",
+                "start": "0:00:56.96",
+                "end": "0:00:57"
+              },
+              {
+                "adjustedStart": "0:00:57.04",
+                "adjustedEnd": "0:00:57.08",
+                "start": "0:00:57.04",
+                "end": "0:00:57.08"
+              },
+              {
+                "adjustedStart": "0:00:57.12",
+                "adjustedEnd": "0:00:57.16",
+                "start": "0:00:57.12",
+                "end": "0:00:57.16"
+              },
+              {
+                "adjustedStart": "0:00:57.2",
+                "adjustedEnd": "0:00:57.24",
+                "start": "0:00:57.2",
+                "end": "0:00:57.24"
+              },
+              {
+                "adjustedStart": "0:00:57.28",
+                "adjustedEnd": "0:00:57.32",
+                "start": "0:00:57.28",
+                "end": "0:00:57.32"
+              },
+              {
+                "adjustedStart": "0:00:57.36",
+                "adjustedEnd": "0:00:57.4",
+                "start": "0:00:57.36",
+                "end": "0:00:57.4"
+              },
+              {
+                "adjustedStart": "0:00:57.44",
+                "adjustedEnd": "0:00:57.48",
+                "start": "0:00:57.44",
+                "end": "0:00:57.48"
+              },
+              {
+                "adjustedStart": "0:00:57.52",
+                "adjustedEnd": "0:00:57.56",
+                "start": "0:00:57.52",
+                "end": "0:00:57.56"
+              },
+              {
+                "adjustedStart": "0:00:57.6",
+                "adjustedEnd": "0:00:57.64",
+                "start": "0:00:57.6",
+                "end": "0:00:57.64"
+              },
+              {
+                "adjustedStart": "0:00:57.68",
+                "adjustedEnd": "0:00:57.72",
+                "start": "0:00:57.68",
+                "end": "0:00:57.72"
+              },
+              {
+                "adjustedStart": "0:00:57.76",
+                "adjustedEnd": "0:00:57.8",
+                "start": "0:00:57.76",
+                "end": "0:00:57.8"
+              },
+              {
+                "adjustedStart": "0:00:57.84",
+                "adjustedEnd": "0:00:57.88",
+                "start": "0:00:57.84",
+                "end": "0:00:57.88"
+              },
+              {
+                "adjustedStart": "0:00:57.92",
+                "adjustedEnd": "0:00:57.96",
+                "start": "0:00:57.92",
+                "end": "0:00:57.96"
+              },
+              {
+                "adjustedStart": "0:00:58",
+                "adjustedEnd": "0:00:58.04",
+                "start": "0:00:58",
+                "end": "0:00:58.04"
+              },
+              {
+                "adjustedStart": "0:00:58.08",
+                "adjustedEnd": "0:00:58.12",
+                "start": "0:00:58.08",
+                "end": "0:00:58.12"
+              },
+              {
+                "adjustedStart": "0:00:58.16",
+                "adjustedEnd": "0:00:58.2",
+                "start": "0:00:58.16",
+                "end": "0:00:58.2"
+              },
+              {
+                "adjustedStart": "0:00:58.24",
+                "adjustedEnd": "0:00:58.28",
+                "start": "0:00:58.24",
+                "end": "0:00:58.28"
+              },
+              {
+                "adjustedStart": "0:00:58.32",
+                "adjustedEnd": "0:00:58.36",
+                "start": "0:00:58.32",
+                "end": "0:00:58.36"
+              },
+              {
+                "thumbnailsIds": [
+                  "c55c24e0-7f7f-4f07-8564-4b97997f2315",
+                  "b8f58cc2-f6f6-410e-8d72-00dc950f2888"
+                ],
+                "adjustedStart": "0:01:14.64",
+                "adjustedEnd": "0:01:18.4",
+                "start": "0:01:14.64",
+                "end": "0:01:18.4"
+              }
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "id": 1,
+            "name": "text",
+            "referenceId": "communication/writing/text",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 1,
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:04.04",
+                "start": "0:00:00",
+                "end": "0:00:04.04"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "sport",
+            "referenceId": "event/act/sport",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9871,
+                "adjustedStart": "0:00:05",
+                "adjustedEnd": "0:00:20.04",
+                "start": "0:00:05",
+                "end": "0:00:20.04"
+              },
+              {
+                "confidence": 0.9949,
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:31.04",
+                "start": "0:00:24",
+                "end": "0:00:31.04"
+              },
+              {
+                "confidence": 0.9939,
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:01:11.04",
+                "start": "0:00:33",
+                "end": "0:01:11.04"
+              },
+              {
+                "confidence": 0.9743,
+                "adjustedStart": "0:01:17",
+                "adjustedEnd": "0:01:18.04",
+                "start": "0:01:17",
+                "end": "0:01:18.04"
+              },
+              {
+                "confidence": 0.994,
+                "adjustedStart": "0:01:20",
+                "adjustedEnd": "0:01:37.04",
+                "start": "0:01:20",
+                "end": "0:01:37.04"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "person",
+            "referenceId": "person",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9944,
+                "adjustedStart": "0:00:05",
+                "adjustedEnd": "0:00:06.04",
+                "start": "0:00:05",
+                "end": "0:00:06.04"
+              },
+              {
+                "confidence": 0.9501,
+                "adjustedStart": "0:00:13",
+                "adjustedEnd": "0:00:13.04",
+                "start": "0:00:13",
+                "end": "0:00:13.04"
+              },
+              {
+                "confidence": 0.9941,
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:17.04",
+                "start": "0:00:15",
+                "end": "0:00:17.04"
+              },
+              {
+                "confidence": 0.9946,
+                "adjustedStart": "0:00:20",
+                "adjustedEnd": "0:00:28.04",
+                "start": "0:00:20",
+                "end": "0:00:28.04"
+              },
+              {
+                "confidence": 0.9905,
+                "adjustedStart": "0:00:31",
+                "adjustedEnd": "0:00:41.04",
+                "start": "0:00:31",
+                "end": "0:00:41.04"
+              },
+              {
+                "confidence": 0.9648,
+                "adjustedStart": "0:00:43",
+                "adjustedEnd": "0:00:59.04",
+                "start": "0:00:43",
+                "end": "0:00:59.04"
+              },
+              {
+                "confidence": 0.9924,
+                "adjustedStart": "0:01:10",
+                "adjustedEnd": "0:01:20.04",
+                "start": "0:01:10",
+                "end": "0:01:20.04"
+              },
+              {
+                "confidence": 0.9536,
+                "adjustedStart": "0:01:27",
+                "adjustedEnd": "0:01:27.04",
+                "start": "0:01:27",
+                "end": "0:01:27.04"
+              },
+              {
+                "confidence": 0.9775,
+                "adjustedStart": "0:01:29",
+                "adjustedEnd": "0:01:37.04",
+                "start": "0:01:29",
+                "end": "0:01:37.04"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "athletic game",
+            "referenceId": "activity/sport/athletic game/athletic game",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9796,
+                "adjustedStart": "0:00:05",
+                "adjustedEnd": "0:00:20.04",
+                "start": "0:00:05",
+                "end": "0:00:20.04"
+              },
+              {
+                "confidence": 0.9984,
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:31.04",
+                "start": "0:00:24",
+                "end": "0:00:31.04"
+              },
+              {
+                "confidence": 0.9977,
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:01:11.04",
+                "start": "0:00:33",
+                "end": "0:01:11.04"
+              },
+              {
+                "confidence": 0.9637,
+                "adjustedStart": "0:01:18",
+                "adjustedEnd": "0:01:37.04",
+                "start": "0:01:18",
+                "end": "0:01:37.04"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "tennis",
+            "referenceId": "activity/game/tennis",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.975,
+                "adjustedStart": "0:00:05",
+                "adjustedEnd": "0:00:05.04",
+                "start": "0:00:05",
+                "end": "0:00:05.04"
+              },
+              {
+                "confidence": 0.9943,
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:19.04",
+                "start": "0:00:07",
+                "end": "0:00:19.04"
+              },
+              {
+                "confidence": 0.9962,
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:31.04",
+                "start": "0:00:24",
+                "end": "0:00:31.04"
+              },
+              {
+                "confidence": 0.9952,
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:01:09.04",
+                "start": "0:00:33",
+                "end": "0:01:09.04"
+              },
+              {
+                "confidence": 0.9676,
+                "adjustedStart": "0:01:13",
+                "adjustedEnd": "0:01:13.04",
+                "start": "0:01:13",
+                "end": "0:01:13.04"
+              },
+              {
+                "confidence": 0.9694,
+                "adjustedStart": "0:01:19",
+                "adjustedEnd": "0:01:37.04",
+                "start": "0:01:19",
+                "end": "0:01:37.04"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "player",
+            "referenceId": "person/contestant/player",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9571,
+                "adjustedStart": "0:00:05",
+                "adjustedEnd": "0:00:19.04",
+                "start": "0:00:05",
+                "end": "0:00:19.04"
+              },
+              {
+                "confidence": 0.9788,
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:01:11.04",
+                "start": "0:00:24",
+                "end": "0:01:11.04"
+              },
+              {
+                "confidence": 0.9617,
+                "adjustedStart": "0:01:18",
+                "adjustedEnd": "0:01:37.04",
+                "start": "0:01:18",
+                "end": "0:01:37.04"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "name": "clothing",
+            "referenceId": "consumer goods/clothing",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9795,
+                "adjustedStart": "0:00:06",
+                "adjustedEnd": "0:00:06.04",
+                "start": "0:00:06",
+                "end": "0:00:06.04"
+              },
+              {
+                "confidence": 0.9685,
+                "adjustedStart": "0:00:20",
+                "adjustedEnd": "0:00:23.04",
+                "start": "0:00:20",
+                "end": "0:00:23.04"
+              },
+              {
+                "confidence": 0.9786,
+                "adjustedStart": "0:00:31",
+                "adjustedEnd": "0:00:32.04",
+                "start": "0:00:31",
+                "end": "0:00:32.04"
+              },
+              {
+                "confidence": 0.9781,
+                "adjustedStart": "0:01:10",
+                "adjustedEnd": "0:01:11.04",
+                "start": "0:01:10",
+                "end": "0:01:11.04"
+              },
+              {
+                "confidence": 0.9798,
+                "adjustedStart": "0:01:13",
+                "adjustedEnd": "0:01:18.04",
+                "start": "0:01:13",
+                "end": "0:01:18.04"
+              },
+              {
+                "confidence": 0.9731,
+                "adjustedStart": "0:01:20",
+                "adjustedEnd": "0:01:20.04",
+                "start": "0:01:20",
+                "end": "0:01:20.04"
+              },
+              {
+                "confidence": 0.958,
+                "adjustedStart": "0:01:31",
+                "adjustedEnd": "0:01:31.04",
+                "start": "0:01:31",
+                "end": "0:01:31.04"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "name": "court",
+            "referenceId": "court",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9815,
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:19.04",
+                "start": "0:00:07",
+                "end": "0:00:19.04"
+              },
+              {
+                "confidence": 0.9871,
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:30.04",
+                "start": "0:00:24",
+                "end": "0:00:30.04"
+              },
+              {
+                "confidence": 0.9888,
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:01:09.04",
+                "start": "0:00:33",
+                "end": "0:01:09.04"
+              },
+              {
+                "confidence": 0.9779,
+                "adjustedStart": "0:01:17",
+                "adjustedEnd": "0:01:37.04",
+                "start": "0:01:17",
+                "end": "0:01:37.04"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "name": "racquet sport",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9723,
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:19.04",
+                "start": "0:00:07",
+                "end": "0:00:19.04"
+              },
+              {
+                "confidence": 0.9749,
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:31.04",
+                "start": "0:00:24",
+                "end": "0:00:31.04"
+              },
+              {
+                "confidence": 0.9748,
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:01:09.04",
+                "start": "0:00:33",
+                "end": "0:01:09.04"
+              },
+              {
+                "confidence": 0.9755,
+                "adjustedStart": "0:01:19",
+                "adjustedEnd": "0:01:19.04",
+                "start": "0:01:19",
+                "end": "0:01:19.04"
+              },
+              {
+                "confidence": 0.9654,
+                "adjustedStart": "0:01:21",
+                "adjustedEnd": "0:01:37.04",
+                "start": "0:01:21",
+                "end": "0:01:37.04"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "name": "racket",
+            "referenceId": "racket",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9702,
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:14.04",
+                "start": "0:00:07",
+                "end": "0:00:14.04"
+              },
+              {
+                "confidence": 0.9692,
+                "adjustedStart": "0:00:17",
+                "adjustedEnd": "0:00:19.04",
+                "start": "0:00:17",
+                "end": "0:00:19.04"
+              },
+              {
+                "confidence": 0.9736,
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:30.04",
+                "start": "0:00:24",
+                "end": "0:00:30.04"
+              },
+              {
+                "confidence": 0.9722,
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:00:56.04",
+                "start": "0:00:33",
+                "end": "0:00:56.04"
+              },
+              {
+                "confidence": 0.972,
+                "adjustedStart": "0:00:59",
+                "adjustedEnd": "0:01:09.04",
+                "start": "0:00:59",
+                "end": "0:01:09.04"
+              },
+              {
+                "confidence": 0.966,
+                "adjustedStart": "0:01:21",
+                "adjustedEnd": "0:01:29.04",
+                "start": "0:01:21",
+                "end": "0:01:29.04"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "name": "tennis court",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9645,
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:17.04",
+                "start": "0:00:15",
+                "end": "0:00:17.04"
+              },
+              {
+                "confidence": 0.9523,
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:25.04",
+                "start": "0:00:24",
+                "end": "0:00:25.04"
+              },
+              {
+                "confidence": 0.9538,
+                "adjustedStart": "0:00:27",
+                "adjustedEnd": "0:00:27.04",
+                "start": "0:00:27",
+                "end": "0:00:27.04"
+              },
+              {
+                "confidence": 0.9508,
+                "adjustedStart": "0:00:40",
+                "adjustedEnd": "0:00:41.04",
+                "start": "0:00:40",
+                "end": "0:00:41.04"
+              },
+              {
+                "confidence": 0.9503,
+                "adjustedStart": "0:00:43",
+                "adjustedEnd": "0:00:44.04",
+                "start": "0:00:43",
+                "end": "0:00:44.04"
+              },
+              {
+                "confidence": 0.9515,
+                "adjustedStart": "0:00:47",
+                "adjustedEnd": "0:00:47.04",
+                "start": "0:00:47",
+                "end": "0:00:47.04"
+              },
+              {
+                "confidence": 0.951,
+                "adjustedStart": "0:00:53",
+                "adjustedEnd": "0:00:53.04",
+                "start": "0:00:53",
+                "end": "0:00:53.04"
+              },
+              {
+                "confidence": 0.9507,
+                "adjustedStart": "0:00:55",
+                "adjustedEnd": "0:00:56.04",
+                "start": "0:00:55",
+                "end": "0:00:56.04"
+              },
+              {
+                "confidence": 0.9517,
+                "adjustedStart": "0:00:58",
+                "adjustedEnd": "0:01:01.04",
+                "start": "0:00:58",
+                "end": "0:01:01.04"
+              },
+              {
+                "confidence": 0.9632,
+                "adjustedStart": "0:01:30",
+                "adjustedEnd": "0:01:37.04",
+                "start": "0:01:30",
+                "end": "0:01:37.04"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "name": "sport venue",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9648,
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:16.04",
+                "start": "0:00:15",
+                "end": "0:00:16.04"
+              },
+              {
+                "confidence": 0.9607,
+                "adjustedStart": "0:01:18",
+                "adjustedEnd": "0:01:20.04",
+                "start": "0:01:18",
+                "end": "0:01:20.04"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "name": "outdoor",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9622,
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:16.04",
+                "start": "0:00:15",
+                "end": "0:00:16.04"
+              },
+              {
+                "confidence": 0.9602,
+                "adjustedStart": "0:01:30",
+                "adjustedEnd": "0:01:35.04",
+                "start": "0:01:30",
+                "end": "0:01:35.04"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "name": "tennis racket",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9613,
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:16.04",
+                "start": "0:00:15",
+                "end": "0:00:16.04"
+              },
+              {
+                "confidence": 0.9629,
+                "adjustedStart": "0:01:30",
+                "adjustedEnd": "0:01:37.04",
+                "start": "0:01:30",
+                "end": "0:01:37.04"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "name": "tennis player",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9597,
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:16.04",
+                "start": "0:00:15",
+                "end": "0:00:16.04"
+              },
+              {
+                "confidence": 0.9593,
+                "adjustedStart": "0:01:30",
+                "adjustedEnd": "0:01:31.04",
+                "start": "0:01:30",
+                "end": "0:01:31.04"
+              },
+              {
+                "confidence": 0.9535,
+                "adjustedStart": "0:01:37",
+                "adjustedEnd": "0:01:37.04",
+                "start": "0:01:37",
+                "end": "0:01:37.04"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "name": "soft tennis",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9594,
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:16.04",
+                "start": "0:00:15",
+                "end": "0:00:16.04"
+              },
+              {
+                "confidence": 0.952,
+                "adjustedStart": "0:00:25",
+                "adjustedEnd": "0:00:25.04",
+                "start": "0:00:25",
+                "end": "0:00:25.04"
+              },
+              {
+                "confidence": 0.9512,
+                "adjustedStart": "0:00:27",
+                "adjustedEnd": "0:00:27.04",
+                "start": "0:00:27",
+                "end": "0:00:27.04"
+              },
+              {
+                "confidence": 0.951,
+                "adjustedStart": "0:00:47",
+                "adjustedEnd": "0:00:47.04",
+                "start": "0:00:47",
+                "end": "0:00:47.04"
+              },
+              {
+                "confidence": 0.9504,
+                "adjustedStart": "0:00:59",
+                "adjustedEnd": "0:01:00.04",
+                "start": "0:00:59",
+                "end": "0:01:00.04"
+              },
+              {
+                "confidence": 0.9619,
+                "adjustedStart": "0:01:30",
+                "adjustedEnd": "0:01:37.04",
+                "start": "0:01:30",
+                "end": "0:01:37.04"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "name": "tennis equipment",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9534,
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:16.04",
+                "start": "0:00:15",
+                "end": "0:00:16.04"
+              },
+              {
+                "confidence": 0.9596,
+                "adjustedStart": "0:01:30",
+                "adjustedEnd": "0:01:34.04",
+                "start": "0:01:30",
+                "end": "0:01:34.04"
+              },
+              {
+                "confidence": 0.956,
+                "adjustedStart": "0:01:36",
+                "adjustedEnd": "0:01:37.04",
+                "start": "0:01:36",
+                "end": "0:01:37.04"
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "name": "racketlon",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9524,
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:16.04",
+                "start": "0:00:15",
+                "end": "0:00:16.04"
+              },
+              {
+                "confidence": 0.9513,
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:25.04",
+                "start": "0:00:24",
+                "end": "0:00:25.04"
+              },
+              {
+                "confidence": 0.9503,
+                "adjustedStart": "0:00:27",
+                "adjustedEnd": "0:00:27.04",
+                "start": "0:00:27",
+                "end": "0:00:27.04"
+              },
+              {
+                "confidence": 0.9535,
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:00:33.04",
+                "start": "0:00:33",
+                "end": "0:00:33.04"
+              },
+              {
+                "confidence": 0.9518,
+                "adjustedStart": "0:00:37",
+                "adjustedEnd": "0:00:38.04",
+                "start": "0:00:37",
+                "end": "0:00:38.04"
+              },
+              {
+                "confidence": 0.9517,
+                "adjustedStart": "0:00:40",
+                "adjustedEnd": "0:00:40.04",
+                "start": "0:00:40",
+                "end": "0:00:40.04"
+              },
+              {
+                "confidence": 0.9502,
+                "adjustedStart": "0:00:43",
+                "adjustedEnd": "0:00:44.04",
+                "start": "0:00:43",
+                "end": "0:00:44.04"
+              },
+              {
+                "confidence": 0.9564,
+                "adjustedStart": "0:00:47",
+                "adjustedEnd": "0:00:47.04",
+                "start": "0:00:47",
+                "end": "0:00:47.04"
+              },
+              {
+                "confidence": 0.9519,
+                "adjustedStart": "0:00:50",
+                "adjustedEnd": "0:00:50.04",
+                "start": "0:00:50",
+                "end": "0:00:50.04"
+              },
+              {
+                "confidence": 0.9505,
+                "adjustedStart": "0:00:59",
+                "adjustedEnd": "0:00:59.04",
+                "start": "0:00:59",
+                "end": "0:00:59.04"
+              },
+              {
+                "confidence": 0.9524,
+                "adjustedStart": "0:01:31",
+                "adjustedEnd": "0:01:31.04",
+                "start": "0:01:31",
+                "end": "0:01:31.04"
+              },
+              {
+                "confidence": 0.9597,
+                "adjustedStart": "0:01:33",
+                "adjustedEnd": "0:01:37.04",
+                "start": "0:01:33",
+                "end": "0:01:37.04"
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "name": "sports",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9514,
+                "adjustedStart": "0:00:16",
+                "adjustedEnd": "0:00:16.04",
+                "start": "0:00:16",
+                "end": "0:00:16.04"
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "name": "human face",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9657,
+                "adjustedStart": "0:00:20",
+                "adjustedEnd": "0:00:22.04",
+                "start": "0:00:20",
+                "end": "0:00:22.04"
+              },
+              {
+                "confidence": 0.9689,
+                "adjustedStart": "0:00:32",
+                "adjustedEnd": "0:00:32.04",
+                "start": "0:00:32",
+                "end": "0:00:32.04"
+              },
+              {
+                "confidence": 0.9888,
+                "adjustedStart": "0:01:15",
+                "adjustedEnd": "0:01:16.04",
+                "start": "0:01:15",
+                "end": "0:01:16.04"
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "name": "sports uniform",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.961,
+                "adjustedStart": "0:00:21",
+                "adjustedEnd": "0:00:22.04",
+                "start": "0:00:21",
+                "end": "0:00:22.04"
+              },
+              {
+                "confidence": 0.9533,
+                "adjustedStart": "0:01:10",
+                "adjustedEnd": "0:01:10.04",
+                "start": "0:01:10",
+                "end": "0:01:10.04"
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "name": "sports equipment",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9599,
+                "adjustedStart": "0:00:38",
+                "adjustedEnd": "0:00:38.04",
+                "start": "0:00:38",
+                "end": "0:00:38.04"
+              },
+              {
+                "confidence": 0.9539,
+                "adjustedStart": "0:00:44",
+                "adjustedEnd": "0:00:44.04",
+                "start": "0:00:44",
+                "end": "0:00:44.04"
+              },
+              {
+                "confidence": 0.9569,
+                "adjustedStart": "0:00:47",
+                "adjustedEnd": "0:00:47.04",
+                "start": "0:00:47",
+                "end": "0:00:47.04"
+              },
+              {
+                "confidence": 0.9543,
+                "adjustedStart": "0:00:49",
+                "adjustedEnd": "0:00:50.04",
+                "start": "0:00:49",
+                "end": "0:00:50.04"
+              },
+              {
+                "confidence": 0.9552,
+                "adjustedStart": "0:00:58",
+                "adjustedEnd": "0:00:58.04",
+                "start": "0:00:58",
+                "end": "0:00:58.04"
+              },
+              {
+                "confidence": 0.9633,
+                "adjustedStart": "0:01:30",
+                "adjustedEnd": "0:01:32.04",
+                "start": "0:01:30",
+                "end": "0:01:32.04"
+              },
+              {
+                "confidence": 0.971,
+                "adjustedStart": "0:01:34",
+                "adjustedEnd": "0:01:37.04",
+                "start": "0:01:34",
+                "end": "0:01:37.04"
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "name": "ball game",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9517,
+                "adjustedStart": "0:00:38",
+                "adjustedEnd": "0:00:38.04",
+                "start": "0:00:38",
+                "end": "0:00:38.04"
+              },
+              {
+                "confidence": 0.9503,
+                "adjustedStart": "0:00:44",
+                "adjustedEnd": "0:00:44.04",
+                "start": "0:00:44",
+                "end": "0:00:44.04"
+              },
+              {
+                "confidence": 0.9528,
+                "adjustedStart": "0:00:49",
+                "adjustedEnd": "0:00:49.04",
+                "start": "0:00:49",
+                "end": "0:00:49.04"
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "name": "clock",
+            "referenceId": "device/clock",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9818,
+                "adjustedStart": "0:01:12",
+                "adjustedEnd": "0:01:13.04",
+                "start": "0:01:12",
+                "end": "0:01:13.04"
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "name": "sky",
+            "referenceId": "atmosphere/sky",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9544,
+                "adjustedStart": "0:01:17",
+                "adjustedEnd": "0:01:17.04",
+                "start": "0:01:17",
+                "end": "0:01:17.04"
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "name": "man",
+            "referenceId": "person/man",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9571,
+                "adjustedStart": "0:01:19",
+                "adjustedEnd": "0:01:20.04",
+                "start": "0:01:19",
+                "end": "0:01:20.04"
+              },
+              {
+                "confidence": 0.9738,
+                "adjustedStart": "0:01:33",
+                "adjustedEnd": "0:01:33.04",
+                "start": "0:01:33",
+                "end": "0:01:33.04"
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "name": "stadium",
+            "referenceId": "structure/stadium",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9573,
+                "adjustedStart": "0:01:20",
+                "adjustedEnd": "0:01:20.04",
+                "start": "0:01:20",
+                "end": "0:01:20.04"
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "name": "footwear",
+            "referenceId": "consumer goods/clothing/footwear",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9754,
+                "adjustedStart": "0:01:30",
+                "adjustedEnd": "0:01:32.04",
+                "start": "0:01:30",
+                "end": "0:01:32.04"
+              }
+            ]
+          }
+        ],
+        "scenes": [
+          {
+            "id": 1,
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:05.28",
+                "start": "0:00:00",
+                "end": "0:00:05.28"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "instances": [
+              {
+                "adjustedStart": "0:00:05.28",
+                "adjustedEnd": "0:00:21.84",
+                "start": "0:00:05.28",
+                "end": "0:00:21.84"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "instances": [
+              {
+                "adjustedStart": "0:00:21.84",
+                "adjustedEnd": "0:00:23.2399999",
+                "start": "0:00:21.84",
+                "end": "0:00:23.2399999"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "instances": [
+              {
+                "adjustedStart": "0:00:23.2399999",
+                "adjustedEnd": "0:00:32.68",
+                "start": "0:00:23.2399999",
+                "end": "0:00:32.68"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "instances": [
+              {
+                "adjustedStart": "0:00:32.68",
+                "adjustedEnd": "0:01:10.04",
+                "start": "0:00:32.68",
+                "end": "0:01:10.04"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "instances": [
+              {
+                "adjustedStart": "0:01:10.04",
+                "adjustedEnd": "0:01:16.84",
+                "start": "0:01:10.04",
+                "end": "0:01:16.84"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "instances": [
+              {
+                "adjustedStart": "0:01:16.84",
+                "adjustedEnd": "0:01:20.64",
+                "start": "0:01:16.84",
+                "end": "0:01:20.64"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "instances": [
+              {
+                "adjustedStart": "0:01:20.64",
+                "adjustedEnd": "0:01:33.28",
+                "start": "0:01:20.64",
+                "end": "0:01:33.28"
+              }
+            ]
+          }
+        ],
+        "shots": [
+          {
+            "id": 1,
+            "keyFrames": [
+              {
+                "id": 1,
+                "instances": [
+                  {
+                    "thumbnailId": "67b0c21c-c740-4c78-a31f-ebb9a3ebafcf",
+                    "adjustedStart": "0:00:00.2",
+                    "adjustedEnd": "0:00:00.24",
+                    "start": "0:00:00.2",
+                    "end": "0:00:00.24"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "instances": [
+                  {
+                    "thumbnailId": "439464d7-8f76-4e0a-b616-e6c0a2317587",
+                    "adjustedStart": "0:00:00.24",
+                    "adjustedEnd": "0:00:00.28",
+                    "start": "0:00:00.24",
+                    "end": "0:00:00.28"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:05.28",
+                "start": "0:00:00",
+                "end": "0:00:05.28"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "keyFrames": [
+              {
+                "id": 3,
+                "instances": [
+                  {
+                    "thumbnailId": "dd2c5f11-0662-443f-9bb6-e36524ba295e",
+                    "adjustedStart": "0:00:05.28",
+                    "adjustedEnd": "0:00:05.32",
+                    "start": "0:00:05.28",
+                    "end": "0:00:05.32"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:05.28",
+                "adjustedEnd": "0:00:07.08",
+                "start": "0:00:05.28",
+                "end": "0:00:07.08"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "keyFrames": [
+              {
+                "id": 4,
+                "instances": [
+                  {
+                    "thumbnailId": "3cc364e1-35c5-4847-8b1b-64533a4bd36d",
+                    "adjustedStart": "0:00:07.08",
+                    "adjustedEnd": "0:00:07.12",
+                    "start": "0:00:07.08",
+                    "end": "0:00:07.12"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:07.08",
+                "adjustedEnd": "0:00:14.68",
+                "start": "0:00:07.08",
+                "end": "0:00:14.68"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "keyFrames": [
+              {
+                "id": 5,
+                "instances": [
+                  {
+                    "thumbnailId": "26b20ee0-f469-4506-a6a1-8564dbca56d2",
+                    "adjustedStart": "0:00:14.68",
+                    "adjustedEnd": "0:00:14.72",
+                    "start": "0:00:14.68",
+                    "end": "0:00:14.72"
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "instances": [
+                  {
+                    "thumbnailId": "7ac63559-d91d-4b0d-907e-3920e3c4f205",
+                    "adjustedStart": "0:00:16.52",
+                    "adjustedEnd": "0:00:16.56",
+                    "start": "0:00:16.52",
+                    "end": "0:00:16.56"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:14.68",
+                "adjustedEnd": "0:00:16.6",
+                "start": "0:00:14.68",
+                "end": "0:00:16.6"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "keyFrames": [
+              {
+                "id": 7,
+                "instances": [
+                  {
+                    "thumbnailId": "d36222b4-c6e9-446e-9565-b889e4b3adc3",
+                    "adjustedStart": "0:00:16.6",
+                    "adjustedEnd": "0:00:16.64",
+                    "start": "0:00:16.6",
+                    "end": "0:00:16.64"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:16.6",
+                "adjustedEnd": "0:00:19.6",
+                "start": "0:00:16.6",
+                "end": "0:00:19.6"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "keyFrames": [
+              {
+                "id": 8,
+                "instances": [
+                  {
+                    "thumbnailId": "f722c313-9b12-4b5d-9337-2c54f96bb4f1",
+                    "adjustedStart": "0:00:19.6",
+                    "adjustedEnd": "0:00:19.64",
+                    "start": "0:00:19.6",
+                    "end": "0:00:19.64"
+                  }
+                ]
+              },
+              {
+                "id": 9,
+                "instances": [
+                  {
+                    "thumbnailId": "d053e259-6185-4ac4-b367-2729f87bd0b8",
+                    "adjustedStart": "0:00:20.64",
+                    "adjustedEnd": "0:00:20.68",
+                    "start": "0:00:20.64",
+                    "end": "0:00:20.68"
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "instances": [
+                  {
+                    "thumbnailId": "6c541fd6-4249-4286-9853-2d1d85dda294",
+                    "adjustedStart": "0:00:21",
+                    "adjustedEnd": "0:00:21.04",
+                    "start": "0:00:21",
+                    "end": "0:00:21.04"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:19.6",
+                "adjustedEnd": "0:00:21.84",
+                "start": "0:00:19.6",
+                "end": "0:00:21.84"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "keyFrames": [
+              {
+                "id": 11,
+                "instances": [
+                  {
+                    "thumbnailId": "0e06dfeb-dbcb-46b9-8bcd-f0b06ed45bf3",
+                    "adjustedStart": "0:00:21.84",
+                    "adjustedEnd": "0:00:21.88",
+                    "start": "0:00:21.84",
+                    "end": "0:00:21.88"
+                  }
+                ]
+              },
+              {
+                "id": 12,
+                "instances": [
+                  {
+                    "thumbnailId": "79f478a5-4aa9-4733-8e44-876f5294c840",
+                    "adjustedStart": "0:00:22.16",
+                    "adjustedEnd": "0:00:22.2",
+                    "start": "0:00:22.16",
+                    "end": "0:00:22.2"
+                  }
+                ]
+              },
+              {
+                "id": 13,
+                "instances": [
+                  {
+                    "thumbnailId": "add01540-a7fb-4ed3-8ed4-684c930dce29",
+                    "adjustedStart": "0:00:22.56",
+                    "adjustedEnd": "0:00:22.6",
+                    "start": "0:00:22.56",
+                    "end": "0:00:22.6"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:21.84",
+                "adjustedEnd": "0:00:23.2399999",
+                "start": "0:00:21.84",
+                "end": "0:00:23.2399999"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "keyFrames": [
+              {
+                "id": 14,
+                "instances": [
+                  {
+                    "thumbnailId": "b3cdb567-75c5-43f1-b1f6-2b1c91e5b519",
+                    "adjustedStart": "0:00:23.2399999",
+                    "adjustedEnd": "0:00:23.2799999",
+                    "start": "0:00:23.2399999",
+                    "end": "0:00:23.2799999"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:23.2399999",
+                "adjustedEnd": "0:00:30.6",
+                "start": "0:00:23.2399999",
+                "end": "0:00:30.6"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "keyFrames": [
+              {
+                "id": 15,
+                "instances": [
+                  {
+                    "thumbnailId": "2f114d73-81c9-4028-973c-87b8cb56f7da",
+                    "adjustedStart": "0:00:30.6",
+                    "adjustedEnd": "0:00:30.64",
+                    "start": "0:00:30.6",
+                    "end": "0:00:30.64"
+                  }
+                ]
+              },
+              {
+                "id": 16,
+                "instances": [
+                  {
+                    "thumbnailId": "9dd6ceaf-5df5-4859-ba6c-bbcaa5720da0",
+                    "adjustedStart": "0:00:31.48",
+                    "adjustedEnd": "0:00:31.52",
+                    "start": "0:00:31.48",
+                    "end": "0:00:31.52"
+                  }
+                ]
+              },
+              {
+                "id": 17,
+                "instances": [
+                  {
+                    "thumbnailId": "4bbc2cb8-332c-45a7-934b-30b5e2bf1e62",
+                    "adjustedStart": "0:00:32.36",
+                    "adjustedEnd": "0:00:32.4",
+                    "start": "0:00:32.36",
+                    "end": "0:00:32.4"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:30.6",
+                "adjustedEnd": "0:00:32.68",
+                "start": "0:00:30.6",
+                "end": "0:00:32.68"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "keyFrames": [
+              {
+                "id": 18,
+                "instances": [
+                  {
+                    "thumbnailId": "a2b33455-f029-4f5d-b877-8efbbc7064a0",
+                    "adjustedStart": "0:00:32.68",
+                    "adjustedEnd": "0:00:32.72",
+                    "start": "0:00:32.68",
+                    "end": "0:00:32.72"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:32.68",
+                "adjustedEnd": "0:00:57",
+                "start": "0:00:32.68",
+                "end": "0:00:57"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "keyFrames": [
+              {
+                "id": 19,
+                "instances": [
+                  {
+                    "thumbnailId": "43900f3a-c8dc-44cc-95e1-e52aaece34bb",
+                    "adjustedStart": "0:00:57",
+                    "adjustedEnd": "0:00:57.04",
+                    "start": "0:00:57",
+                    "end": "0:00:57.04"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:57",
+                "adjustedEnd": "0:01:01.96",
+                "start": "0:00:57",
+                "end": "0:01:01.96"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "keyFrames": [
+              {
+                "id": 20,
+                "instances": [
+                  {
+                    "thumbnailId": "197eee66-260c-4b26-bda1-0ffd18e1ae6d",
+                    "adjustedStart": "0:01:01.96",
+                    "adjustedEnd": "0:01:02",
+                    "start": "0:01:01.96",
+                    "end": "0:01:02"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:01.96",
+                "adjustedEnd": "0:01:10.04",
+                "start": "0:01:01.96",
+                "end": "0:01:10.04"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "keyFrames": [
+              {
+                "id": 21,
+                "instances": [
+                  {
+                    "thumbnailId": "967e82b6-4586-4325-90e6-1988dd29e293",
+                    "adjustedStart": "0:01:10.04",
+                    "adjustedEnd": "0:01:10.08",
+                    "start": "0:01:10.04",
+                    "end": "0:01:10.08"
+                  }
+                ]
+              },
+              {
+                "id": 22,
+                "instances": [
+                  {
+                    "thumbnailId": "dd84cb65-d283-4750-8929-6f568d97fc65",
+                    "adjustedStart": "0:01:12.56",
+                    "adjustedEnd": "0:01:12.6",
+                    "start": "0:01:12.56",
+                    "end": "0:01:12.6"
+                  }
+                ]
+              },
+              {
+                "id": 23,
+                "instances": [
+                  {
+                    "thumbnailId": "80868977-2309-4332-88c0-166125d8ae72",
+                    "adjustedStart": "0:01:14.52",
+                    "adjustedEnd": "0:01:14.56",
+                    "start": "0:01:14.52",
+                    "end": "0:01:14.56"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:10.04",
+                "adjustedEnd": "0:01:14.88",
+                "start": "0:01:10.04",
+                "end": "0:01:14.88"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "keyFrames": [
+              {
+                "id": 24,
+                "instances": [
+                  {
+                    "thumbnailId": "b1da834b-8f18-48df-b130-f6ff77be5fd3",
+                    "adjustedStart": "0:01:14.88",
+                    "adjustedEnd": "0:01:14.92",
+                    "start": "0:01:14.88",
+                    "end": "0:01:14.92"
+                  }
+                ]
+              },
+              {
+                "id": 25,
+                "instances": [
+                  {
+                    "thumbnailId": "8227a4e2-6064-4b64-9f17-d5db5e82ff03",
+                    "adjustedStart": "0:01:15.72",
+                    "adjustedEnd": "0:01:15.76",
+                    "start": "0:01:15.72",
+                    "end": "0:01:15.76"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:14.88",
+                "adjustedEnd": "0:01:16.84",
+                "start": "0:01:14.88",
+                "end": "0:01:16.84"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "keyFrames": [
+              {
+                "id": 26,
+                "instances": [
+                  {
+                    "thumbnailId": "63bb27ce-d2b3-45de-9eb4-17dc42cb5784",
+                    "adjustedStart": "0:01:16.84",
+                    "adjustedEnd": "0:01:16.88",
+                    "start": "0:01:16.84",
+                    "end": "0:01:16.88"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:16.84",
+                "adjustedEnd": "0:01:20.64",
+                "start": "0:01:16.84",
+                "end": "0:01:20.64"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "keyFrames": [
+              {
+                "id": 27,
+                "instances": [
+                  {
+                    "thumbnailId": "1cfd5978-dabb-4729-ac04-516326f157be",
+                    "adjustedStart": "0:01:20.64",
+                    "adjustedEnd": "0:01:20.68",
+                    "start": "0:01:20.64",
+                    "end": "0:01:20.68"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:20.64",
+                "adjustedEnd": "0:01:29.36",
+                "start": "0:01:20.64",
+                "end": "0:01:29.36"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "keyFrames": [
+              {
+                "id": 28,
+                "instances": [
+                  {
+                    "thumbnailId": "f38ae51c-c553-4a4e-bd45-ca8f6a7011fc",
+                    "adjustedStart": "0:01:29.36",
+                    "adjustedEnd": "0:01:29.4",
+                    "start": "0:01:29.36",
+                    "end": "0:01:29.4"
+                  }
+                ]
+              },
+              {
+                "id": 29,
+                "instances": [
+                  {
+                    "thumbnailId": "e27408fe-2bcb-4794-91f6-bde1bf74bcd2",
+                    "adjustedStart": "0:01:33.24",
+                    "adjustedEnd": "0:01:33.28",
+                    "start": "0:01:33.24",
+                    "end": "0:01:33.28"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:29.36",
+                "adjustedEnd": "0:01:33.28",
+                "start": "0:01:29.36",
+                "end": "0:01:33.28"
+              }
+            ]
+          }
+        ],
+        "brands": [
+          {
+            "id": 1,
+            "referenceType": "Wiki",
+            "name": "Rolex",
+            "referenceId": "Rolex",
+            "referenceUrl": "http://en.wikipedia.org/wiki/Rolex",
+            "description": "Rolex SA and its subsidiary Montres Tudor SA design, manufacture, distribute and service wristwatches sold under the Rolex and Tudor brands. Founded by Alfred Davis and Hans Wilsdorf in London, England in 1905 as Wilsdorf and Davis, Rolex moved its base of operations to Geneva, Switzerland in 1919.",
+            "tags": [],
+            "confidence": 1,
+            "isCustom": false,
+            "instances": [
+              {
+                "brandType": "Ocr",
+                "instanceSource": "Ocr",
+                "adjustedStart": "0:01:12",
+                "adjustedEnd": "0:01:14.04",
+                "start": "0:01:12",
+                "end": "0:01:14.04"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "referenceType": "Wiki",
+            "name": "Lacoste",
+            "referenceId": "Lacoste",
+            "referenceUrl": "http://en.wikipedia.org/wiki/Lacoste",
+            "description": "Lacoste ([laˈkɔst]) is a French clothing company, founded in 1933 by tennis player René Lacoste and André Gillier. It sells clothing, footwear, perfume, leather goods, watches, eyewear, and most famously polo shirts. In recent years, Lacoste has introduced a home line of sheeting and towels. The company can be recognized by its green crocodile logo. René Lacoste, the company's founder, was nicknamed \"the Crocodile\" by fans because of his tenacity on the tennis court. In November 2012 Lacoste was bought outright by Swiss family-held group Maus Frères .",
+            "tags": [],
+            "confidence": 1,
+            "isCustom": false,
+            "instances": [
+              {
+                "brandType": "Ocr",
+                "instanceSource": "Ocr",
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:15.04",
+                "start": "0:00:07",
+                "end": "0:00:15.04"
+              }
+            ]
+          }
+        ],
+        "namedLocations": [
+          {
+            "id": 1,
+            "name": "Florida",
+            "referenceId": "Florida",
+            "referenceUrl": "https://en.wikipedia.org/wiki/Florida",
+            "description": "Florida (/ˈflɒrɪdə/ ; Spanish for \"land of flowers\") is the southernmost contiguous state in the United States. The state is bordered to the west by the Gulf of Mexico, to the northwest by Alabama, to the north by Georgia, to the east by the Atlantic Ocean, and to the south by the Straits of Florida. Florida is the 22nd-most extensive (65,755 sq mi or 170,300 km²), the 3rd-most populous (21,312,211 inhabitants), and the 8th-most densely populated (384.3/sq mi or 148.4/km²) of the U.S. states. Jacksonville is the most populous municipality in the state and the largest city by area in the contiguous United States. The Miami metropolitan area is Florida's most populous urban area. Tallahassee is the state's capital.",
+            "tags": [],
+            "confidence": 0.91,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Ocr",
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:04.04",
+                "start": "0:00:00",
+                "end": "0:00:04.04"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "salon",
+            "referenceId": null,
+            "referenceUrl": null,
+            "description": null,
+            "tags": [],
+            "confidence": 0.82,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:01:12.03",
+                "adjustedEnd": "0:01:14.08",
+                "start": "0:01:12.03",
+                "end": "0:01:14.08"
+              }
+            ]
+          }
+        ],
+        "audioEffects": [
+          {
+            "id": 0,
+            "type": "CrowdReactions",
+            "instances": [
+              {
+                "confidence": 0.7321,
+                "adjustedStart": "0:00:09.5",
+                "adjustedEnd": "0:00:17.3",
+                "start": "0:00:09.5",
+                "end": "0:00:17.3"
+              },
+              {
+                "confidence": 0.564,
+                "adjustedStart": "0:00:21.35",
+                "adjustedEnd": "0:00:24.35",
+                "start": "0:00:21.35",
+                "end": "0:00:24.35"
+              },
+              {
+                "confidence": 0.7509,
+                "adjustedStart": "0:00:28.25",
+                "adjustedEnd": "0:00:33.35",
+                "start": "0:00:28.25",
+                "end": "0:00:33.35"
+              },
+              {
+                "confidence": 0.7115,
+                "adjustedStart": "0:00:41.55",
+                "adjustedEnd": "0:00:46.05",
+                "start": "0:00:41.55",
+                "end": "0:00:46.05"
+              },
+              {
+                "confidence": 0.585,
+                "adjustedStart": "0:00:55.65",
+                "adjustedEnd": "0:00:59.05",
+                "start": "0:00:55.65",
+                "end": "0:00:59.05"
+              },
+              {
+                "confidence": 0.8786,
+                "adjustedStart": "0:01:04.75",
+                "adjustedEnd": "0:01:37.88",
+                "start": "0:01:04.75",
+                "end": "0:01:37.88"
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": "GunshotOrExplosion",
+            "instances": [
+              {
+                "confidence": 0.4771,
+                "adjustedStart": "0:00:26.05",
+                "adjustedEnd": "0:00:27.55",
+                "start": "0:00:26.05",
+                "end": "0:00:27.55"
+              },
+              {
+                "confidence": 0.4455,
+                "adjustedStart": "0:00:49.95",
+                "adjustedEnd": "0:00:51.35",
+                "start": "0:00:49.95",
+                "end": "0:00:51.35"
+              },
+              {
+                "confidence": 0.5921,
+                "adjustedStart": "0:00:59.35",
+                "adjustedEnd": "0:01:01.35",
+                "start": "0:00:59.35",
+                "end": "0:01:01.35"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": "Silence",
+            "instances": [
+              {
+                "confidence": 1,
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:05",
+                "start": "0:00:00",
+                "end": "0:00:05"
+              }
+            ]
+          }
+        ],
+        "observedPeople": [
+          {
+            "id": 1,
+            "thumbnailId": "460dcdd2-ea9f-4450-a3ce-3de1b513d614",
+            "clothing": [
+              { "id": 1, "type": "sleeve", "properties": { "length": "short" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:14.68",
+                "adjustedEnd": "0:00:15.84",
+                "start": "0:00:14.68",
+                "end": "0:00:15.84"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "thumbnailId": "f9f41dc1-84f8-4ef5-948a-24f16c85eba3",
+            "clothing": [
+              { "id": 1, "type": "sleeve", "properties": { "length": "short" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:16.52",
+                "start": "0:00:15",
+                "end": "0:00:16.52"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "thumbnailId": "d57a0dab-1170-48a8-834a-330396ee15a9",
+            "clothing": [
+              { "id": 1, "type": "sleeve", "properties": { "length": "long" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:16.0799999",
+                "start": "0:00:15",
+                "end": "0:00:16.0799999"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "thumbnailId": "201eb889-8899-47ce-ace5-972d703c0edf",
+            "clothing": [
+              { "id": 1, "type": "sleeve", "properties": { "length": "short" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:15.6",
+                "adjustedEnd": "0:00:16.56",
+                "start": "0:00:15.6",
+                "end": "0:00:16.56"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "thumbnailId": "efed2ca7-69ca-41b2-b773-5ae62e2dc26f",
+            "clothing": [
+              { "id": 1, "type": "sleeve", "properties": { "length": "short" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:15.28",
+                "adjustedEnd": "0:00:16.56",
+                "start": "0:00:15.28",
+                "end": "0:00:16.56"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "thumbnailId": "60cba1c2-8c0f-447f-adf6-c71c7f2a5dff",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": { "length": "short" }
+              },
+              { "id": 2, "type": "pants", "properties": { "length": "long" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:56.96",
+                "adjustedEnd": "0:00:58.32",
+                "start": "0:00:56.96",
+                "end": "0:00:58.32"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "thumbnailId": "befc6b27-28f7-437c-a554-1b8451549a0d",
+            "clothing": [
+              { "id": 1, "type": "sleeve", "properties": { "length": "long" } },
+              { "id": 2, "type": "skirtAndDress" }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:56.96",
+                "adjustedEnd": "0:00:58.32",
+                "start": "0:00:56.96",
+                "end": "0:00:58.32"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "thumbnailId": "a034a00f-aa74-4227-90db-cf59baf4b54c",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": { "length": "short" }
+              },
+              { "id": 2, "type": "pants", "properties": { "length": "short" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:14.68",
+                "adjustedEnd": "0:00:16.56",
+                "start": "0:00:14.68",
+                "end": "0:00:16.56"
+              },
+              {
+                "adjustedStart": "0:00:56.96",
+                "adjustedEnd": "0:00:58.32",
+                "start": "0:00:56.96",
+                "end": "0:00:58.32"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "thumbnailId": "1e2e033e-137b-4281-bc67-1f3d6bff9a8f",
+            "clothing": [
+              { "id": 1, "type": "sleeve", "properties": { "length": "short" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:56.96",
+                "adjustedEnd": "0:00:58.32",
+                "start": "0:00:56.96",
+                "end": "0:00:58.32"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "thumbnailId": "50d5b58f-cfa0-4e37-b588-76f6d8cd0764",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": { "length": "short" }
+              },
+              { "id": 2, "type": "pants", "properties": { "length": "short" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:06.8",
+                "adjustedEnd": "0:00:14.68",
+                "start": "0:00:06.8",
+                "end": "0:00:14.68"
+              },
+              {
+                "adjustedStart": "0:00:16.56",
+                "adjustedEnd": "0:00:19.56",
+                "start": "0:00:16.56",
+                "end": "0:00:19.56"
+              },
+              {
+                "adjustedStart": "0:00:23.2399999",
+                "adjustedEnd": "0:00:28.6",
+                "start": "0:00:23.2399999",
+                "end": "0:00:28.6"
+              },
+              {
+                "adjustedStart": "0:00:32.44",
+                "adjustedEnd": "0:00:37.68",
+                "start": "0:00:32.44",
+                "end": "0:00:37.68"
+              },
+              {
+                "adjustedStart": "0:00:38.32",
+                "adjustedEnd": "0:00:56.96",
+                "start": "0:00:38.32",
+                "end": "0:00:56.96"
+              },
+              {
+                "adjustedStart": "0:00:58.32",
+                "adjustedEnd": "0:01:01.56",
+                "start": "0:00:58.32",
+                "end": "0:01:01.56"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "thumbnailId": "13deb761-84dc-4390-a4e7-2f290bf15f5f",
+            "instances": [
+              {
+                "adjustedStart": "0:01:09.44",
+                "adjustedEnd": "0:01:10",
+                "start": "0:01:09.44",
+                "end": "0:01:10"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "thumbnailId": "675a98c2-338e-4303-8d37-efcb400356bf",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": { "length": "short" }
+              },
+              { "id": 2, "type": "pants", "properties": { "length": "short" } },
+              { "id": 3, "type": "skirtAndDress" }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:10",
+                "adjustedEnd": "0:01:13.8",
+                "start": "0:01:10",
+                "end": "0:01:13.8"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "thumbnailId": "34d2f987-8690-44fc-9083-69ab71a4eab6",
+            "instances": [
+              {
+                "adjustedStart": "0:01:16.76",
+                "adjustedEnd": "0:01:17.48",
+                "start": "0:01:16.76",
+                "end": "0:01:17.48"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "thumbnailId": "0ea17a53-5b92-4a7e-8d29-715c8a3cd9b7",
+            "clothing": [
+              { "id": 1, "type": "sleeve", "properties": { "length": "short" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:16.56",
+                "adjustedEnd": "0:01:17.76",
+                "start": "0:01:16.56",
+                "end": "0:01:17.76"
+              },
+              {
+                "adjustedStart": "0:01:18.4",
+                "adjustedEnd": "0:01:18.52",
+                "start": "0:01:18.4",
+                "end": "0:01:18.52"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "thumbnailId": "b8666592-7403-4628-a380-f9b42b619832",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": { "length": "short" }
+              },
+              { "id": 2, "type": "pants", "properties": { "length": "short" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:29.36",
+                "adjustedEnd": "0:01:37.84",
+                "start": "0:01:29.36",
+                "end": "0:01:37.84"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "thumbnailId": "48adc5d4-8fcb-4846-aa50-d6c94ca88b46",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": { "length": "short" }
+              },
+              { "id": 2, "type": "pants", "properties": { "length": "long" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:33.88",
+                "adjustedEnd": "0:01:37.84",
+                "start": "0:01:33.88",
+                "end": "0:01:37.84"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "thumbnailId": "dffd468c-9092-484b-8ee0-e249208ed3e5",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": { "length": "short" }
+              },
+              { "id": 2, "type": "pants", "properties": { "length": "long" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:32.2",
+                "adjustedEnd": "0:01:34.08",
+                "start": "0:01:32.2",
+                "end": "0:01:34.08"
+              },
+              {
+                "adjustedStart": "0:01:36.08",
+                "adjustedEnd": "0:01:37.84",
+                "start": "0:01:36.08",
+                "end": "0:01:37.84"
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "thumbnailId": "252af6d7-1a45-4184-bb7c-dbe00a04ddf6",
+            "clothing": [
+              { "id": 1, "type": "sleeve", "properties": { "length": "short" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:35.16",
+                "adjustedEnd": "0:01:37.76",
+                "start": "0:01:35.16",
+                "end": "0:01:37.76"
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "thumbnailId": "bca9bf11-4c60-476f-861e-fe55e07ff9ef",
+            "clothing": [
+              { "id": 1, "type": "sleeve", "properties": { "length": "long" } },
+              { "id": 2, "type": "pants", "properties": { "length": "long" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:32.44",
+                "adjustedEnd": "0:01:33.28",
+                "start": "0:01:32.44",
+                "end": "0:01:33.28"
+              },
+              {
+                "adjustedStart": "0:01:36.16",
+                "adjustedEnd": "0:01:37.64",
+                "start": "0:01:36.16",
+                "end": "0:01:37.64"
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "thumbnailId": "9f9ec234-3a49-4d8a-85c3-ab12112a2229",
+            "instances": [
+              {
+                "adjustedStart": "0:01:37.12",
+                "adjustedEnd": "0:01:37.84",
+                "start": "0:01:37.12",
+                "end": "0:01:37.84"
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "thumbnailId": "f50f1881-66c6-43be-91bc-fdf9afa81e18",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": { "length": "short" }
+              },
+              { "id": 2, "type": "pants", "properties": { "length": "long" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:33.16",
+                "adjustedEnd": "0:01:37.44",
+                "start": "0:01:33.16",
+                "end": "0:01:37.44"
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "thumbnailId": "89d47783-a165-4ef8-8df3-1d09e337a9aa",
+            "clothing": [
+              { "id": 1, "type": "sleeve", "properties": { "length": "long" } },
+              { "id": 2, "type": "pants", "properties": { "length": "long" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:35.16",
+                "adjustedEnd": "0:01:37.8",
+                "start": "0:01:35.16",
+                "end": "0:01:37.8"
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "thumbnailId": "4d93be4f-1721-467d-96e2-917dd841aafa",
+            "instances": [
+              {
+                "adjustedStart": "0:01:36.8",
+                "adjustedEnd": "0:01:37.84",
+                "start": "0:01:36.8",
+                "end": "0:01:37.84"
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "thumbnailId": "56a95fc6-ee3a-4851-8aad-9a45bd051088",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": { "length": "short" }
+              },
+              { "id": 2, "type": "pants", "properties": { "length": "long" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:35",
+                "adjustedEnd": "0:01:37.72",
+                "start": "0:01:35",
+                "end": "0:01:37.72"
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "thumbnailId": "fdc9d5a3-f741-4962-a2d1-3f9733bbd020",
+            "instances": [
+              {
+                "adjustedStart": "0:01:36.64",
+                "adjustedEnd": "0:01:37.2",
+                "start": "0:01:36.64",
+                "end": "0:01:37.2"
+              },
+              {
+                "adjustedStart": "0:01:37.64",
+                "adjustedEnd": "0:01:37.84",
+                "start": "0:01:37.64",
+                "end": "0:01:37.84"
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "thumbnailId": "7cb2fa54-e7b4-4bf5-8708-7d60fac0cd49",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": { "length": "short" }
+              },
+              { "id": 2, "type": "skirtAndDress" }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:35.52",
+                "adjustedEnd": "0:01:36.9599999",
+                "start": "0:01:35.52",
+                "end": "0:01:36.9599999"
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "thumbnailId": "c7e20807-4e04-402a-89d2-39c91d0ab51f",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": { "length": "short" }
+              },
+              { "id": 2, "type": "skirtAndDress" }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:31.44",
+                "adjustedEnd": "0:01:32.6",
+                "start": "0:01:31.44",
+                "end": "0:01:32.6"
+              },
+              {
+                "adjustedStart": "0:01:33.52",
+                "adjustedEnd": "0:01:36.28",
+                "start": "0:01:33.52",
+                "end": "0:01:36.28"
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "thumbnailId": "815aea6b-c7b7-419c-9939-dae9639da975",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": { "length": "short" }
+              },
+              { "id": 2, "type": "pants", "properties": { "length": "long" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:32.84",
+                "adjustedEnd": "0:01:33.36",
+                "start": "0:01:32.84",
+                "end": "0:01:33.36"
+              },
+              {
+                "adjustedStart": "0:01:34",
+                "adjustedEnd": "0:01:34.24",
+                "start": "0:01:34",
+                "end": "0:01:34.24"
+              },
+              {
+                "adjustedStart": "0:01:34.8",
+                "adjustedEnd": "0:01:34.92",
+                "start": "0:01:34.8",
+                "end": "0:01:34.92"
+              },
+              {
+                "adjustedStart": "0:01:36",
+                "adjustedEnd": "0:01:36.12",
+                "start": "0:01:36",
+                "end": "0:01:36.12"
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "thumbnailId": "16ddc792-44e1-4703-8331-9452f174d79b",
+            "instances": [
+              {
+                "adjustedStart": "0:01:35.4",
+                "adjustedEnd": "0:01:36",
+                "start": "0:01:35.4",
+                "end": "0:01:36"
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "thumbnailId": "eb220f8b-36c3-4f7f-a5be-98e669a747d9",
+            "instances": [
+              {
+                "adjustedStart": "0:01:34.6",
+                "adjustedEnd": "0:01:35.6",
+                "start": "0:01:34.6",
+                "end": "0:01:35.6"
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "thumbnailId": "56a796dd-cc19-497b-ae45-d3973d480aa5",
+            "clothing": [
+              { "id": 1, "type": "sleeve", "properties": { "length": "long" } },
+              { "id": 2, "type": "pants", "properties": { "length": "long" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:34.56",
+                "adjustedEnd": "0:01:35.56",
+                "start": "0:01:34.56",
+                "end": "0:01:35.56"
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "thumbnailId": "bf97d3c9-6c74-45a9-ac50-d8c5650947af",
+            "instances": [
+              {
+                "adjustedStart": "0:01:34.16",
+                "adjustedEnd": "0:01:35.56",
+                "start": "0:01:34.16",
+                "end": "0:01:35.56"
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "thumbnailId": "042dc13a-85a4-476e-8d2b-2c44fa9bf2e4",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": { "length": "short" }
+              },
+              { "id": 2, "type": "pants", "properties": { "length": "long" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:32.68",
+                "adjustedEnd": "0:01:34.3199999",
+                "start": "0:01:32.68",
+                "end": "0:01:34.3199999"
+              },
+              {
+                "adjustedStart": "0:01:35.08",
+                "adjustedEnd": "0:01:35.52",
+                "start": "0:01:35.08",
+                "end": "0:01:35.52"
+              },
+              {
+                "adjustedStart": "0:01:37.6",
+                "adjustedEnd": "0:01:37.84",
+                "start": "0:01:37.6",
+                "end": "0:01:37.84"
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "thumbnailId": "e2cb7e7f-15d1-4eb7-9b2e-604997cd3d09",
+            "instances": [
+              {
+                "adjustedStart": "0:01:34.08",
+                "adjustedEnd": "0:01:34.92",
+                "start": "0:01:34.08",
+                "end": "0:01:34.92"
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "thumbnailId": "d1882d6a-bc93-4b63-adca-91e06a1ac004",
+            "instances": [
+              {
+                "adjustedStart": "0:01:34.24",
+                "adjustedEnd": "0:01:34.88",
+                "start": "0:01:34.24",
+                "end": "0:01:34.88"
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "thumbnailId": "4661f2db-7452-46db-9941-f0c72a3b9bed",
+            "instances": [
+              {
+                "adjustedStart": "0:01:34.16",
+                "adjustedEnd": "0:01:34.84",
+                "start": "0:01:34.16",
+                "end": "0:01:34.84"
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "thumbnailId": "78a2f2aa-4359-4f0a-9f95-74bbf9bf31e6",
+            "clothing": [
+              { "id": 1, "type": "sleeve", "properties": { "length": "long" } },
+              { "id": 2, "type": "pants", "properties": { "length": "long" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:32.2",
+                "adjustedEnd": "0:01:33.84",
+                "start": "0:01:32.2",
+                "end": "0:01:33.84"
+              },
+              {
+                "adjustedStart": "0:01:34.24",
+                "adjustedEnd": "0:01:34.6",
+                "start": "0:01:34.24",
+                "end": "0:01:34.6"
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "thumbnailId": "b1a81085-e7ce-48a5-b6a4-e004c126615b",
+            "clothing": [
+              { "id": 1, "type": "sleeve", "properties": { "length": "short" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:32.28",
+                "adjustedEnd": "0:01:33.48",
+                "start": "0:01:32.28",
+                "end": "0:01:33.48"
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "thumbnailId": "04d05390-f35a-4ac9-9161-457e6d861440",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": { "length": "short" }
+              },
+              { "id": 2, "type": "pants", "properties": { "length": "short" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:29.8",
+                "adjustedEnd": "0:01:33.08",
+                "start": "0:01:29.8",
+                "end": "0:01:33.08"
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "thumbnailId": "32f6075b-0de1-4435-b6ae-cb5721b7bc9c",
+            "clothing": [
+              { "id": 1, "type": "sleeve", "properties": { "length": "short" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:31.08",
+                "adjustedEnd": "0:01:32.52",
+                "start": "0:01:31.08",
+                "end": "0:01:32.52"
+              }
+            ]
+          },
+          {
+            "id": 41,
+            "thumbnailId": "1dc5ad3f-6ea5-409c-bcd1-99c62e9de540",
+            "instances": [
+              {
+                "adjustedStart": "0:01:31.4",
+                "adjustedEnd": "0:01:32.08",
+                "start": "0:01:31.4",
+                "end": "0:01:32.08"
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "thumbnailId": "984bc16f-6a99-4fbe-af44-4ea23e39a278",
+            "instances": [
+              {
+                "adjustedStart": "0:01:29.36",
+                "adjustedEnd": "0:01:29.84",
+                "start": "0:01:29.36",
+                "end": "0:01:29.84"
+              }
+            ]
+          },
+          {
+            "id": 43,
+            "thumbnailId": "72c32641-cfc1-44a4-9abf-cc38ced86c2b",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": { "length": "short" }
+              },
+              { "id": 2, "type": "pants", "properties": { "length": "short" } }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:20.4",
+                "adjustedEnd": "0:01:22.3199999",
+                "start": "0:01:20.4",
+                "end": "0:01:22.3199999"
+              },
+              {
+                "adjustedStart": "0:01:23.52",
+                "adjustedEnd": "0:01:23.84",
+                "start": "0:01:23.52",
+                "end": "0:01:23.84"
+              },
+              {
+                "adjustedStart": "0:01:24.76",
+                "adjustedEnd": "0:01:27.68",
+                "start": "0:01:24.76",
+                "end": "0:01:27.68"
+              }
+            ]
+          },
+          {
+            "id": 44,
+            "thumbnailId": "49b68a3a-b31a-46d3-83e8-9b9bc8137816",
+            "clothing": [
+              {
+                "id": 1,
+                "type": "sleeve",
+                "properties": { "length": "short" }
+              },
+              { "id": 2, "type": "skirtAndDress" }
+            ],
+            "matchingFace": { "id": 1158, "confidence": 0.5682 },
+            "instances": [
+              {
+                "adjustedStart": "0:01:11.3199999",
+                "adjustedEnd": "0:01:14.12",
+                "start": "0:01:11.3199999",
+                "end": "0:01:14.12"
+              },
+              {
+                "adjustedStart": "0:01:16.56",
+                "adjustedEnd": "0:01:20.36",
+                "start": "0:01:16.56",
+                "end": "0:01:20.36"
+              }
+            ]
+          },
+          {
+            "id": 45,
+            "thumbnailId": "9fd9ed0c-0286-4c72-82d4-a1d6e910c811",
+            "instances": [
+              {
+                "adjustedStart": "0:01:37.72",
+                "adjustedEnd": "0:01:37.84",
+                "start": "0:01:37.72",
+                "end": "0:01:37.84"
+              }
+            ]
+          },
+          {
+            "id": 46,
+            "thumbnailId": "541cf8ed-9592-44eb-913c-d85899675a12",
+            "instances": [
+              {
+                "adjustedStart": "0:01:37.76",
+                "adjustedEnd": "0:01:37.8",
+                "start": "0:01:37.76",
+                "end": "0:01:37.8"
+              }
+            ]
+          },
+          {
+            "id": 47,
+            "thumbnailId": "334e93b7-5f04-4958-93fc-d27ac8f23418",
+            "instances": [
+              {
+                "adjustedStart": "0:01:37.8",
+                "adjustedEnd": "0:01:37.84",
+                "start": "0:01:37.8",
+                "end": "0:01:37.84"
+              }
+            ]
+          },
+          {
+            "id": 48,
+            "thumbnailId": "04ade2e1-ae62-4e4f-adab-8fba7c7bfde4",
+            "instances": [
+              {
+                "adjustedStart": "0:01:37.8",
+                "adjustedEnd": "0:01:37.84",
+                "start": "0:01:37.8",
+                "end": "0:01:37.84"
+              }
+            ]
+          }
+        ],
+        "blocks": [
+          {
+            "id": 0,
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:01:09.8",
+                "start": "0:00:00",
+                "end": "0:01:09.8"
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "instances": [
+              {
+                "adjustedStart": "0:01:09.8",
+                "adjustedEnd": "0:01:37.88",
+                "start": "0:01:09.8",
+                "end": "0:01:37.88"
+              }
+            ]
+          }
+        ],
+        "speakers": [
+          {
+            "id": 1,
+            "name": "Speaker #1",
+            "instances": [
+              {
+                "adjustedStart": "0:00:19.13",
+                "adjustedEnd": "0:00:20.1",
+                "start": "0:00:19.13",
+                "end": "0:00:20.1"
+              },
+              {
+                "adjustedStart": "0:00:20.88",
+                "adjustedEnd": "0:00:21.35",
+                "start": "0:00:20.88",
+                "end": "0:00:21.35"
+              },
+              {
+                "adjustedStart": "0:01:09.23",
+                "adjustedEnd": "0:01:09.8",
+                "start": "0:01:09.23",
+                "end": "0:01:09.8"
+              },
+              {
+                "adjustedStart": "0:01:11.29",
+                "adjustedEnd": "0:01:11.94",
+                "start": "0:01:11.29",
+                "end": "0:01:11.94"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Speaker #2",
+            "instances": [
+              {
+                "adjustedStart": "0:01:12.03",
+                "adjustedEnd": "0:01:14.08",
+                "start": "0:01:12.03",
+                "end": "0:01:14.08"
+              }
+            ]
+          }
+        ],
+        "textualContentModeration": {
+          "id": 0,
+          "bannedWordsCount": 0,
+          "bannedWordsRatio": 0,
+          "instances": []
+        },
+        "statistics": {
+          "correspondenceCount": 1,
+          "speakerTalkToListenRatio": { "1": 0.564, "2": 0.435 },
+          "speakerLongestMonolog": { "1": 2, "2": 2 },
+          "speakerNumberOfFragments": { "1": 4, "2": 1 },
+          "speakerWordCount": { "1": 7, "2": 4 }
+        },
+        "sourceLanguageConfidence": 1
+      },
+      "thumbnailId": "e9a5f9c4-1211-47b4-8022-b2f8851e300c",
+      "detectSourceLanguage": true,
+      "languageAutoDetectMode": "Single",
+      "sourceLanguage": "en-US",
+      "sourceLanguages": ["en-US"],
+      "language": "en-US",
+      "languages": ["en-US"],
+      "indexingPreset": "Advanced",
+      "linguisticModelId": "00000000-0000-0000-0000-000000000000",
+      "personModelId": "00000000-0000-0000-0000-000000000000",
+      "isAdult": false,
+      "publishedUrl": "https://mediaservicesstg1517-euwe.streaming.media.azure.net/f7e5d0a9-0d24-427d-ad85-8ec5774c57ff/5e77ffe4b59065189b5e523ae2a04b17.ism/manifest(encryption=cbc)",
+      "publishedProxyUrl": null,
+      "viewToken": "Bearer=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cm46bWljcm9zb2Z0OmF6dXJlOm1lZGlhc2VydmljZXM6Y29udGVudGtleWlkZW50aWZpZXIiOiIwMTUwZmI4ZS01NDhmLTRhNGQtYjY0ZC01YzgyN2ViYzg5ZWYiLCJuYmYiOjE2NTYzMTYyMjksImV4cCI6MTY1NjM1OTQ4OSwiaXNzIjoiaHR0cHM6Ly9icmVha2Rvd24ubWUiLCJhdWQiOiJCcmVha2Rvd25Vc2VyIn0.bR15_kG4PnBQ1d_qjiI_l3LX3YGLxwSGRklZeT32UTQ"
+    }
+  ],
+  "videosRanges": [
+    {
+      "videoId": "634d74e630",
+      "range": { "start": "0:00:00", "end": "0:01:37.88" }
+    }
+  ]
+}

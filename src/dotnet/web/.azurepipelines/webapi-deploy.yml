@@ -1,0 +1,58 @@
+trigger:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - src/dotnet/web/api
+      - src/dotnet/common
+
+pool:
+  vmImage: "ubuntu-latest"
+
+variables:
+  - group: waldo-staging
+  - name: serviceConnection
+    value: waldo-service-connection
+  - name: apiDirectory
+    value: $(Build.SourcesDirectory)/src/dotnet/web/api
+  - name: buildConfiguration
+    value: Release
+
+steps:
+  - bash: |
+      dotnet restore
+      dotnet build --configuration $(buildConfiguration)
+    displayName: Restore and Build $(buildConfiguration)
+    workingDirectory: $(apiDirectory)
+
+  - task: DotNetCoreCLI@2
+    displayName: Publish the application and its dependencies
+    inputs:
+      command: publish
+      arguments: "--configuration $(buildConfiguration) --output $(functionsDirectory)/publish_output"
+      projects: "$(apiDirectory)/*.csproj"
+      publishWebProjects: false
+      modifyOutputPath: false
+      zipAfterPublish: false
+
+  - task: ArchiveFiles@2
+    displayName: Archive files
+    inputs:
+      rootFolderOrFile: "$(functionsDirectory)/publish_output"
+      includeRootFolder: false
+      archiveFile: "$(System.DefaultWorkingDirectory)/build$(Build.BuildId).zip"
+
+  - task: PublishBuildArtifacts@1
+    displayName: Publish build artifacts
+    inputs:
+      PathtoPublish: "$(System.DefaultWorkingDirectory)/build$(Build.BuildId).zip"
+      artifactName: "drop"
+
+  - task: AzureWebApp@1
+    displayName: Deploy web api to staging environment
+    inputs:
+      azureSubscription: $(serviceConnection)
+      appType: 'webAppLinux'
+      appName: $(core_webapi_name)
+      package: "$(System.DefaultWorkingDirectory)/build$(Build.BuildId).zip"

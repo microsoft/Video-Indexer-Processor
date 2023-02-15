@@ -1,0 +1,49 @@
+trigger:
+  branches:
+    include:
+    - main
+  paths:
+    include:
+    - infra/arm
+    - infra/terraform
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  location: eastus
+  serviceConnection: waldo-service-connection
+  resourceGroupName: rg-waldo-all-state
+  storageAccountName: tfstorageallstate
+  storageContainerName: tfstate
+  keyvaultName: keyvault-all-state
+  scriptsDirectory: $(Build.SourcesDirectory)/infra/.azurepipelines/scripts
+  terraformDirectory: $(Build.SourcesDirectory)/infra/terraform
+
+stages:
+- stage: requirements
+  jobs: 
+  - job: checkrequirements
+    displayName: 'Check backend terraform states requirements'
+    steps:
+    - task: AzureCLI@2
+      displayName: 'Resource requirements to manage terraform states'
+      inputs:
+        azureSubscription: $(serviceConnection)
+        scriptType: bash
+        scriptLocation: scriptPath
+        arguments: $(location) $(resourceGroupName) $(storageAccountName) $(storageContainerName) $(keyvaultName)
+        scriptPath: $(scriptsDirectory)/state-requirements.sh
+
+- stage: integration
+  jobs:
+  - template: terraform-deploy-steps.yml
+    parameters:
+      environment: integration
+      
+- stage: staging
+  jobs:
+  - template: terraform-deploy-steps.yml
+    parameters:
+      environment: staging
+

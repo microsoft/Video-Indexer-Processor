@@ -1,0 +1,671 @@
+{
+    "partition": null,
+    "description": null,
+    "privacyMode": "Private",
+    "state": "Processed",
+    "accountId": "50ef9158-cd43-4bd1-95a5-f9401277a96e",
+    "id": "c1b3c12e75",
+    "name": "video993",
+    "userName": "Malvina Matlis",
+    "created": "2022-07-20T07:32:53.7853979+00:00",
+    "isOwned": true,
+    "isEditable": false,
+    "isBase": true,
+    "durationInSeconds": 12,
+    "summarizedInsights": {},
+    "videos": [
+        {
+            "accountId": "50ef9158-cd43-4bd1-95a5-f9401277a96e",
+            "id": "c1b3c12e75",
+            "state": "Processed",
+            "moderationState": "OK",
+            "reviewState": "None",
+            "privacyMode": "Private",
+            "processingProgress": "100%",
+            "failureCode": "None",
+            "failureMessage": "",
+            "externalId": null,
+            "externalUrl": null,
+            "metadata": null,
+            "insights": {
+                "version": "1.0.0.0",
+                "duration": "0:00:12",
+                "sourceLanguage": "en-US",
+                "sourceLanguages": [
+                    "en-US"
+                ],
+                "language": "en-US",
+                "languages": [
+                    "en-US"
+                ],
+                "transcript": [
+                    {
+                        "id": 1,
+                        "text": "Sky News is now on Snapchat.",
+                        "confidence": 0.8687,
+                        "speakerId": 1,
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00.5",
+                                "adjustedEnd": "0:00:02.61",
+                                "start": "0:00:00.5",
+                                "end": "0:00:02.61"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "text": "It's all the best stories of the day delivered straight.",
+                        "confidence": 0.8687,
+                        "speakerId": 2,
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:02.62",
+                                "adjustedEnd": "0:00:05.11",
+                                "start": "0:00:02.62",
+                                "end": "0:00:05.11"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "text": "To the app and it couldn't.",
+                        "confidence": 0.8687,
+                        "speakerId": 3,
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:05.12",
+                                "adjustedEnd": "0:00:06.53",
+                                "start": "0:00:05.12",
+                                "end": "0:00:06.53"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "text": "Be easier to use.",
+                        "confidence": 0.8687,
+                        "speakerId": 4,
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:06.54",
+                                "adjustedEnd": "0:00:07.77",
+                                "start": "0:00:06.54",
+                                "end": "0:00:07.77"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "text": "Just go to the Discover section.",
+                        "confidence": 0.8687,
+                        "speakerId": 5,
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:07.88",
+                                "adjustedEnd": "0:00:09.35",
+                                "start": "0:00:07.88",
+                                "end": "0:00:09.35"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "text": "On Snapchat and tap.",
+                        "confidence": 0.8687,
+                        "speakerId": 1,
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:09.36",
+                                "adjustedEnd": "0:00:10.53",
+                                "start": "0:00:09.36",
+                                "end": "0:00:10.53"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7,
+                        "text": "On the Sky News icon.",
+                        "confidence": 0.8687,
+                        "speakerId": 4,
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:10.54",
+                                "adjustedEnd": "0:00:11.93",
+                                "start": "0:00:10.54",
+                                "end": "0:00:11.93"
+                            }
+                        ]
+                    }
+                ],
+                "keywords": [
+                    {
+                        "id": 1,
+                        "text": "sky news",
+                        "confidence": 0.9975,
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00.5",
+                                "adjustedEnd": "0:00:02.61",
+                                "start": "0:00:00.5",
+                                "end": "0:00:02.61"
+                            },
+                            {
+                                "adjustedStart": "0:00:10.54",
+                                "adjustedEnd": "0:00:11.93",
+                                "start": "0:00:10.54",
+                                "end": "0:00:11.93"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "text": "snapchat",
+                        "confidence": 0.6211,
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00.5",
+                                "adjustedEnd": "0:00:02.61",
+                                "start": "0:00:00.5",
+                                "end": "0:00:02.61"
+                            },
+                            {
+                                "adjustedStart": "0:00:09.36",
+                                "adjustedEnd": "0:00:10.53",
+                                "start": "0:00:09.36",
+                                "end": "0:00:10.53"
+                            }
+                        ]
+                    }
+                ],
+                "topics": [
+                    {
+                        "id": 1,
+                        "name": "Snapchat Company",
+                        "referenceId": "Snapchat Company",
+                        "referenceType": "VideoIndexer",
+                        "confidence": 0.9217,
+                        "iabName": null,
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:12",
+                                "start": "0:00:00",
+                                "end": "0:00:12"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "name": "Technology",
+                        "referenceId": "Education/Technology",
+                        "referenceType": "VideoIndexer",
+                        "iptcName": "Education",
+                        "confidence": 0.8992,
+                        "iabName": "Education",
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:12",
+                                "start": "0:00:00",
+                                "end": "0:00:12"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "name": "Mobile Applications",
+                        "referenceId": "Technology/Mobile Technology/Mobile Applications",
+                        "referenceType": "VideoIndexer",
+                        "iptcName": "Science and Technology/technology (general)",
+                        "confidence": 0.8529,
+                        "iabName": "Technology & Computing",
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:12",
+                                "start": "0:00:00",
+                                "end": "0:00:12"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "name": "Snapchat Product",
+                        "referenceId": "Snapchat Product",
+                        "referenceType": "VideoIndexer",
+                        "confidence": 0.7302,
+                        "iabName": null,
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:12",
+                                "start": "0:00:00",
+                                "end": "0:00:12"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "name": "Iphone Applications",
+                        "referenceId": "Technology/Mobile Technology/Iphone Applications",
+                        "referenceType": "VideoIndexer",
+                        "iptcName": "Science and Technology/technology (general)",
+                        "confidence": 0.6879,
+                        "iabName": "Technology & Computing",
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:12",
+                                "start": "0:00:00",
+                                "end": "0:00:12"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "name": "Ios Applications",
+                        "referenceId": "Technology/Mobile Technology/Ios Applications",
+                        "referenceType": "VideoIndexer",
+                        "iptcName": "Science and Technology/technology (general)",
+                        "confidence": 0.6538,
+                        "iabName": "Technology & Computing",
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:12",
+                                "start": "0:00:00",
+                                "end": "0:00:12"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7,
+                        "name": "Android Applications",
+                        "referenceId": "Technology/Software and Applications/Android Applications",
+                        "referenceType": "VideoIndexer",
+                        "iptcName": "Science and Technology/IT/computer sciences",
+                        "confidence": 0.5824,
+                        "iabName": "Technology & Computing",
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:12",
+                                "start": "0:00:00",
+                                "end": "0:00:12"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 8,
+                        "name": "Windows Phones",
+                        "referenceId": "Windows Phones",
+                        "referenceType": "VideoIndexer",
+                        "confidence": 0.5385,
+                        "iabName": null,
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:12",
+                                "start": "0:00:00",
+                                "end": "0:00:12"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 9,
+                        "name": "Ios App Store",
+                        "referenceId": "Technology/Ios App Store",
+                        "referenceType": "VideoIndexer",
+                        "iptcName": "Science and Technology/technology (general)",
+                        "confidence": 0.5172,
+                        "iabName": "Technology & Computing",
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:12",
+                                "start": "0:00:00",
+                                "end": "0:00:12"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "name": "Whatsapp Company",
+                        "referenceId": "Whatsapp Company",
+                        "referenceType": "VideoIndexer",
+                        "confidence": 0.3833,
+                        "iabName": null,
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:12",
+                                "start": "0:00:00",
+                                "end": "0:00:12"
+                            }
+                        ]
+                    }
+                ],
+                "faces": [
+                    {
+                        "id": 1009,
+                        "name": "Unknown #1",
+                        "confidence": 0,
+                        "description": null,
+                        "thumbnailId": "861da412-b949-437b-8801-a7ee916c8320",
+                        "title": null,
+                        "imageUrl": null,
+                        "thumbnails": [],
+                        "instances": [
+                            {
+                                "thumbnailsIds": [
+                                    "13b45963-d8c0-4693-9606-e0da7747f84b",
+                                    "861da412-b949-437b-8801-a7ee916c8320",
+                                    "8678e683-a632-4e99-b9b4-8b61ad88956d",
+                                    "18da4aec-1be2-4437-a3a1-563b9b7b4174"
+                                ],
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:11.96",
+                                "start": "0:00:00",
+                                "end": "0:00:11.96"
+                            }
+                        ]
+                    }
+                ],
+                "labels": [
+                    {
+                        "id": 1,
+                        "name": "person",
+                        "referenceId": "person",
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "confidence": 0.9968,
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:11.04",
+                                "start": "0:00:00",
+                                "end": "0:00:11.04"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "name": "clothing",
+                        "referenceId": "consumer goods/clothing",
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "confidence": 0.9868,
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:11.04",
+                                "start": "0:00:00",
+                                "end": "0:00:11.04"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "name": "indoor",
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "confidence": 0.9804,
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:11.04",
+                                "start": "0:00:00",
+                                "end": "0:00:11.04"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "name": "suit",
+                        "referenceId": "consumer goods/clothing/suit",
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "confidence": 0.9767,
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:00.04",
+                                "start": "0:00:00",
+                                "end": "0:00:00.04"
+                            },
+                            {
+                                "confidence": 0.9658,
+                                "adjustedStart": "0:00:02",
+                                "adjustedEnd": "0:00:11.04",
+                                "start": "0:00:02",
+                                "end": "0:00:11.04"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "name": "furniture",
+                        "referenceId": "furniture",
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "confidence": 0.9553,
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:00.04",
+                                "start": "0:00:00",
+                                "end": "0:00:00.04"
+                            },
+                            {
+                                "confidence": 0.9562,
+                                "adjustedStart": "0:00:04",
+                                "adjustedEnd": "0:00:11.04",
+                                "start": "0:00:04",
+                                "end": "0:00:11.04"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "name": "human face",
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "confidence": 0.9636,
+                                "adjustedStart": "0:00:01",
+                                "adjustedEnd": "0:00:01.04",
+                                "start": "0:00:01",
+                                "end": "0:00:01.04"
+                            },
+                            {
+                                "confidence": 0.9579,
+                                "adjustedStart": "0:00:04",
+                                "adjustedEnd": "0:00:04.04",
+                                "start": "0:00:04",
+                                "end": "0:00:04.04"
+                            }
+                        ]
+                    }
+                ],
+                "scenes": [
+                    {
+                        "id": 1,
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:11.96",
+                                "start": "0:00:00",
+                                "end": "0:00:11.96"
+                            }
+                        ]
+                    }
+                ],
+                "shots": [
+                    {
+                        "id": 1,
+                        "tags": [
+                            "Medium",
+                            "CenterFace"
+                        ],
+                        "keyFrames": [],
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:11.96",
+                                "start": "0:00:00",
+                                "end": "0:00:11.96"
+                            }
+                        ]
+                    }
+                ],
+                "brands": [
+                    {
+                        "id": 1,
+                        "referenceType": "Wiki",
+                        "name": "Snapchat",
+                        "referenceId": "Snapchat",
+                        "referenceUrl": "http://en.wikipedia.org/wiki/Snapchat",
+                        "description": "Snapchat is an image messaging application software product created by Evan Spiegel, Bobby Murphy, and Frank Reginald \"Reggie\" Brown IV when they were students at Stanford University. According to Snapchat's published statistics, as of May 2015, the app's users were sending 2 billion photos and videos per day, while Snapchat Stories content was being viewed 500 million times per day.",
+                        "tags": [],
+                        "confidence": 0.81,
+                        "isCustom": false,
+                        "instances": [
+                            {
+                                "brandType": "Transcript",
+                                "instanceSource": "Transcript",
+                                "adjustedStart": "0:00:00.5",
+                                "adjustedEnd": "0:00:02.61",
+                                "start": "0:00:00.5",
+                                "end": "0:00:02.61"
+                            },
+                            {
+                                "brandType": "Transcript",
+                                "instanceSource": "Transcript",
+                                "adjustedStart": "0:00:09.36",
+                                "adjustedEnd": "0:00:10.53",
+                                "start": "0:00:09.36",
+                                "end": "0:00:10.53"
+                            }
+                        ]
+                    }
+                ],
+                "blocks": [],
+                "speakers": [
+                    {
+                        "id": 1,
+                        "name": "Speaker #1",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00.5",
+                                "adjustedEnd": "0:00:02.61",
+                                "start": "0:00:00.5",
+                                "end": "0:00:02.61"
+                            },
+                            {
+                                "adjustedStart": "0:00:09.36",
+                                "adjustedEnd": "0:00:10.53",
+                                "start": "0:00:09.36",
+                                "end": "0:00:10.53"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "name": "Speaker #2",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:02.62",
+                                "adjustedEnd": "0:00:05.11",
+                                "start": "0:00:02.62",
+                                "end": "0:00:05.11"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "name": "Speaker #3",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:05.12",
+                                "adjustedEnd": "0:00:06.53",
+                                "start": "0:00:05.12",
+                                "end": "0:00:06.53"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "name": "Speaker #4",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:06.54",
+                                "adjustedEnd": "0:00:07.77",
+                                "start": "0:00:06.54",
+                                "end": "0:00:07.77"
+                            },
+                            {
+                                "adjustedStart": "0:00:10.54",
+                                "adjustedEnd": "0:00:11.93",
+                                "start": "0:00:10.54",
+                                "end": "0:00:11.93"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "name": "Speaker #5",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:07.88",
+                                "adjustedEnd": "0:00:09.35",
+                                "start": "0:00:07.88",
+                                "end": "0:00:09.35"
+                            }
+                        ]
+                    }
+                ],
+                "textualContentModeration": {},
+                "statistics": {},
+                "sourceLanguageConfidence": 1
+            },
+            "thumbnailId": "980f47d6-3ddb-4e60-958c-be7e76c6c602",
+            "detectSourceLanguage": true,
+            "languageAutoDetectMode": "Single",
+            "sourceLanguage": "en-US",
+            "sourceLanguages": [],
+            "language": "en-US",
+            "languages": [],
+            "indexingPreset": "Default",
+            "linguisticModelId": "00000000-0000-0000-0000-000000000000",
+            "personModelId": "00000000-0000-0000-0000-000000000000",
+            "isAdult": false,
+            "publishedUrl": "https://rodmandev.streaming.mediaservices.windows.net/1f20b4d3-dda0-46f7-8e19-3c4728741c6b/video993.ism/manifest(encryption=cbc)",
+            "publishedProxyUrl": null,
+            "viewToken": "Bearer=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cm46bWljcm9zb2Z0OmF6dXJlOm1lZGlhc2VydmljZXM6Y29udGVudGtleWlkZW50aWZpZXIiOiIwYmNiNjY0OC1mYzAyLTRhZTQtYTI3ZS1jMjRjMjllYWZjMzIiLCJuYmYiOjE2NTgzMTk0MjIsImV4cCI6MTY1ODM2MjY4MiwiaXNzIjoiaHR0cHM6Ly9icmVha2Rvd24ubWUiLCJhdWQiOiJCcmVha2Rvd25Vc2VyIn0.BWFG9N7KPHg48TavXkAa7d-U4q__wWEdtZpoV7L9TRA"
+        }
+    ],
+    "videosRanges": [
+        {
+            "videoId": "c1b3c12e75",
+            "range": {
+                "start": "0:00:00",
+                "end": "0:00:12"
+            }
+        }
+    ]
+}

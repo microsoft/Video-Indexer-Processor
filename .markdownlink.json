@@ -1,0 +1,6 @@
+{
+  "ignorePatterns": [
+    "^http://localhost/",
+    "^https://localhost/"
+  ]
+}

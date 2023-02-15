@@ -1,0 +1,22 @@
+{
+  "keywords": ["foo", "test"],
+  "video_description": ["video description", "lorem ipsum"],
+  "first_creation_date": "2022-06-07 19:19:07+00:00",
+  "currect_version_creation_date": "2022-06-07 20:13:53+00:00",
+  "video_languages": "MUTE",
+  "video_locations": ["various locations"],
+  "genre": "Current or spot news",
+  "slugline": "PEOPLE-TEST/FOO",
+  "headline": "XXX YYY thanks supporters with first ZZZ video montage",
+  "subject": "Celebrities",
+  "usage_terms": "Broadcast: Must on screen courtesy ZZZ @XXXYYY",
+  "publication_status": "stat:usable",
+  "priority": 4,
+  "excluded_audience": [],
+  "sub_locations": [],
+  "matching_video_name": "test-video.mp4",
+  "data_source": "TEST-INT",
+  "video_duration": 50,
+  "company_names": [],
+  "video_topics": ["Entertainment"]
+}

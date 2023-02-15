@@ -1,0 +1,52 @@
+parameters:
+  - name: serviceConnection
+    type: string
+    default: waldo-service-connection
+  - name: functionsDirectory
+    type: string
+    default: $(Build.SourcesDirectory)/src/dotnet/functions/func_extract
+  - name: commonDirectory
+    type: string
+    default: $(Build.SourcesDirectory)/src/dotnet/common
+  - name: buildConfiguration
+    type: string
+    default: Release
+  - name: core_function_extract_name
+    type: string
+
+steps:
+  - bash: |
+      dotnet restore
+      dotnet build --configuration ${{ parameters.buildConfiguration }}
+    displayName: Restore and Build ${{ parameters.buildConfiguration }}
+    workingDirectory: ${{ parameters.functionsDirectory }}
+
+  - task: DotNetCoreCLI@2
+    inputs:
+      command: publish
+      arguments: "--configuration ${{ parameters.buildConfiguration }} --output ${{ parameters.functionsDirectory }}/publish_output"
+      projects: "${{ parameters.functionsDirectory }}/*.csproj"
+      publishWebProjects: false
+      modifyOutputPath: false
+      zipAfterPublish: false
+
+  - task: ArchiveFiles@2
+    displayName: "Archive files"
+    inputs:
+      rootFolderOrFile: "${{ parameters.functionsDirectory }}/publish_output"
+      includeRootFolder: false
+      archiveFile: "$(System.DefaultWorkingDirectory)/build$(Build.BuildId).zip"
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: "$(System.DefaultWorkingDirectory)/build$(Build.BuildId).zip"
+      artifactName: "drop"
+
+  - task: AzureFunctionApp@1
+    inputs:
+      azureSubscription: ${{ parameters.serviceConnection }}
+      appType: "functionAppLinux"
+      appName: ${{ parameters.core_function_extract_name }}
+      deploymentMethod: auto
+      runtimeStack: DOTNET|6.0
+      package: "$(System.DefaultWorkingDirectory)/build$(Build.BuildId).zip"

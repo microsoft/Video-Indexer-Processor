@@ -1,0 +1,27 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons';
+  src: url('../fonts/fabric-icons-0ffc5935.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--IntersectShape { content: "\F8FD"; }
+@mixin ms-Icon--UniteShape { content: "\F8FB"; }
+
+
+// Classes
+.ms-Icon--IntersectShape:before { @include ms-Icon--IntersectShape }
+.ms-Icon--UniteShape:before { @include ms-Icon--UniteShape }
+

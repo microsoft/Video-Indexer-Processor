@@ -1,0 +1,48 @@
+trigger:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - src/dotnet/functions
+      - src/dotnet/common
+
+variables:
+  - name: functionsDirectory
+    value: $(Build.SourcesDirectory)/src/dotnet/functions
+  - name: buildConfiguration
+    value: Release
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+  - task: UseDotNet@2
+    inputs:
+      packageType: "sdk"
+      version: "6.0.x"
+
+  - bash: |
+      dotnet restore  &&    dotnet build --configuration $(buildConfiguration)
+    displayName: Restore and Build
+    workingDirectory: $(functionsDirectory)/func_extract
+
+  - bash: |
+      dotnet tool update -g dotnet-format && dotnet-format --check --verbosity diagnostic
+    displayName: Run dotnet format
+    workingDirectory: $(functionsDirectory)/func_extract
+
+  - task: DotNetCoreCLI@2
+    displayName: Run and Publish Extract Functions Unit Tests
+    inputs:
+      command: "test"
+      projects: "$(functionsDirectory)/func_extract.Tests/*.csproj"
+      testRunTitle: Run Extract Functions Unit Tests
+      arguments: '--configuration $(buildConfiguration) --collect:"XPlat Code Coverage"'
+      publishTestResults: true
+
+  - task: PublishCodeCoverageResults@1
+    displayName: 'Publish code coverage results'
+    inputs:
+      codeCoverageTool: 'Cobertura'
+      summaryFileLocation:  $(Agent.TempDirectory)/*/coverage.cobertura.xml

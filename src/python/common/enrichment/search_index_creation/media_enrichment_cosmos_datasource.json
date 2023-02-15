@@ -1,0 +1,21 @@
+{
+  "@odata.context": "odatacontext",
+  "@odata.etag": "\"0x8DABC789BDC3398\"",
+  "name": "waldo-cosmosdb-v1",
+  "description": "Platinum data source containing searchable documents for videos",
+  "type": "cosmosdb",
+  "subtype": null,
+  "credentials": {
+    "connectionString": "AccountEndpoint=;AccountKey;Database=;"
+  },
+  "container": {
+    "name": "insights",
+    "query": null
+  },
+  "dataChangeDetectionPolicy": {
+    "@odata.type": "#Microsoft.Azure.Search.HighWaterMarkChangeDetectionPolicy",
+    "highWaterMarkColumnName": "_ts"
+  },
+  "dataDeletionDetectionPolicy": null,
+  "encryptionKey": null
+}

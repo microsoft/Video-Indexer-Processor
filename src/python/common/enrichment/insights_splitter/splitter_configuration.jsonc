@@ -1,0 +1,39 @@
+{
+    "INSIGHTS_STATIC_FIELDS": [
+        "version",
+        "duration",
+        "sourceLanguage",
+        "sourceLanguages",
+        "language",
+        "languages"
+    ],
+    "SUMMARIZED_INSIGHTS_TO_KEEP": [
+        "name",
+        "id",
+        "privacyMode",
+        "duration",
+        "thumbnailVideoId",
+        "thumbnailId"
+    ],
+    "INSIGHTS_TO_PARSE": [
+        "transcript",
+        "keywords",
+        "topics",
+        "faces",
+        "labels",
+        "scenes",
+        "shots",
+        "brands",
+        "blocks",
+        "speakers",
+        "emotions",
+        "sentiments",
+        "audioEffects",
+        "framePatterns",
+        "namedLocations",
+        "namedPeople",
+        "ocr"
+    ],
+    "DEFAULT_OVERLAP": "first",
+    "DEFAULT_INTERVAL_DURATION": 10
+}

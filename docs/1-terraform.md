@@ -1,0 +1,155 @@
+# Environment installation using Terraform
+
+## Prerequisites
+
+- Azure CLI ( [How to install the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) )
+- Terraform ( [Install Terraform](https://developer.hashicorp.com/terraform/tutorials/azure-get-started/install-cli) )
+
+## How to deploy a new environment
+
+### Login on Azure using Azure CLI
+
+```bash
+/waldo/infra/terraform$ az login
+```
+
+### Ensure you target the correct subscription
+
+```bash
+/waldo/infra/terraform$ az account show
+```
+
+If the current active subscription displayed is not correct, you can use the following command to switch context.
+
+```bash
+/waldo/infra/terraform$ az account set --subscription <subscription_id>
+```
+
+If you don't want to check your subscription each time, an alternative is to set the subscription identifier at azurerm provider level in [main.tf](../infra/terraform/main.tf) file.
+
+```bash
+provider "azurerm" {
+  subscription_id = var.subscription_id
+  features {}
+}
+```
+
+### Prepare terraform working directory
+
+Important: When you work locally, please ensure `backend` section is commented in [main.tf](../infra/terraform/main.tf). Warning: DO NOT commit this change when you push code to repository.
+
+#### Details about terraform
+
+Terraform must store state about your managed infrastructure and configuration. This state is used by Terraform to map real world resources to your configuration, keep track of metadata, and to improve performance for large infrastructures. Reference: [State](https://www.terraform.io/language/state)
+
+Backend section is used by Azure DevOps pipeline to store terraform state remotely, in a blob storage. If you plan to store the state locally (recommended for dev/test), just comment `backend` section. Reference: [Backends](https://www.terraform.io/language/settings/backends)
+
+```json
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "=3.2.0"
+    }
+  }
+}
+
+# START - NEED TO BE COMMENTED IF YOU WORK WITH A LOCAL STATE
+# terraform {
+#   backend "azurerm" {}
+# }
+# END
+
+provider "azurerm" {
+  features {}
+}
+```
+
+### Initialize this working directory
+
+```bash
+/waldo/infra/terraform$ (main) $ terraform init
+Initializing modules...
+- core in modules/core
+- dashboard in modules/dashboard
+- ml in modules/ml
+
+Initializing the backend...
+
+Initializing provider plugins...
+- Reusing previous version of hashicorp/azurerm from the dependency lock file
+- Reusing previous version of hashicorp/random from the dependency lock file
+- Reusing previous version of hashicorp/azuread from the dependency lock file
+- Reusing previous version of hashicorp/template from the dependency lock file
+- Installing hashicorp/template v2.2.0...
+- Installed hashicorp/template v2.2.0 (signed by HashiCorp)
+- Installing hashicorp/azurerm v3.15.1...
+- Installed hashicorp/azurerm v3.15.1 (signed by HashiCorp)
+- Installing hashicorp/random v3.3.2...
+- Installed hashicorp/random v3.3.2 (signed by HashiCorp)
+- Installing hashicorp/azuread v2.26.1...
+- Installed hashicorp/azuread v2.26.1 (signed by HashiCorp)
+
+Terraform has been successfully initialized!
+```
+
+### Apply terraform configuration files
+
+Once initialization done, you can install infrastucture defined by terraform configuration files using `apply` command.
+
+```bash
+/waldo/infra/terraform$ terraform apply -var-file="./environments/development.tfvars"
+<list of resources>
+
+Plan: 59 to add, 0 to change, 0 to destroy.
+
+Changes to Outputs:
+  + core_function_dataproc_name = (known after apply)
+  + core_function_dataproc_url  = (known after apply)
+  + core_function_extract_name  = (known after apply)
+  + core_function_extract_url   = (known after apply)
+  + core_function_trigger_name  = (known after apply)
+  + core_function_trigger_url   = (known after apply)
+  + core_resource_group_name    = (known after apply)
+  + core_webapi_name            = (known after apply)
+  + core_webapi_url             = (known after apply)
+  + core_webui_name             = (known after apply)
+  + core_webui_url              = (known after apply)
+
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value: yes
+```
+
+Just enter `yes` to accept the actions.
+
+### Understand variables
+
+A new dev environment will be created using default values located in [development.tfvars](../infra/terraform/environments/development.tfvars).
+
+For instance, default `name` is *waldo*, default `environment` is *dev*, default `location` is *eastus*.
+
+```bash
+#--------------------------------------------------------------
+# General
+#--------------------------------------------------------------
+
+name        = "waldo"
+environment = "dev"
+location    = "eastus"
+```
+
+Configuration files will use these informations to name resources and set default SKU for resources. For instance, resource groups are created with following naming conventions. uid is autogenerated.
+
+- rg-`name`-`environment`-`uid`-core
+  - example: rg-waldo-dev-aa0a-core
+- rg-`name`-`environment`-`uid`-ml
+  - example: rg-waldo-dev-aa0a-ml
+
+If you want to update these settings, you can change default values or create your own **.tfvars** file then use it as a parameter when you apply configuration files.
+
+```bash
+/waldo/infra/terraform$ terraform apply -var-file="./environments/custom.tfvars"
+```

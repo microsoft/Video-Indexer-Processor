@@ -1,0 +1,25 @@
+trigger:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - src/dotnet/functions/func_extract
+      - src/dotnet/common
+
+variables:
+  - group: waldo-staging
+  - name: serviceConnection
+    value: waldo-service-connection
+  - name: functionsDirectory
+    value: $(Build.SourcesDirectory)/src/dotnet/functions/func_extract
+  - name: buildConfiguration
+    value: Release
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+  - template: func-extract-deploy-steps.yml
+    parameters:
+      core_function_extract_name: $(core_function_extract_name)

@@ -1,0 +1,17 @@
+trigger: none
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: |
+    # Lint all markdown files.
+    npm install markdownlint-cli -g
+    markdownlint '$(Build.SourcesDirectory)/**/*.md' --ignore docs-internal
+  displayName: 'run markdownlint'
+
+- script: |
+    # Extracts links from markdown texts and checks whether each link is alive (200 OK) or dead.
+    npm install markdown-link-check -g
+    find $(Build.SourcesDirectory)/docs -name '*.md' -print0 | xargs -0 -n1 markdown-link-check -c .markdownlink.json
+  displayName: 'run markdown-link-check'

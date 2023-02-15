@@ -1,0 +1,11 @@
+{
+    "scriptFile": "__init__.py",
+    "bindings": [
+        {
+            "name": "context",
+            "orchestration": "orchestrator",
+            "type": "orchestrationTrigger",
+            "direction": "in"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+trigger:
+  branches:
+    include:
+    - main
+  paths:
+    include:
+    - src/python/functions/func_dataproc
+    - src/python/common
+
+variables:
+- group: waldo-staging
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+  - template: func-dataproc-deploy-steps.yml
+    parameters:
+      core_function_dataproc_name: $(core_function_dataproc_name)

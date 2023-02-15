@@ -1,33 +1,43 @@
-# Project
+# Project codename WALDO : Improve video search using AI
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This repository contains code and documentation of WALDO (**W**eb **A**pplication to **L**ookup **D**igital **O**bjects) which is a solution developed by Microsoft. It aims to improve video search using Artificial Intelligence. It does the following :
 
-As the maintainer of this project, please make a few updates:
+- Automates the analysis of videos with Azure Video Indexer,
+- Creates and improves the search index with Video Indexer insights and optional metadata
+- Provides a web UI application to search and see results
+- Logs the behavior and feedback of users (in order for the admin or data science team to improve the search index)
+- Provides a dashboard which displays statistics on platform usage and search performances
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+![Overview](docs/img/overview-slide.png)
 
-## Contributing
+## Documentation
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+Technical documentation :
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+- [Getting started with Terraform](/docs/infra/gettingstarted.md)
+- [Main orchestrator](/docs/dotnet/orchestrator.md)
+- [Data orchestrator](/docs/python/orchestrator.md)
+- [Testing](/docs/dotnet/testing.md)
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+## Notes
 
-## Trademarks
+## Limited Access features of Azure Video Indexer
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+Microsoft facial recognition services are Limited Access in order to help prevent the misuse of the services in accordance with our [AI Principles](https://www.microsoft.com/ai/responsible-ai?SilentAuth=1&wa=wsignin1.0&activetab=pivot1%3aprimaryr6) and [facial recognition](https://blogs.microsoft.com/on-the-issues/2018/12/17/six-principles-to-guide-microsofts-facial-recognition-work/) principles. The Face Identify and Celebrity Recognition operations in Azure Video Indexer are Limited Access features that require registration.  
+
+Please go to [this page](https://docs.microsoft.com/en-us/azure/azure-video-indexer/limited-access-features) to get more information on how to enable limited access feature in Video Indexer.
+
+## Contacts
+
+ **Company** | **Role** | **Contact** |
+|-|-|-|
+|Microsoft| Technical Program Manager | [Xavier Pouyat](mailto:xpouyat@microsoft.com)|
+|Microsoft| Development Lead | [Yannick Brombach](mailto:yabromba@microsoft.com) |
+|Microsoft| Data Science Lead | [Malvina Matlis](mailto:melmatlis@microsoft.com) |
+
+## Infos
+
+Trademarks This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft trademarks or logos is subject to and must follow Microsoft’s Trademark & Brand Guidelines. Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship. Any use of third-party trademarks or logos are subject to those third-party’s policies.
+
+- [Microsoft Code Of Conduct](https://opensource.microsoft.com/codeofconduct/)
+- [Reporting security issues](https://docs.opensource.microsoft.com/releasing/securing-content/reporting-security-issues/)

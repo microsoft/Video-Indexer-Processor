@@ -1,0 +1,19 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "message",
+      "type": "activityTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "document",
+      "type": "cosmosDB",
+      "direction": "out",
+      "databaseName": "%COSMOSDB_DATABASE%",
+      "containerName": "%COSMOSDB_CONTAINER_INSIGHTS%",
+      "createIfNotExists": "true",
+      "connection": "AzureCosmosDB"
+    }
+  ]
+}

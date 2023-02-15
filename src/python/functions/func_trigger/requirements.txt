@@ -1,0 +1,7 @@
+# Do not include azure-functions-worker as it may conflict with the Azure Functions platform
+
+azure-functions
+xmltodict
+azure-storage-blob
+azure-core
+opencensus-extension-azure-functions

@@ -1,0 +1,18 @@
+{
+  "fontName": "fabric-icons",
+  "fontFamilyName": "FabricMDL2Icons",
+  "excludeGlyphs": false,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": false,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "IntersectShape",
+      "unicode": "F8FD"
+    },
+    {
+      "name": "UniteShape",
+      "unicode": "F8FB"
+    }
+  ]
+}

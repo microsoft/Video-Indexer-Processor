@@ -1,0 +1,56 @@
+trigger:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - src/dotnet/web/ui
+      - src/dotnet/common
+
+pool:
+  vmImage: "ubuntu-latest"
+
+variables:
+  - group: waldo-staging
+  - name: serviceConnection
+    value: waldo-service-connection
+  - name: uiDirectory
+    value: $(Build.SourcesDirectory)/src/dotnet/web/ui
+
+steps:
+  - bash: npm install
+    displayName: Web UI npm install
+    workingDirectory: $(uiDirectory)
+
+  - bash: npm run build
+    displayName: Web UI npm run build
+    workingDirectory: $(uiDirectory)
+    env:
+      REACT_APP_API_ROOT_URI: $(core_webapi_url)
+      REACT_APP_CLIENT_ID: $(core_azuread_app_ui_client_id)
+      REACT_APP_TENANT_ID: $(core_azuread_tenant_id)
+      REACT_APP_REDIRECT_URI: $(core_webui_url)
+      REACT_APP_SCOPES: $(core_azuread_app_scopes)
+      REACT_APP_GRAPH_SCOPES: $(core_azuread_app_graph_scopes)
+      REACT_APP_APPINSIGHTS_KEY: $(core_appinsights_instrumentation_key)
+
+  - task: ArchiveFiles@2
+    displayName: Archive files
+    inputs:
+      rootFolderOrFile: $(uiDirectory)/build
+      includeRootFolder: false
+      archiveFile: "$(System.DefaultWorkingDirectory)/build$(Build.BuildId).zip"
+
+  - task: PublishBuildArtifacts@1
+    displayName: Publish build artifacts
+    inputs:
+      PathtoPublish: "$(System.DefaultWorkingDirectory)/build$(Build.BuildId).zip"
+      artifactName: "drop"
+
+  - task: AzureWebApp@1
+    displayName: Deploy web ui to staging environment
+    inputs:
+      azureSubscription: $(serviceConnection)
+      appType: 'webAppLinux'
+      appName: $(core_webui_name)
+      package: "$(System.DefaultWorkingDirectory)/build$(Build.BuildId).zip"

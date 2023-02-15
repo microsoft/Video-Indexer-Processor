@@ -1,0 +1,5 @@
+{
+  "root": true,
+  "extends": ["react-app", "react-app/jest"],
+  "ignorePatterns": ["**/node_modules", "**/dist", "**/build", "**/coverage", "**/bin", "**/obj"]
+}

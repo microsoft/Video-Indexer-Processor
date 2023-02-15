@@ -1,0 +1,19 @@
+{
+    "scriptFile": "__init__.py",
+    "bindings": [
+      {
+        "name": "blob",
+        "type": "blobTrigger",
+        "direction": "in",
+        "path": "upload/{name}.json",
+        "connection": "UploadStorage"
+      },
+      {
+        "type": "serviceBus",
+        "direction": "out",
+        "connection": "ServiceBus",
+        "name": "msg",
+        "queueName": "%SERVICEBUS_QUEUE_EXTRACT_NAME%"
+      }
+    ]
+  }

@@ -1,0 +1,49 @@
+parameters:
+- name: serviceConnection
+  type: string
+  default: waldo-service-connection
+- name: functionsDirectory
+  type: string
+  default: $(Build.SourcesDirectory)/src/python/functions/func_trigger
+- name: commonDirectory
+  type: string
+  default: $(Build.SourcesDirectory)/src/python/common
+- name: core_function_trigger_name
+  type: string
+
+steps:
+  - task: UsePythonVersion@0
+    displayName: "Setting Python version to 3.9 as required by functions"
+    inputs:
+      versionSpec: '3.9'
+      architecture: 'x64'
+
+  - bash: |
+      if [ -f extensions.csproj ]; then
+        dotnet build extensions.csproj --output ./bin
+      fi
+      pip install --target="${{ parameters.functionsDirectory }}/.python_packages/lib/site-packages" -r ${{ parameters.functionsDirectory }}/requirements.txt
+      pip install --target="${{ parameters.functionsDirectory }}/.python_packages/lib/site-packages" ${{ parameters.commonDirectory }}
+    displayName: Prepare archive
+
+  - task: ArchiveFiles@2
+    displayName: Archive files
+    inputs:
+      rootFolderOrFile: "${{ parameters.functionsDirectory }}"
+      includeRootFolder: false
+      archiveFile: "$(System.DefaultWorkingDirectory)/build$(Build.BuildId).zip"
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: '$(System.DefaultWorkingDirectory)/build$(Build.BuildId).zip'
+      artifactName: 'drop'
+
+  - task: AzureFunctionApp@1
+    retryCountOnTaskFailure: 5
+    inputs:
+      azureSubscription: ${{ parameters.serviceConnection }}
+      appType: functionAppLinux
+      appName: ${{ parameters.core_function_trigger_name }}
+      deploymentMethod: auto
+      runtimeStack: PYTHON|3.9
+      package: '$(System.DefaultWorkingDirectory)/build$(Build.BuildId).zip'

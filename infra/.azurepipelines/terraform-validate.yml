@@ -1,0 +1,32 @@
+trigger: none
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  terraformDirectory: $(Build.SourcesDirectory)/infra/terraform
+
+steps:
+- script: |
+    curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
+  displayName: 'Install tflint'
+
+- script: |
+    terraform -version
+  displayName: 'Display terraform version'
+
+- script: |
+    terraform fmt -recursive -diff -check
+  workingDirectory: $(terraformDirectory)
+  displayName: 'Check if terraform configuration files are correctly formatted'
+
+- script: |
+    tflint
+  workingDirectory: $(terraformDirectory)
+  displayName: 'Use tflint to detect potential issues'
+
+- script: |
+    terraform init -backend=false
+    terraform validate
+  workingDirectory: $(terraformDirectory)
+  displayName: 'Validate terraform configuration files'

@@ -1,0 +1,37 @@
+trigger:
+  none
+  # branches:
+  #   include:
+  #     - main
+  # paths:
+  #   include:
+  #     - src/dotnet/web/ui
+  #     - src/dotnet/common
+
+pool:
+  vmImage: "ubuntu-latest"
+
+variables:
+  - name: uiDirectory
+    value: $(Build.SourcesDirectory)/src/dotnet/web/ui
+
+steps:
+  - bash: npm install
+    displayName: Web UI npm install
+    workingDirectory: $(uiDirectory)
+
+  - bash: npm run test:cobertura
+    displayName: Web UI npm test with coverage & cobertura
+    workingDirectory: $(uiDirectory)
+
+  - task: PublishTestResults@2
+    displayName: "Publish Test Results from $(uiDirectory)/junit.xml"
+    inputs:
+      testResultsFiles: "$(uiDirectory)/junit.xml"
+
+  - task: PublishCodeCoverageResults@1
+    displayName: "Publish code coverage from $(uiDirectory)/coverage/cobertura-coverage.xml"
+    inputs:
+      codeCoverageTool: Cobertura
+      summaryFileLocation: "$(uiDirectory)/coverage/cobertura-coverage.xml"
+      reportDirectory: "$(uiDirectory)/coverage"

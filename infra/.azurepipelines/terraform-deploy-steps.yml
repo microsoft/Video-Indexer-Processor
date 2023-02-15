@@ -1,0 +1,49 @@
+parameters:
+- name: environment
+  type: string
+  values:
+  - staging
+  - integration
+
+jobs:
+- job: deployinfra
+  displayName: "Deploy ${{parameters.environment}} infrastructure"
+  steps:
+  - task: AzureCLI@2
+    displayName: "Terraform initialization (${{parameters.environment}})"
+    inputs:
+      azureSubscription: $(serviceConnection)
+      workingDirectory: $(terraformDirectory)
+      scriptType: bash
+      scriptLocation: inlineScript
+      inlineScript: |
+        terraform init -upgrade -backend-config="storage_account_name=$(storageAccountName)" \
+            -backend-config="container_name=$(storageContainerName)" \
+            -backend-config="access_key=$(az keyvault secret show --name tfstate-storage-key --vault-name $(keyvaultName) --query value -o tsv)" \
+            -backend-config="key=${{parameters.environment}}.tfstate"
+
+  - task: AzureCLI@2
+    displayName: "Terraform apply (${{parameters.environment}})"
+    inputs:
+      azureSubscription: $(serviceConnection)
+      workingDirectory: $(terraformDirectory)
+      addSpnToEnvironment: true
+      scriptType: bash
+      scriptLocation: inlineScript
+      inlineScript: |
+        export ARM_TENANT_ID=$tenantId # get tenant id from environment variables
+        export ARM_SUBSCRIPTION_ID=$(az account show --query 'id' --output tsv)
+        export ARM_CLIENT_ID=$servicePrincipalId  # get client id from environment variables
+        export ARM_CLIENT_SECRET=$servicePrincipalKey
+
+        terraform apply -auto-approve -var-file="./environments/${{parameters.environment}}.tfvars"
+
+  - task: Bash@3
+    displayName: "Create variable groups using terraform outputs (${{parameters.environment}})"
+    inputs:
+      targetType: filePath
+      arguments: $(System.TeamFoundationCollectionUri) $(System.TeamProjectId) "waldo-${{parameters.environment}}"
+      workingDirectory: $(terraformDirectory)
+      filePath: $(scriptsDirectory)/update-variablegroup.sh
+    env:
+      AZURE_DEVOPS_EXT_PAT: $(System.AccessToken)
