@@ -8,16 +8,19 @@ This repository contains code and documentation of WALDO (**W**eb **A**pplicatio
 - Logs the behavior and feedback of users (in order for the admin or data science team to improve the search index)
 - Provides a dashboard which displays statistics on platform usage and search performances
 
-![Overview](docs/img/overview-slide.png)
+[Overview](docs-internal/img/overview-slide.png)
 
 ## Documentation
 
 Technical documentation :
 
-- [Getting started with Terraform](/docs/infra/gettingstarted.md)
-- [Main orchestrator](/docs/dotnet/orchestrator.md)
-- [Data orchestrator](/docs/python/orchestrator.md)
-- [Testing](/docs/dotnet/testing.md)
+- [Getting started with Terraform](/docs/1-terraform.md)
+- [Main orchestrator](/docs-internal/dotnet/orchestrator.md)
+- [Data orchestrator](/docs-internal/python/orchestrator.md)
+- [function-apps](/docs/2-function-apps.md)
+- [index-creation](/docs/3-index-resources.md)
+- [web-application](/docs/4-web-application.md)
+- [Testing](/docs-internal/dotnet/testing.md)
 
 ## Notes
 
